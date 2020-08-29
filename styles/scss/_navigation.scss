@@ -61,6 +61,8 @@ header{
 
 @media screen and (orientation: portrait){
     header{
+        position: relative;
+        width: 100vw;
         .logo{
             position: relative;
             z-index: 102;
@@ -151,6 +153,7 @@ header{
 
 @media screen and (max-width: 1024px) and (orientation: portrait){
     header{
+        //position: relative;
         .logo{
             position: relative;
             z-index: 102;
@@ -161,8 +164,8 @@ header{
         }
         .nav_trigger{
             display: block;
-            position: relative;
-            right: 0px;
+            position: absolute;
+            right: 1px;
             height: 20vw;
             width: 20vw;
             background-color: $hover-color;

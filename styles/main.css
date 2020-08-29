@@ -343,6 +343,10 @@ header nav ul li:nth-child(5) {
 }
 
 @media screen and (orientation: portrait) {
+  header {
+    position: relative;
+    width: 100vw;
+  }
   header .logo {
     position: relative;
     z-index: 102;
@@ -454,8 +458,8 @@ header nav ul li:nth-child(5) {
   }
   header .nav_trigger {
     display: block;
-    position: relative;
-    right: 0px;
+    position: absolute;
+    right: 1px;
     height: 20vw;
     width: 20vw;
     background-color: #cecece;
