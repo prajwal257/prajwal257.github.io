@@ -1,0 +1,225 @@
+.hero_section{
+    height: 100vh;
+    margin: 20vh 10vh 0px 10vh;
+    .text_container{
+        position: absolute;
+        z-index: 20;
+        h1{
+            position: relative;
+            text-align: left;
+            font-weight: 400;
+            font-size: $text-page-head;
+            z-index: 10;
+        }
+        .cta{
+            height: 7vh;
+            width: 10vw;
+            margin-top: 5vh;
+            border: 2px solid #161616;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: $hero-cta;
+            font-weight: 500;
+            z-index: 10;
+            text-decoration: none;
+            color: #161616;
+        }
+    }
+    .hero_image{
+        position: absolute;
+        z-index: 2;
+        top: 27vh;
+        right: 0px;
+        width: 70vw;
+        background-color: rgb(230, 230, 230);
+        .scroll_indicator{
+            position: absolute;
+            height: 18vh;
+            width: 18vh;
+            border-radius: 50%;
+            margin: -9vh 0px 0px -9vh;
+            z-index: 3;
+            animation: rotatebysomedeg 30s linear infinite;
+            transition: all 2s ease-out;
+        }
+        @keyframes rotatebysomedeg {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(-360deg);
+            }
+        }
+        img{
+            top: 0px;
+            position: absolute;
+            height: auto;
+            width: 100%;
+            z-index: 1;
+        }
+    }
+}
+
+
+
+
+
+
+
+//..........................Media Quaries.....................
+
+//.........................mobile_Resposive....................
+
+@media screen and (orientation: portrait){
+    .hero_section{
+        height: 110vh;
+        margin: 5vh 10vw 0px 10vw;
+        .text_container{
+            position: absolute;
+            z-index: 20;
+            h1{
+                position: relative;
+                text-align: left;
+                font-weight: 400;
+                font-size: 4rem;
+                z-index: 10;
+            }
+            .cta{
+                height: 7vw;
+                width: 25vw;
+                margin-top: 5vh;
+                border: 2px solid #161616;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.5rem;
+                font-weight: 500;
+                z-index: 10;
+                text-decoration: none;
+                color: #161616;
+            }
+        }
+        .hero_image{
+            z-index: 2;
+            right: 0px;
+            top: 60vh;
+            width: 100vw;
+            background-color: rgb(230, 230, 230);
+            .scroll_indicator{
+                display: none;
+            }
+            img{
+                overflow-x: hidden;
+                position: absolute;
+                height: 60vh;
+                z-index: 1;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+}
+
+@media screen and (max-width: 720px){
+    .hero_section{
+        margin: 8vh 5vw 0px 5vw;
+        .text_container{
+            h1{
+                font-size: 2.5rem;
+            }
+            .cta{
+                height: 12vw;
+                width: 40vw;
+                font-size: 1.2rem;
+            }
+        }
+        .hero_image{
+            img{
+                height: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .hero_section{
+        margin: 8vh 5vw 0px 5vw;
+        .text_container{
+            h1{
+                font-size: 2.2rem;
+            }
+            .cta{
+                height: 13vw;
+                width: 40vw;
+                font-size: 1rem;
+            }
+        }
+        .hero_image{
+            img{
+                height: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 380px){
+    .hero_section{
+        margin: 8vh 5vw 0px 5vw;
+        .text_container{
+            h1{
+                font-size: 2rem;
+            }
+            .cta{
+                height: 13vw;
+                width: 40vw;
+                font-size: .8rem;
+            }
+        }
+        .hero_image{
+            img{
+                height: auto;
+            }
+        }
+    }
+}
+
+//.........................Desktop Responsive....................
+
+//.........................For 1080p displays....................
+
+@media screen and (min-width: 1920px) and (max-width: 2559px){
+    .hero_section{
+        .hero_image{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+//.........................For 2560p displays....................
+/*
+@media screen and (min-width: 2560px) and (max-width: 3840px){
+    .hero_section{
+        .hero_image{
+            img{
+                //width: auto;
+            }
+        }
+    }
+}
+
+//.........................For 3840p or 4k displays....................
+
+@media screen and (min-width: 3840px){
+    .hero_section{
+        .hero_image{
+            img{
+                //width: auto;
+            }
+        }
+    }
+}
+*/

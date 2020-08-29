@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Creative Web Developer and Designer that you can trust.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP, ADOBE XD, Web Developer,Web Development, Web Designer , UI DESIGN, UX DESIGNER, UI,UX">
+    <meta name="author" content="Prajwal Dwivedi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js" integrity="sha512-JO6JyFPJupQKZf7icgZkHwuq/rAQxH7COqvEd4WdK52AtHPedwHog05T69pIelI69jVN/zZbW6TuHfH2mS8j/Q==" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <script type="module" src="../scripts/javascript_includes/index.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Prajwal Dwivedi Portfolio</title>
+</head>
+<body onload="pageEnterAnimation();">
+    <div class="enter_loader"></div>
+    <div class="leave_loader"></div>
+    <div class="cursor"></div>
+    <div class="cursor_follower"></div>
+    <div class="cursor_on_projects"></div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="#" data-url="./index.html" class="about_page_link">Prajwal Dwivedi</a></li>
+            </div>
+            <div class="nav_trigger">
+                <div class="img">
+                    <div class="line_1"></div>
+                    <div class="line_2"></div>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#" data-url="about-me.html" class="about_page_link">About</a></li>
+                    <li><a href="#" data-url="contact-form.html" class="about_page_link">Contact</a></li>
+                    <li><a href="#" data-url="work-with-me.html" class="about_page_link">WORK WITH ME</a></li>
+                    <li>
+                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" src="../assets/svgs/facebook.svg" alt="facebook">
+                        </a>
+                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" src="../assets/svgs/twitter.svg" alt="facebook">
+                        </a>
+                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" src="../assets/svgs/linkedin.svg" alt="facebook">
+                        </a>
+                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img loading="lazy" src="../assets/svgs/github-image.svg" alt="facebook">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="hero_section">
+            <div class="rellax text_container" data-rellax-speed="-3">
+                <h1>
+                    Hi, <br>
+                    I'm Prajwal and I'm <br>
+                    UI designer and  <br>
+                    Frontend Developer.   <br>
+                </h1>
+                <a href="#" data-url="work-with-me.html" class="cta about_page_link">
+                    WORK WITH ME
+                </a>
+            </div>
+            <div class="hero_image">
+                <img src="../assets/svgs/text159.png" alt="scroll-down" class="scroll_indicator" id="circle">
+                <picture>
+                    <source media="(min-width:1280px)" srcset="../assets/illustrations/bitmap-min.jpg">
+                    <source media="(max-width:1280px) and (min-width: 720px)" srcset="../assets/illustrations/bitmap-tablet-min.jpg">
+                    <img src="../assets/illustrations/bitmap-mobile-min.jpg" alt="" srcset="">
+                </picture>
+            </div>
+        </div>
+        <div class="project_section">
+            <a name="projects"></a>
+            <div class="rellax" data-rellax-speed="-2">
+                <h3 id="headding-3">Projects</h3>
+            </div>
+            <ul class="project-list">
+                <li class="project-1">
+                    <a href="#" data-url="project-one.html" class="about_page_link">
+                        <h4>YouStream WebApp</h4>
+                        <ul>
+                            <li>Design</li>
+                            <li>Frontend</li>
+                            <li>Backend</li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="project-2">
+                    <a href="#" data-url="project-two.html" class="about_page_link">
+                        <h4>The Visual StoryTeller</h4>
+                        <ul>
+                            <li>Design</li>
+                            <li>Frontend</li>
+                            <li>GSAP</li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="project-3">
+                    <a href="#" data-url="project-three.html" class="about_page_link">
+                        <h4>Project Name</h4>
+                        <ul>
+                            <li>Design</li>
+                            <li>Brand</li>
+                            <li>Develop</li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="design_section">
+            <div class="rellax" data-rellax-speed="-2">
+                <h3 id="headding-3">Designs</h3>
+            </div>
+            <ul class="design-list">
+                <li class="design-1">
+                    <a href="#" data-url="design-one.html" class="about_page_link">
+                        <h4>Video Streaming Website</h4>
+                        <ul>
+                            <li>Design</li>
+                            <li>Brand</li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="design-2">
+                    <a href="#" data-url="design-two.html" class="about_page_link">
+                        <h4>FarCry 6 Store Page</h4>
+                        <ul>
+                            <li>Design</li>
+                            <li>Brand</li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="design-3">
+                    <a href="#" data-url="design-three.html" class="about_page_link">
+                        <h4>Custom Layout Design</h4>
+                        <ul>
+                            <li>Design</li>
+                            <li>Brand</li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="work_with_me_container">
+            <div class="text">
+                <div class="top_text">
+                    <h3>Let's  create something <br>
+                        great together.
+                    </h3>
+                </div>
+                <a href="#" data-url="work-with-me.html" class="cta about_page_link">
+                    START NOW
+                </a>
+            </div>
+            <img loading="lazy" src="../assets/svgs/path997.png" alt="illustration" class="illustration">
+        </div>
+        <footer>
+            <h6>Prajwal Dwivedi</h6>
+            <a href="mailto:prajwaldwivedi257@gmail.com" class="email">prajwaldwivedi257@gmail.com</a>
+            <div class="social_media_list">
+                <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img loading="lazy" src="../assets/svgs/facebook.svg" alt="facebook">
+                </a>
+                <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img loading="lazy" src="../assets/svgs/twitter.svg" alt="facebook">
+                </a>
+                <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img loading="lazy" src="../assets/svgs/linkedin.svg" alt="facebook">
+                </a>
+                <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img loading="lazy" src="../assets/svgs/github-image.svg" alt="facebook">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

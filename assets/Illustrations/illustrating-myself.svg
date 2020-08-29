@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="illustrating-myself.svg"
+   width="316.10492mm"
+   height="316.10492mm"
+   viewBox="0 0 316.10491 316.10491"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient965">
+      <stop
+         style="stop-color:#dadada;stop-opacity:1"
+         offset="0"
+         id="stop961" />
+      <stop
+         style="stop-color:#c1c1c1;stop-opacity:1"
+         offset="1"
+         id="stop963" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1147"
+       inkscape:collect="always">
+      <stop
+         id="stop1143"
+         offset="0"
+         style="stop-color:#d89b71;stop-opacity:1" />
+      <stop
+         id="stop1145"
+         offset="1"
+         style="stop-color:#a85e2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1133">
+      <stop
+         style="stop-color:#441b00;stop-opacity:1"
+         offset="0"
+         id="stop1129" />
+      <stop
+         style="stop-color:#a2592c;stop-opacity:1"
+         offset="1"
+         id="stop1131" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1117"
+       inkscape:collect="always">
+      <stop
+         id="stop1113"
+         offset="0"
+         style="stop-color:#441b00;stop-opacity:1" />
+      <stop
+         id="stop1115"
+         offset="1"
+         style="stop-color:#cf7f4d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1109"
+       inkscape:collect="always">
+      <stop
+         id="stop1105"
+         offset="0"
+         style="stop-color:#434343;stop-opacity:1" />
+      <stop
+         id="stop1107"
+         offset="1"
+         style="stop-color:#acacac;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1097"
+       inkscape:collect="always">
+      <stop
+         id="stop1093"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         id="stop1095"
+         offset="1"
+         style="stop-color:#262626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1089"
+       inkscape:collect="always">
+      <stop
+         id="stop1085"
+         offset="0"
+         style="stop-color:#0d0d0d;stop-opacity:1" />
+      <stop
+         id="stop1087"
+         offset="1"
+         style="stop-color:#3a3a3a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1081"
+       inkscape:collect="always">
+      <stop
+         id="stop1077"
+         offset="0"
+         style="stop-color:#241c1c;stop-opacity:1;" />
+      <stop
+         id="stop1079"
+         offset="1"
+         style="stop-color:#504040;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1073"
+       inkscape:collect="always">
+      <stop
+         id="stop1069"
+         offset="0"
+         style="stop-color:#646464;stop-opacity:1" />
+      <stop
+         id="stop1071"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1065">
+      <stop
+         style="stop-color:#181818;stop-opacity:1"
+         offset="0"
+         id="stop1061" />
+      <stop
+         style="stop-color:#454545;stop-opacity:1"
+         offset="1"
+         id="stop1063" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1049"
+       inkscape:collect="always">
+      <stop
+         id="stop1045"
+         offset="0"
+         style="stop-color:#181818;stop-opacity:1" />
+      <stop
+         id="stop1047"
+         offset="1"
+         style="stop-color:#6e6e6e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1033"
+       inkscape:collect="always">
+      <stop
+         id="stop1029"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         id="stop1031"
+         offset="1"
+         style="stop-color:#191919;stop-opacity:0.78823531" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1006">
+      <stop
+         style="stop-color:#616161;stop-opacity:1"
+         offset="0"
+         id="stop1002" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop1004" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient964"
+       inkscape:collect="always">
+      <stop
+         id="stop960"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1" />
+      <stop
+         id="stop962"
+         offset="1"
+         style="stop-color:#0d0a0a;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient915"
+       inkscape:collect="always">
+      <stop
+         id="stop911"
+         offset="0"
+         style="stop-color:#ff7f2a;stop-opacity:1;" />
+      <stop
+         id="stop913"
+         offset="1"
+         style="stop-color:#dc5800;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient907-9"
+       inkscape:collect="always">
+      <stop
+         id="stop903"
+         offset="0"
+         style="stop-color:#ff6600;stop-opacity:1;" />
+      <stop
+         id="stop905"
+         offset="1"
+         style="stop-color:#b74900;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="1128.5714"
+       x2="577.14294"
+       y1="634.13782"
+       x1="1072.7261"
+       id="linearGradient909"
+       xlink:href="#linearGradient907-9"
+       inkscape:collect="always"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,-2035.0238,157.2381)" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="231.73576"
+       x2="216.52162"
+       y1="203.76553"
+       x1="269.69135"
+       id="linearGradient917"
+       xlink:href="#linearGradient915"
+       inkscape:collect="always"
+       gradientTransform="matrix(1.3429256,0,0,1.2579355,-2123.1618,111.38268)" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="349.59554"
+       x2="316.25481"
+       y1="349.59554"
+       x1="291.47698"
+       id="linearGradient966"
+       xlink:href="#linearGradient964"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="369.4826"
+       x2="317.311"
+       y1="369.4826"
+       x1="288.87091"
+       id="linearGradient1000"
+       xlink:href="#linearGradient1006"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="197.83588"
+       x2="376.24397"
+       y1="197.83588"
+       x1="340.04354"
+       id="linearGradient1035"
+       xlink:href="#linearGradient1033"
+       inkscape:collect="always"
+       gradientTransform="translate(-2035.0238,169.58074)" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="286.88394"
+       x2="339.67865"
+       y1="286.88394"
+       x1="286.17914"
+       id="linearGradient1051"
+       xlink:href="#linearGradient1049"
+       inkscape:collect="always"
+       gradientTransform="translate(-2035.0238,157.2381)" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="287.953"
+       x2="163.00722"
+       y1="287.953"
+       x1="89.096992"
+       id="linearGradient1059"
+       xlink:href="#linearGradient1065"
+       inkscape:collect="always"
+       gradientTransform="translate(-2035.0238,157.2381)" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="371.98834"
+       x2="150.71264"
+       y1="371.98834"
+       x1="87.206473"
+       id="linearGradient1075"
+       xlink:href="#linearGradient1073"
+       inkscape:collect="always"
+       gradientTransform="translate(-2035.0238,157.2381)" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="357.86386"
+       x2="149.52119"
+       y1="357.86386"
+       x1="108.55907"
+       id="linearGradient1083"
+       xlink:href="#linearGradient1081"
+       inkscape:collect="always"
+       gradientTransform="translate(-2035.0238,157.2381)" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="24.402076"
+       x2="258.9894"
+       y1="24.402076"
+       x1="171.17194"
+       id="linearGradient1091"
+       xlink:href="#linearGradient1089"
+       inkscape:collect="always"
+       gradientTransform="translate(-2035.0238,169.58074)" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="60.046808"
+       x2="271.38342"
+       y1="60.046808"
+       x1="244.56754"
+       id="linearGradient1099"
+       xlink:href="#linearGradient1097"
+       inkscape:collect="always"
+       gradientTransform="translate(-2035.0238,157.2381)" />
+    <linearGradient
+       gradientTransform="matrix(1,0,0,0.85113541,-2035.0238,212.38002)"
+       gradientUnits="userSpaceOnUse"
+       y2="384.77975"
+       x2="455.289"
+       y1="384.77975"
+       x1="-130.5741"
+       id="linearGradient1111"
+       xlink:href="#linearGradient1109"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="293.10028"
+       x2="454.3248"
+       y1="293.10028"
+       x1="417.31378"
+       id="linearGradient1119"
+       xlink:href="#linearGradient1117"
+       inkscape:collect="always"
+       gradientTransform="translate(-2035.0238,169.58074)" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="293.10028"
+       x2="24.187893"
+       y1="293.10028"
+       x1="-21.466757"
+       id="linearGradient1127"
+       xlink:href="#linearGradient1133"
+       inkscape:collect="always"
+       gradientTransform="translate(-2035.0238,169.58074)" />
+    <linearGradient
+       gradientTransform="matrix(-1,0,0,1,-1604.5274,157.2381)"
+       gradientUnits="userSpaceOnUse"
+       y2="186.66193"
+       x2="178.40476"
+       y1="186.66193"
+       x1="112.72887"
+       id="linearGradient1149"
+       xlink:href="#linearGradient1147"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="179.74702"
+       x2="179.47148"
+       y1="179.74702"
+       x1="128.01106"
+       id="linearGradient1160"
+       xlink:href="#linearGradient1147"
+       inkscape:collect="always"
+       gradientTransform="translate(-2035.0238,157.2381)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient965"
+       id="linearGradient967"
+       x1="-1878.8282"
+       y1="329.16266"
+       x2="-1858.0104"
+       y2="318.20462"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#383838"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="-6943.87"
+     inkscape:cy="1256.4561"
+     inkscape:document-units="mm"
+     inkscape:current-layer="svg8"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="false"
+     showborder="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Canvas"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(58.964287,13.09859)"
+     style="display:inline;opacity:0.593548" />
+  <g
+     transform="translate(-1.9580078e-7,12.342637)"
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 1"
+     style="opacity:1" />
+  <g
+     inkscape:export-ydpi="96"
+     inkscape:export-xdpi="96"
+     id="g1252">
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect965"
+       width="1062.6636"
+       height="786.84149"
+       x="-2342.9182"
+       y="-73.68277"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <ellipse
+       style="fill:url(#linearGradient1111);fill-opacity:1;stroke:none;stroke-width:0.982537;stroke-linecap:round;paint-order:stroke fill markers"
+       id="path1103"
+       cx="-1872.6664"
+       cy="539.8797"
+       rx="292.93155"
+       ry="12.224938"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <rect
+       style="fill:#e3ff94;fill-opacity:1;stroke:none;stroke-width:0.982098;stroke-linecap:round;paint-order:stroke fill markers"
+       id="rect1021"
+       width="197.951"
+       height="100.172"
+       x="-1917.4734"
+       y="264.96124"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path947"
+       d="m -1894.6057,313.53125 c 0,0 3.5746,3.25193 4.9137,7.37053 1.3392,4.11861 -5.6696,7.74852 -5.6696,7.74852 0,0 -8.1265,24.19047 -5.2917,26.64732 2.8348,2.45684 4.5357,4.34672 12.2843,4.34672 7.7485,0 18.8988,2.83482 18.8988,2.83482 0,0 -0.567,7.74852 -5.1027,7.9375 -4.5357,0.18899 -29.4822,1.51191 -34.3959,-6.2366 -4.9136,-7.74852 3.5908,-50.45982 14.3631,-50.64881 z"
+       style="fill:#cccccc;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path999"
+       d="m -1853.6707,232.92782 c 0,0 1.5929,12.91012 14.9564,16.91916 13.3634,4.00905 -10.2685,-15.53036 -14.9564,-16.91916 z"
+       style="fill:#1a1a1a;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       d="M -1917.4734,264.96124 V 365.1332 h 197.9513 V 264.96124 Z m 2.2717,1.85088 h 193.4079 v 96.47019 h -193.4079 z"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.02337;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect1005"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <g
+       transform="translate(-2035.0238,157.2381)"
+       style="stroke:none"
+       id="g1017"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png">
+      <path
+         style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 117.55045,207.8951 -11.44445,3.24782 -2.06783,7.71723 H 225.04093 V 206.65847 H 120.00744 Z"
+         id="path1011" />
+      <path
+         id="path1013"
+         d="m 315.50168,207.8951 11.44445,3.24782 2.06783,7.71723 H 208.0112 v -12.20168 h 105.03349 z"
+         style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:#1a1a1a;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1785.6614,232.92782 c 0,0 -1.5929,12.91012 -14.9564,16.91916 -13.3634,4.00905 10.2685,-15.53036 14.9564,-16.91916 z"
+       id="path1001"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path974"
+       d="m -1836.773,260.13686 c 0,0 -4.6773,-12.02713 -9.4881,-16.57071 -4.8109,-4.54358 -7.4096,-10.63833 -7.4096,-10.63833 0,0 1.2624,-10.20869 8.4787,-13.14866 7.2162,-2.93996 38.2195,-0.80181 38.2195,-0.80181 l -2.94,60.93746 z"
+       style="fill:#d38d5f;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       style="fill:url(#linearGradient1083);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1921.8199,495.33782 c 0,0 -8.5045,8.12646 -7.7485,12.2842 0,0 -10.3944,4.53573 -16.253,9.82739 0,0 -2.6459,8.88244 -0.378,15.30804 0,0 5.2917,5.10268 60.4762,-0.56697 0,0 0.9449,-8.31547 -3.4018,-14.1741 0,0 -5.2444,-0.0945 -9.2604,1.55915 0,0 -9.2604,7.70126 -13.6072,6.18936 0,0 1.4321,-23.11933 11.2049,-30.36398 z"
+       id="path952"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       id="path873"
+       d="m -1947.6267,525.08249 c 0,0 33.4087,3.89183 60.5366,-2.95776 0,0 5.2061,4.45215 1.3669,10.55454 0,0 -45.3514,7.75016 -60.4762,0.66047 0,0 -2.2792,-3.04225 -1.4273,-8.25725 z"
+       style="fill:url(#linearGradient1075);fill-opacity:1;stroke:none;stroke-width:0.285567px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:url(#linearGradient1051);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1754.7545,412.75 c 0,0 19.8438,-15.30803 36.8527,-16.63095 0,0 19.2768,13.60715 22.3006,34.01786 3.0238,20.41071 -21.7336,61.9881 -21.7336,61.9881 l -19.8438,-2.64584 c 0,0 -3.5907,-33.82887 -0.5669,-46.68006 3.0238,-12.85119 6.6146,-18.14285 6.6146,-18.14285 0,0 1.3289,24.9747 -26.4671,33.7946 -27.7961,8.81989 2.8435,-45.70086 2.8435,-45.70086 z"
+       id="path982"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path866"
+       d="m -1886.5175,413.81908 c 0,0 -19.8437,-15.30803 -36.8527,-16.63095 0,0 -19.2768,13.60715 -22.3006,34.01786 -3.0238,20.41071 21.7337,61.9881 21.7337,61.9881 l 19.8437,-2.64584 c 0,0 3.5908,-33.82887 0.567,-46.68006 -3.0238,-12.85119 -6.6146,-18.14285 -6.6146,-18.14285 0,0 -1.329,24.9747 26.4671,33.7946 27.796,8.81989 -2.8436,-45.70086 -2.8436,-45.70086 z"
+       style="fill:url(#linearGradient1059);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path981"
+       d="m -1853.6707,232.92782 c 0,0 -18.4454,-16.91443 -9.7519,-27.87574 8.6934,-10.96131 17.1979,8.50447 17.1979,8.50447 0,0 -2.0409,20.5997 -7.446,19.37127 z"
+       style="fill:#d38d5f;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:#d38d5f;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1802.5591,260.13686 c 0,0 4.6773,-12.02713 9.4881,-16.57071 4.8109,-4.54358 7.4096,-10.63833 7.4096,-10.63833 0,0 -1.2624,-10.20869 -8.4787,-13.14866 -7.2162,-2.93996 -38.2195,-0.80181 -38.2195,-0.80181 l 2.94,60.93746 z"
+       id="path976"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       style="fill:#be713f;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1825.2172,239.95801 c 0,0 18.6733,13.09997 14.5662,20.84703 -4.1072,7.74705 -22.718,-0.73499 -22.718,-0.73499 0,0 -8.9535,-12.82894 -10.3566,-24.32153 -1.4032,-11.49259 18.5084,4.20949 18.5084,4.20949 z"
+       id="path929"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path955"
+       d="m -1846.4137,260.00037 2.2679,-4.67746 c 0,0 23.0565,10.39435 47.058,0.37798 l 3.9503,4.29948 c 0,0 -5.2732,22.72582 -18.6914,23.29279 -13.4181,0.56696 -40.3709,0.42236 -38.1756,-9.82738 2.1953,-10.24975 3.5908,-13.46541 3.5908,-13.46541 z"
+       style="fill:#b3b3b3;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       id="path941"
+       d="m -1910.8771,312.52169 c 0,0 -12.6437,32.57057 -11.3208,48.63456 1.3229,16.06398 31.183,14.04014 31.183,14.04014 l 34.3959,-4.40175 c 0,0 -24.0015,-16.63095 -38.7426,-17.76488 0,0 8.3155,-38.55357 4.9137,-44.22321 -3.4018,-5.66964 -20.4292,3.71514 -20.4292,3.71514 z"
+       style="fill:#d38d5f;stroke:none;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       id="path953"
+       d="m -1894.6057,313.53125 c 0,0 -15.4696,23.17833 -11.8615,42.2881 3.6082,19.10977 49.8482,14.97529 49.8482,14.97529 l 1.0667,-9.49626 c 0,0 -26.9665,-9.18733 -39.8093,-8.26862 0,0 5.0642,-4.69395 8.5387,-35.42995 3.4745,-30.73599 -7.7828,-4.06856 -7.7828,-4.06856 z"
+       style="fill:url(#linearGradient1160);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       sodipodi:nodetypes="ccscscccccc"
+       id="path891"
+       d="m -1910.8771,312.52169 2.184,-18.76029 c -1.0897,-0.4843 12.6247,-28.47507 17.3267,-31.35275 3.4826,-2.13142 7.2686,-7.26129 16.3873,-9.4819 0,0 3.1938,3.19937 14.8165,4.00257 11.6228,0.8032 13.7489,3.07105 13.7489,3.07105 l 0.9449,102.10082 -27.9702,-10.01637 c 0,0 -12.8512,-39.12053 -5.4806,-47.05803 0,0 -5.6954,19.32935 -9.4332,19.9936 0,0 -13.6604,-4.05886 -22.5243,-12.4987 z"
+       style="fill:#f2f2f2;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       sodipodi:nodetypes="cscccc"
+       id="path899"
+       d="m -1846.4137,260.00037 c 0,0 3.0221,9.09002 20.1274,8.68912 17.1052,-0.40091 27.8474,5.52929 30.3865,-2.35516 l -1.566,76.49007 -56.5074,0.75596 z"
+       style="fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       sodipodi:nodetypes="cscccsc"
+       style="fill:url(#linearGradient1149);fill-opacity:1;stroke:none;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1728.6741,312.52169 c 0,0 12.6437,32.57057 11.3208,48.63456 -1.3229,16.06398 -31.183,14.04014 -31.183,14.04014 l -34.3959,-4.40175 c 0,0 19.9925,-3.53474 38.7426,-17.76488 0,0 -13.6374,-37.48659 -7.0519,-38.07601 6.6091,-0.59152 22.5674,-2.43206 22.5674,-2.43206 z"
+       id="path966"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <g
+       style="fill:#f2f2f2"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       transform="matrix(-1,0,0,1,-1604.5274,157.2381)"
+       id="g926"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png">
+      <path
+         sodipodi:nodetypes="ccscscccccc"
+         id="path922"
+         d="m 124.14669,155.28359 2.93996,-16.30344 c 0,0 9.72502,-29.37416 14.42699,-32.25184 3.48263,-2.13142 5.2736,-5.02308 14.39227,-7.243686 0,0 7.33255,-0.596606 18.95532,0.206594 11.62277,0.803202 13.74888,3.071052 13.74888,3.071052 l 0.94494,102.10082 -27.97023,-10.01637 c 0,0 -12.85119,-39.12053 -5.48066,-47.05803 0,0 -5.69535,19.32935 -9.43319,19.9936 0,0 -13.66033,-4.05886 -22.52428,-12.4987 z"
+         style="fill:#f2f2f2;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         id="path924"
+         d="m 147.42273,168.10572 c 0,0 6.53805,-10.8532 10.19299,-25.92995"
+         style="fill:#f2f2f2;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       sodipodi:nodetypes="cscccc"
+       style="fill:#f2f2f2;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1793.1375,260.00037 c 0,0 -3.0222,9.09002 -20.1274,8.68912 -17.1053,-0.40091 -32.0052,2.41099 -34.5443,-5.47346 l 5.7238,79.60837 56.5074,0.75596 z"
+       id="path928"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:#d38d5f;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1785.6614,232.92782 c 0,0 18.4454,-16.91443 9.7519,-27.87574 -8.6934,-10.96131 -17.1979,8.50447 -17.1979,8.50447 0,0 2.0409,20.5997 7.446,19.37127 z"
+       id="path983"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <g
+       transform="translate(-2035.0238,157.2381)"
+       id="g1013"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png">
+      <path
+         style="fill:#241c1c;fill-opacity:1;stroke:none;stroke-width:0.21955px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 316.25481,337.91003 c 0,0 16.15262,12.23206 19.6027,18.03447 3.45008,5.80241 -0.47047,17.87767 -0.47047,17.87767 0,0 -25.56194,5.33194 -44.22371,2.97961 0,0 -2.50913,-7.9979 -2.03867,-14.27076 0,0 2.1171,-0.23524 2.35233,-1.33298 0,0 0.15684,-17.48561 8.31155,-25.48351"
+         id="path864" />
+      <path
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.865;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 325.267,343.88669 c 0,0 3.60815,6.28084 4.14269,9.08717"
+         id="path869" />
+      <path
+         id="path871"
+         d="m 330.32687,346.79526 c 0,0 3.02431,5.26452 3.47235,7.61675"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.40141;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:url(#linearGradient1000);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 291.47698,361.19802 c 0,0 15.43968,4.49392 46.05576,2.60406 0,0 -0.13365,8.22843 -2.1457,10.02009 -2.01205,1.79166 -31.43984,5.77396 -44.22371,2.97961 0,0 -3.19972,-4.58051 -2.03867,-14.27076 0,0 0.23373,-1.24951 2.35232,-1.333 z"
+         id="path881" />
+      <path
+         id="path958"
+         d="m 316.25481,337.91003 c 0,0 -5.95489,20.49839 -4.35128,25.71015 0,0 -9.44893,1.03561 -20.42655,-2.42216 0,0 2.39949,-22.53137 4.38388,-25.74416 0,0 9.98285,-0.47382 20.39395,2.45617 z"
+         style="fill:url(#linearGradient966);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       id="path136"
+       d="m -1877.4081,299.41387 c 0,0 1.4433,18.63686 18.2813,36.54394 16.838,17.90705 -14.3122,16.12701 -14.3122,16.12701 0,0 -11.2388,-27.95889 -7.6039,-40.31493 3.6348,-12.35602 3.6348,-12.35602 3.6348,-12.35602 z"
+       style="fill:url(#linearGradient967);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path893"
+       d="m -1887.6011,325.34382 c 0,0 6.5381,-10.8532 10.193,-25.92995"
+       style="fill:#f2f2f2;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:#441b00;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -2079.9251,539.96805 41.6941,-154.48177 14.5937,-0.0923 z"
+       id="path848"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       style="fill:url(#linearGradient1127);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -2023.6373,385.39398 h 12.8014 l -60.6702,154.17317 -8.419,0.4009 z"
+       id="path852"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       style="fill:#3b2515;fill-opacity:0.756863;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -2038.231,385.48628 h -15.9694 V 375.1964 h 163.1855 l -2.9903,11.15986 z"
+       id="path868"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       id="path856"
+       d="m -1580.699,539.96805 -41.6941,-154.48177 -14.5937,-0.0923 z"
+       style="fill:url(#linearGradient1119);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       id="path858"
+       d="m -1636.9868,385.39398 h -12.8014 l 60.6702,154.17317 8.419,0.4009 z"
+       style="fill:#441b00;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       id="path870"
+       d="m -1622.3931,385.48628 h 13.6707 V 375.1964 h -139.6955 l 2.5598,11.15986 z"
+       style="fill:#3b2515;fill-opacity:0.756863;stroke:none;stroke-width:0.2448px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:url(#linearGradient1035);fill-opacity:1;stroke:none;stroke-width:0.285286px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1659.0155,375.1964 c -18.3334,-35.01231 -35.7346,0 -35.7346,0 z"
+       id="path880"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <g
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="g948"
+       transform="translate(-2033.0954,78.783693)"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png">
+      <path
+         d="m 91.386396,-32.825624 -71.25436,59.036705 71.25436,59.03619 71.253754,-59.03619 z m 0,6.792867 L 154.4415,26.211081 91.386396,78.454403 28.331306,26.211081 Z"
+         style="opacity:1;fill:#241c1c;fill-opacity:0.756863;stroke:none;stroke-width:11.627;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="rect886" />
+      <path
+         id="path892"
+         style="opacity:1;fill:#241c1c;fill-opacity:0.756863;stroke:none;stroke-width:11.6269;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="m 165.64983,-32.825624 -71.254384,59.036705 71.254384,59.03619 71.25375,-59.03619 z m 0,6.792867 63.05509,52.243838 -63.05509,52.243322 -63.0551,-52.243322 z" />
+      <path
+         d="m 239.91317,-32.825624 -71.25436,59.036705 71.25436,59.03619 71.25375,-59.03619 z m 0,6.792867 63.05509,52.243838 -63.05509,52.243322 -63.05509,-52.243322 z"
+         style="opacity:1;fill:#241c1c;fill-opacity:0.756863;stroke:none;stroke-width:11.6269;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="path894" />
+      <path
+         id="path896"
+         style="opacity:1;fill:#241c1c;fill-opacity:0.756863;stroke:none;stroke-width:11.6269;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="m 314.17651,-32.825624 -71.25437,59.036705 71.25437,59.03619 71.25374,-59.03619 z m 0,6.792867 63.05509,52.243838 -63.05509,52.243322 -63.05509,-52.243322 z" />
+    </g>
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1882.3214,455.83928 -31.561,79.56399 c 0,0 37.7976,-38.55357 52.9166,-66.90177 15.1191,-28.34823 -21.3556,-12.66222 -21.3556,-12.66222 z"
+       id="path961"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path963"
+       d="m -1749.3298,455.83928 31.561,79.56399 c 0,0 -37.7976,-38.55357 -52.9167,-66.90177 -15.119,-28.34823 21.3557,-12.66222 21.3557,-12.66222 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path956"
+       style="fill:url(#linearGradient909);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1823.3261,307.35814 c -18.1089,0.0664 -34.8523,6.73986 -39.3408,14.29938 -7.1815,12.09524 -28.3478,53.53904 -31.3381,64.69889 0,0 -1.6623,3.76387 -3.3538,9.77357 -2.6819,8.11739 -3.7006,15.64812 -3.5151,22.56761 -0.3074,13.50625 2.897,28.83142 15.1505,40.92153 3.2778,3.23408 7.1731,5.97659 11.5156,8.28995 2.3694,1.83695 4.4844,3.23644 6.1149,4.1832 5.6446,3.27755 25.8513,6.99177 48.4482,6.83627 22.5968,0.15545 42.8036,-3.55875 48.4482,-6.83627 1.6305,-0.94676 3.7455,-2.34625 6.1149,-4.1832 4.3425,-2.31336 8.2378,-5.05587 11.5155,-8.28995 12.2515,-12.0881 15.4567,-27.4102 15.1505,-40.91481 0.1864,-6.92134 -0.8322,-14.45431 -3.515,-22.57433 -1.6916,-6.0097 -3.3538,-9.77357 -3.3538,-9.77357 -2.9903,-11.15985 -24.1571,-52.60365 -31.3386,-64.69889 -4.7914,-8.06963 -23.547,-15.12649 -43.0217,-14.21773 -1.2311,-0.0574 -2.4595,-0.0861 -3.6814,-0.0816 z"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path979"
+       d="m -1832.5231,145.80432 c 5.6697,1.5119 16.1585,0.28348 16.1585,0.28348 43.0893,15.875 35.3408,29.67113 39.6875,43.46726 4.3467,13.79613 -14.5521,49.51488 -20.7887,51.59375 -6.2366,2.07887 -45.1681,1.5119 -47.436,-1.5119 -2.2678,-3.02381 -16.6309,-28.91518 -18.7098,-44.41221 -2.0789,-15.49702 10.0164,-18.52083 10.0164,-18.52083 0,0 -3.1183,-26.08035 11.6227,-29.95461 0,0 3.1459,-1.78359 9.4494,-0.94494 z"
+       style="fill:url(#linearGradient1091);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path957"
+       d="m -1910.8771,312.52169 c 0,0 -1.4934,-6.54997 -0.1705,-9.00681 0,0 14.1741,12.94569 28.0647,15.11905 0,0 -3.8664,7.03332 -4.6182,6.70989 -0.7517,-0.32343 -17.3414,-4.66577 -23.276,-12.82213 z"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1728.6741,312.52169 c 0,0 1.4934,-6.54997 0.1705,-9.00681 0,0 -14.1741,12.94569 -28.0647,15.11905 0,0 3.8664,7.03332 4.6182,6.70989 0.7517,-0.32343 17.3414,-4.66577 23.276,-12.82213 z"
+       id="path959"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       sodipodi:nodetypes="csscc"
+       id="path985"
+       d="m -1862.7612,199.28795 c 0,0 -11.1503,2.83482 -12.6622,9.63839 -1.5119,6.80357 0.378,24.09598 16.064,26.08035 15.686,1.98438 8.3439,-6.23486 8.3439,-6.23486 0,0 -11.2171,-22.60291 -11.7457,-29.48388 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       d="m -1820.1393,134.95935 a 51.801206,62.380328 0 0 0 -51.8014,62.38017 51.801206,62.380328 0 0 0 4.8203,26.27798 65.767851,21.922617 0 0 1 5.8446,-1.62005 45.951417,55.335863 0 0 1 -4.8147,-24.65793 45.951417,55.335863 0 0 1 45.9512,-55.33564 45.951417,55.335863 0 0 1 45.9518,55.33564 45.951417,55.335863 0 0 1 -5.2359,25.65218 65.767851,21.922617 0 0 1 5.7733,1.86501 51.801206,62.380328 0 0 0 5.3123,-27.51719 51.801206,62.380328 0 0 0 -51.8015,-62.38017 z"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.72681;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="path989"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:url(#linearGradient1099);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1776.8617,199.28795 c 0,0 11.1503,2.83482 12.6622,9.63839 1.5119,6.80357 -0.378,24.09598 -16.064,26.08035 -15.686,1.98438 -8.3439,-6.23486 -8.3439,-6.23486 0,0 11.2171,-22.60291 11.7457,-29.48388 z"
+       id="path987"
+       sodipodi:nodetypes="csscc"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <path
+       style="fill:url(#linearGradient917);fill-opacity:1;stroke:none;stroke-width:0.343889px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1783.5816,321.54026 c 0,0 -23.8569,-10.93579 -37.562,-6.18111 -13.705,4.7547 -15.7353,17.11691 -15.2278,21.87161 0.5076,4.7547 -4.5684,88.43735 14.7202,93.66752 19.2886,5.23017 78.6771,17.11693 74.8701,1.90189 -3.8069,-15.21504 8.8829,-29.00366 -36.8005,-111.25991 z"
+       id="path901"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png" />
+    <rect
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       y="-73.68277"
+       x="-2342.9182"
+       height="786.84149"
+       width="1062.6636"
+       id="rect1015"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       ry="12.224938"
+       rx="292.93155"
+       cy="539.8797"
+       cx="-1872.6664"
+       id="ellipse1017"
+       style="fill:url(#linearGradient1111);fill-opacity:1;stroke:none;stroke-width:0.982537;stroke-linecap:round;paint-order:stroke fill markers" />
+    <rect
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       y="264.96124"
+       x="-1917.4734"
+       height="100.172"
+       width="197.951"
+       id="rect1019"
+       style="fill:#e3ff94;fill-opacity:1;stroke:none;stroke-width:0.982098;stroke-linecap:round;paint-order:stroke fill markers" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       style="fill:#cccccc;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1894.6057,313.53125 c 0,0 3.5746,3.25193 4.9137,7.37053 1.3392,4.11861 -5.6696,7.74852 -5.6696,7.74852 0,0 -8.1265,24.19047 -5.2917,26.64732 2.8348,2.45684 4.5357,4.34672 12.2843,4.34672 7.7485,0 18.8988,2.83482 18.8988,2.83482 0,0 -0.567,7.74852 -5.1027,7.9375 -4.5357,0.18899 -29.4822,1.51191 -34.3959,-6.2366 -4.9136,-7.74852 3.5908,-50.45982 14.3631,-50.64881 z"
+       id="path1021"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       style="fill:#1a1a1a;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1853.6707,232.92782 c 0,0 1.5929,12.91012 14.9564,16.91916 13.3634,4.00905 -10.2685,-15.53036 -14.9564,-16.91916 z"
+       id="path1023"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path1025"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.02337;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="M -1917.4734,264.96124 V 365.1332 h 197.9513 V 264.96124 Z m 2.2717,1.85088 h 193.4079 v 96.47019 h -193.4079 z" />
+    <g
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="g1031"
+       style="stroke:none"
+       transform="translate(-2035.0238,157.2381)">
+      <path
+         id="path1027"
+         d="m 117.55045,207.8951 -11.44445,3.24782 -2.06783,7.71723 H 225.04093 V 206.65847 H 120.00744 Z"
+         style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 315.50168,207.8951 11.44445,3.24782 2.06783,7.71723 H 208.0112 v -12.20168 h 105.03349 z"
+         id="path1029" />
+    </g>
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       id="path1033"
+       d="m -1785.6614,232.92782 c 0,0 -1.5929,12.91012 -14.9564,16.91916 -13.3634,4.00905 10.2685,-15.53036 14.9564,-16.91916 z"
+       style="fill:#1a1a1a;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       style="fill:#d38d5f;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1836.773,260.13686 c 0,0 -4.6773,-12.02713 -9.4881,-16.57071 -4.8109,-4.54358 -7.4096,-10.63833 -7.4096,-10.63833 0,0 1.2624,-10.20869 8.4787,-13.14866 7.2162,-2.93996 38.2195,-0.80181 38.2195,-0.80181 l -2.94,60.93746 z"
+       id="path1035"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path1037"
+       d="m -1921.8199,495.33782 c 0,0 -8.5045,8.12646 -7.7485,12.2842 0,0 -10.3944,4.53573 -16.253,9.82739 0,0 -2.6459,8.88244 -0.378,15.30804 0,0 5.2917,5.10268 60.4762,-0.56697 0,0 0.9449,-8.31547 -3.4018,-14.1741 0,0 -5.2444,-0.0945 -9.2604,1.55915 0,0 -9.2604,7.70126 -13.6072,6.18936 0,0 1.4321,-23.11933 11.2049,-30.36398 z"
+       style="fill:url(#linearGradient1083);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:url(#linearGradient1075);fill-opacity:1;stroke:none;stroke-width:0.285567px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1947.6267,525.08249 c 0,0 33.4087,3.89183 60.5366,-2.95776 0,0 5.2061,4.45215 1.3669,10.55454 0,0 -45.3514,7.75016 -60.4762,0.66047 0,0 -2.2792,-3.04225 -1.4273,-8.25725 z"
+       id="path1039" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       id="path1041"
+       d="m -1754.7545,412.75 c 0,0 19.8438,-15.30803 36.8527,-16.63095 0,0 19.2768,13.60715 22.3006,34.01786 3.0238,20.41071 -21.7336,61.9881 -21.7336,61.9881 l -19.8438,-2.64584 c 0,0 -3.5907,-33.82887 -0.5669,-46.68006 3.0238,-12.85119 6.6146,-18.14285 6.6146,-18.14285 0,0 1.3289,24.9747 -26.4671,33.7946 -27.7961,8.81989 2.8435,-45.70086 2.8435,-45.70086 z"
+       style="fill:url(#linearGradient1051);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       style="fill:url(#linearGradient1059);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1886.5175,413.81908 c 0,0 -19.8437,-15.30803 -36.8527,-16.63095 0,0 -19.2768,13.60715 -22.3006,34.01786 -3.0238,20.41071 21.7337,61.9881 21.7337,61.9881 l 19.8437,-2.64584 c 0,0 3.5908,-33.82887 0.567,-46.68006 -3.0238,-12.85119 -6.6146,-18.14285 -6.6146,-18.14285 0,0 -1.329,24.9747 26.4671,33.7946 27.796,8.81989 -2.8436,-45.70086 -2.8436,-45.70086 z"
+       id="path1043"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       style="fill:#d38d5f;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1853.6707,232.92782 c 0,0 -18.4454,-16.91443 -9.7519,-27.87574 8.6934,-10.96131 17.1979,8.50447 17.1979,8.50447 0,0 -2.0409,20.5997 -7.446,19.37127 z"
+       id="path1045"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       id="path1047"
+       d="m -1802.5591,260.13686 c 0,0 4.6773,-12.02713 9.4881,-16.57071 4.8109,-4.54358 7.4096,-10.63833 7.4096,-10.63833 0,0 -1.2624,-10.20869 -8.4787,-13.14866 -7.2162,-2.93996 -38.2195,-0.80181 -38.2195,-0.80181 l 2.94,60.93746 z"
+       style="fill:#d38d5f;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path1049"
+       d="m -1825.2172,239.95801 c 0,0 18.6733,13.09997 14.5662,20.84703 -4.1072,7.74705 -22.718,-0.73499 -22.718,-0.73499 0,0 -8.9535,-12.82894 -10.3566,-24.32153 -1.4032,-11.49259 18.5084,4.20949 18.5084,4.20949 z"
+       style="fill:#be713f;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       style="fill:#b3b3b3;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1846.4137,260.00037 2.2679,-4.67746 c 0,0 23.0565,10.39435 47.058,0.37798 l 3.9503,4.29948 c 0,0 -5.2732,22.72582 -18.6914,23.29279 -13.4181,0.56696 -40.3709,0.42236 -38.1756,-9.82738 2.1953,-10.24975 3.5908,-13.46541 3.5908,-13.46541 z"
+       id="path1051"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:#d38d5f;stroke:none;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1910.8771,312.52169 c 0,0 -12.6437,32.57057 -11.3208,48.63456 1.3229,16.06398 31.183,14.04014 31.183,14.04014 l 34.3959,-4.40175 c 0,0 -24.0015,-16.63095 -38.7426,-17.76488 0,0 8.3155,-38.55357 4.9137,-44.22321 -3.4018,-5.66964 -20.4292,3.71514 -20.4292,3.71514 z"
+       id="path1053" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:url(#linearGradient1160);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1894.6057,313.53125 c 0,0 -15.4696,23.17833 -11.8615,42.2881 3.6082,19.10977 49.8482,14.97529 49.8482,14.97529 l 1.0667,-9.49626 c 0,0 -26.9665,-9.18733 -39.8093,-8.26862 0,0 5.0642,-4.69395 8.5387,-35.42995 3.4745,-30.73599 -7.7828,-4.06856 -7.7828,-4.06856 z"
+       id="path1055" />
+    <path
+       style="fill:#f2f2f2;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1910.8771,312.52169 2.184,-18.76029 c -1.0897,-0.4843 12.6247,-28.47507 17.3267,-31.35275 3.4826,-2.13142 7.2686,-7.26129 16.3873,-9.4819 0,0 3.1938,3.19937 14.8165,4.00257 11.6228,0.8032 13.7489,3.07105 13.7489,3.07105 l 0.9449,102.10082 -27.9702,-10.01637 c 0,0 -12.8512,-39.12053 -5.4806,-47.05803 0,0 -5.6954,19.32935 -9.4332,19.9936 0,0 -13.6604,-4.05886 -22.5243,-12.4987 z"
+       id="path1057"
+       sodipodi:nodetypes="ccscscccccc" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       style="fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1846.4137,260.00037 c 0,0 3.0221,9.09002 20.1274,8.68912 17.1052,-0.40091 27.8474,5.52929 30.3865,-2.35516 l -1.566,76.49007 -56.5074,0.75596 z"
+       id="path1059"
+       sodipodi:nodetypes="cscccc"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path1061"
+       d="m -1728.6741,312.52169 c 0,0 12.6437,32.57057 11.3208,48.63456 -1.3229,16.06398 -31.183,14.04014 -31.183,14.04014 l -34.3959,-4.40175 c 0,0 19.9925,-3.53474 38.7426,-17.76488 0,0 -13.6374,-37.48659 -7.0519,-38.07601 6.6091,-0.59152 22.5674,-2.43206 22.5674,-2.43206 z"
+       style="fill:url(#linearGradient1149);fill-opacity:1;stroke:none;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cscccsc" />
+    <g
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       id="g1067"
+       transform="matrix(-1,0,0,1,-1604.5274,157.2381)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       style="fill:#f2f2f2">
+      <path
+         style="fill:#f2f2f2;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 124.14669,155.28359 2.93996,-16.30344 c 0,0 9.72502,-29.37416 14.42699,-32.25184 3.48263,-2.13142 5.2736,-5.02308 14.39227,-7.243686 0,0 7.33255,-0.596606 18.95532,0.206594 11.62277,0.803202 13.74888,3.071052 13.74888,3.071052 l 0.94494,102.10082 -27.97023,-10.01637 c 0,0 -12.85119,-39.12053 -5.48066,-47.05803 0,0 -5.69535,19.32935 -9.43319,19.9936 0,0 -13.66033,-4.05886 -22.52428,-12.4987 z"
+         id="path1063"
+         sodipodi:nodetypes="ccscscccccc" />
+      <path
+         style="fill:#f2f2f2;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 147.42273,168.10572 c 0,0 6.53805,-10.8532 10.19299,-25.92995"
+         id="path1065" />
+    </g>
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       id="path1069"
+       d="m -1793.1375,260.00037 c 0,0 -3.0222,9.09002 -20.1274,8.68912 -17.1053,-0.40091 -32.0052,2.41099 -34.5443,-5.47346 l 5.7238,79.60837 56.5074,0.75596 z"
+       style="fill:#f2f2f2;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:nodetypes="cscccc"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       id="path1071"
+       d="m -1785.6614,232.92782 c 0,0 18.4454,-16.91443 9.7519,-27.87574 -8.6934,-10.96131 -17.1979,8.50447 -17.1979,8.50447 0,0 2.0409,20.5997 7.446,19.37127 z"
+       style="fill:#d38d5f;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="g1083"
+       transform="translate(-2035.0238,157.2381)">
+      <path
+         id="path1073"
+         d="m 316.25481,337.91003 c 0,0 16.15262,12.23206 19.6027,18.03447 3.45008,5.80241 -0.47047,17.87767 -0.47047,17.87767 0,0 -25.56194,5.33194 -44.22371,2.97961 0,0 -2.50913,-7.9979 -2.03867,-14.27076 0,0 2.1171,-0.23524 2.35233,-1.33298 0,0 0.15684,-17.48561 8.31155,-25.48351"
+         style="fill:#241c1c;fill-opacity:1;stroke:none;stroke-width:0.21955px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         id="path1075"
+         d="m 325.267,343.88669 c 0,0 3.60815,6.28084 4.14269,9.08717"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.865;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:2.40141;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 330.32687,346.79526 c 0,0 3.02431,5.26452 3.47235,7.61675"
+         id="path1077" />
+      <path
+         id="path1079"
+         d="m 291.47698,361.19802 c 0,0 15.43968,4.49392 46.05576,2.60406 0,0 -0.13365,8.22843 -2.1457,10.02009 -2.01205,1.79166 -31.43984,5.77396 -44.22371,2.97961 0,0 -3.19972,-4.58051 -2.03867,-14.27076 0,0 0.23373,-1.24951 2.35232,-1.333 z"
+         style="fill:url(#linearGradient1000);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:url(#linearGradient966);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 316.25481,337.91003 c 0,0 -5.95489,20.49839 -4.35128,25.71015 0,0 -9.44893,1.03561 -20.42655,-2.42216 0,0 2.39949,-22.53137 4.38388,-25.74416 0,0 9.98285,-0.47382 20.39395,2.45617 z"
+         id="path1081" />
+    </g>
+    <path
+       style="fill:url(#linearGradient967);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1877.4081,299.41387 c 0,0 1.4433,18.63686 18.2813,36.54394 16.838,17.90705 -14.3122,16.12701 -14.3122,16.12701 0,0 -11.2388,-27.95889 -7.6039,-40.31493 3.6348,-12.35602 3.6348,-12.35602 3.6348,-12.35602 z"
+       id="path1085" />
+    <path
+       style="fill:#f2f2f2;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1887.6011,325.34382 c 0,0 6.5381,-10.8532 10.193,-25.92995"
+       id="path1087" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path1089"
+       d="m -2079.9251,539.96805 41.6941,-154.48177 14.5937,-0.0923 z"
+       style="fill:#441b00;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path1091"
+       d="m -2023.6373,385.39398 h 12.8014 l -60.6702,154.17317 -8.419,0.4009 z"
+       style="fill:url(#linearGradient1127);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path1093"
+       d="m -2038.231,385.48628 h -15.9694 V 375.1964 h 163.1855 l -2.9903,11.15986 z"
+       style="fill:#3b2515;fill-opacity:0.756863;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:url(#linearGradient1119);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1580.699,539.96805 -41.6941,-154.48177 -14.5937,-0.0923 z"
+       id="path1095" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:#441b00;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1636.9868,385.39398 h -12.8014 l 60.6702,154.17317 8.419,0.4009 z"
+       id="path1097" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="fill:#3b2515;fill-opacity:0.756863;stroke:none;stroke-width:0.2448px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1622.3931,385.48628 h 13.6707 V 375.1964 h -139.6955 l 2.5598,11.15986 z"
+       id="path1099" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       id="path1101"
+       d="m -1659.0155,375.1964 c -18.3334,-35.01231 -35.7346,0 -35.7346,0 z"
+       style="fill:url(#linearGradient1035);fill-opacity:1;stroke:none;stroke-width:0.285286px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       transform="translate(-2033.0954,78.783693)"
+       id="g1112"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         id="path1104"
+         style="opacity:1;fill:#241c1c;fill-opacity:0.756863;stroke:none;stroke-width:11.627;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="m 91.386396,-32.825624 -71.25436,59.036705 71.25436,59.03619 71.253754,-59.03619 z m 0,6.792867 L 154.4415,26.211081 91.386396,78.454403 28.331306,26.211081 Z" />
+      <path
+         d="m 165.64983,-32.825624 -71.254384,59.036705 71.254384,59.03619 71.25375,-59.03619 z m 0,6.792867 63.05509,52.243838 -63.05509,52.243322 -63.0551,-52.243322 z"
+         style="opacity:1;fill:#241c1c;fill-opacity:0.756863;stroke:none;stroke-width:11.6269;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="path1106" />
+      <path
+         id="path1108"
+         style="opacity:1;fill:#241c1c;fill-opacity:0.756863;stroke:none;stroke-width:11.6269;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         d="m 239.91317,-32.825624 -71.25436,59.036705 71.25436,59.03619 71.25375,-59.03619 z m 0,6.792867 63.05509,52.243838 -63.05509,52.243322 -63.05509,-52.243322 z" />
+      <path
+         d="m 314.17651,-32.825624 -71.25437,59.036705 71.25437,59.03619 71.25374,-59.03619 z m 0,6.792867 63.05509,52.243838 -63.05509,52.243322 -63.05509,-52.243322 z"
+         style="opacity:1;fill:#241c1c;fill-opacity:0.756863;stroke:none;stroke-width:11.6269;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="path1110" />
+    </g>
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       id="path1114"
+       d="m -1882.3214,455.83928 -31.561,79.56399 c 0,0 37.7976,-38.55357 52.9166,-66.90177 15.1191,-28.34823 -21.3556,-12.66222 -21.3556,-12.66222 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1749.3298,455.83928 31.561,79.56399 c 0,0 -37.7976,-38.55357 -52.9167,-66.90177 -15.119,-28.34823 21.3557,-12.66222 21.3557,-12.66222 z"
+       id="path1116"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       d="m -1823.3261,307.35814 c -18.1089,0.0664 -34.8523,6.73986 -39.3408,14.29938 -7.1815,12.09524 -28.3478,53.53904 -31.3381,64.69889 0,0 -1.6623,3.76387 -3.3538,9.77357 -2.6819,8.11739 -3.7006,15.64812 -3.5151,22.56761 -0.3074,13.50625 2.897,28.83142 15.1505,40.92153 3.2778,3.23408 7.1731,5.97659 11.5156,8.28995 2.3694,1.83695 4.4844,3.23644 6.1149,4.1832 5.6446,3.27755 25.8513,6.99177 48.4482,6.83627 22.5968,0.15545 42.8036,-3.55875 48.4482,-6.83627 1.6305,-0.94676 3.7455,-2.34625 6.1149,-4.1832 4.3425,-2.31336 8.2378,-5.05587 11.5155,-8.28995 12.2515,-12.0881 15.4567,-27.4102 15.1505,-40.91481 0.1864,-6.92134 -0.8322,-14.45431 -3.515,-22.57433 -1.6916,-6.0097 -3.3538,-9.77357 -3.3538,-9.77357 -2.9903,-11.15985 -24.1571,-52.60365 -31.3386,-64.69889 -4.7914,-8.06963 -23.547,-15.12649 -43.0217,-14.21773 -1.2311,-0.0574 -2.4595,-0.0861 -3.6814,-0.0816 z"
+       style="fill:url(#linearGradient909);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path1118"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       style="fill:url(#linearGradient1091);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1832.5231,145.80432 c 5.6697,1.5119 16.1585,0.28348 16.1585,0.28348 43.0893,15.875 35.3408,29.67113 39.6875,43.46726 4.3467,13.79613 -14.5521,49.51488 -20.7887,51.59375 -6.2366,2.07887 -45.1681,1.5119 -47.436,-1.5119 -2.2678,-3.02381 -16.6309,-28.91518 -18.7098,-44.41221 -2.0789,-15.49702 10.0164,-18.52083 10.0164,-18.52083 0,0 -3.1183,-26.08035 11.6227,-29.95461 0,0 3.1459,-1.78359 9.4494,-0.94494 z"
+       id="path1120"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1910.8771,312.52169 c 0,0 -1.4934,-6.54997 -0.1705,-9.00681 0,0 14.1741,12.94569 28.0647,15.11905 0,0 -3.8664,7.03332 -4.6182,6.70989 -0.7517,-0.32343 -17.3414,-4.66577 -23.276,-12.82213 z"
+       id="path1122"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       id="path1124"
+       d="m -1728.6741,312.52169 c 0,0 1.4934,-6.54997 0.1705,-9.00681 0,0 -14.1741,12.94569 -28.0647,15.11905 0,0 3.8664,7.03332 4.6182,6.70989 0.7517,-0.32343 17.3414,-4.66577 23.276,-12.82213 z"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -1862.7612,199.28795 c 0,0 -11.1503,2.83482 -12.6622,9.63839 -1.5119,6.80357 0.378,24.09598 16.064,26.08035 15.686,1.98438 8.3439,-6.23486 8.3439,-6.23486 0,0 -11.2171,-22.60291 -11.7457,-29.48388 z"
+       id="path1126"
+       sodipodi:nodetypes="csscc"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       id="path1128"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.72681;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="m -1820.1393,134.95935 a 51.801206,62.380328 0 0 0 -51.8014,62.38017 51.801206,62.380328 0 0 0 4.8203,26.27798 65.767851,21.922617 0 0 1 5.8446,-1.62005 45.951417,55.335863 0 0 1 -4.8147,-24.65793 45.951417,55.335863 0 0 1 45.9512,-55.33564 45.951417,55.335863 0 0 1 45.9518,55.33564 45.951417,55.335863 0 0 1 -5.2359,25.65218 65.767851,21.922617 0 0 1 5.7733,1.86501 51.801206,62.380328 0 0 0 5.3123,-27.51719 51.801206,62.380328 0 0 0 -51.8015,-62.38017 z"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       sodipodi:nodetypes="csscc"
+       id="path1130"
+       d="m -1776.8617,199.28795 c 0,0 11.1503,2.83482 12.6622,9.63839 1.5119,6.80357 -0.378,24.09598 -16.064,26.08035 -15.686,1.98438 -8.3439,-6.23486 -8.3439,-6.23486 0,0 11.2171,-22.60291 11.7457,-29.48388 z"
+       style="fill:url(#linearGradient1099);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:export-filename="D:\WebProjects\personal portfolio\v 1.3\PersonalPortfolio\assets\illustrations\rect965.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="path1132"
+       d="m -1783.5816,321.54026 c 0,0 -23.8569,-10.93579 -37.562,-6.18111 -13.705,4.7547 -15.7353,17.11691 -15.2278,21.87161 0.5076,4.7547 -4.5684,88.43735 14.7202,93.66752 19.2886,5.23017 78.6771,17.11693 74.8701,1.90189 -3.8069,-15.21504 8.8829,-29.00366 -36.8005,-111.25991 z"
+       style="fill:url(#linearGradient917);fill-opacity:1;stroke:none;stroke-width:0.343889px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

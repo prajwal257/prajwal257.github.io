@@ -1,0 +1,238 @@
+.project_name_container{
+    margin: 0px 0px 20vh 10vh;
+    h1{
+        font-size: $text-page-head;
+        font-weight: 500;
+    }
+}
+.project_container{
+    margin-top: 50vh;
+    padding-bottom: 10vh;
+    background-color: #E8E8E8;
+    .project_img_container{
+        height: 80vh;
+        margin: 10vh;
+        transform: translateY(-30%);
+        display: flex;
+        align-items: center;
+        .left_arrow{
+            position: static;
+            height: 5vw;
+            width: 6vw;
+            //margin-left: 5vw;
+            //background-color: rgb(255, 255, 255);
+            //box-shadow: 0px 3px 15px #16161673;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .arrow{
+                height: 40%;
+                width: 20%;
+            }
+        }
+        .img_container{
+            height: 100%;
+            width: 80vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                height: auto;
+                width: 80%;
+                transition: all 0.5s;
+            }
+            .left_image{
+                //clip-path: polygon( 0% 0% , 0% 0% , 0% 100% , 0% 100%);
+                width: 0px;
+            }
+            .active_image{
+                content: "";
+                //clip-path: polygon( 0% 0%, 100% 0%, 100% 100% , 0% 100%);
+            }
+            .right_image{
+                //clip-path: polygon( 100% 0%, 100% 0%, 100% 100% , 100% 100%);
+                width: 0px;
+            }
+        }
+        .right_arrow{
+            position: static;
+            height: 5vw;
+            width: 6vw;
+            //background-color: rgb(255, 255, 255);
+            //margin-right: 5vw;
+            //box-shadow: 0px 3px 15px #16161673;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .arrow{
+                height: 40%;
+                width: 20%;
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .project_des_container{
+        margin: 0px 10vh 10vh 10vh;
+        background-color: white;
+        .project_description{
+            padding-top: 10vh;
+            margin: 0px 10vh 0px 10vh;
+            h4{
+                font-size: 2.25rem;
+                font-weight: 400;
+            }
+            p{
+                margin-top: 5vh;
+                font-size: 1rem;
+            }
+        }
+        .project_details{
+            margin: 10vh;
+            padding-bottom: 20vh;
+            h4{
+                font-size: 2.25rem;
+                font-weight: 400;
+            }
+            dl{
+                margin-top: 10vh;
+                li{
+                    margin-top: 3vh;
+                    list-style-type: none;
+                    height: 10vh;
+                    border-bottom: 1px solid black;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    dt{     
+                        font-size: 1rem;
+                    }
+                    dd{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+//..........................Media Quaries.....................
+
+//.........................mobile_Resposive....................
+@media screen and (orientation: portrait){
+    @media screen and (max-width: 1024px){
+        .project_name_container{
+            margin: 10vw 0px 0vw 10vw;
+        }
+        .project_container{
+            margin-top: 30vh;
+            .project_img_container{
+                margin: 5vw;
+                height: 30vw;
+                transform: translateY(-40%);
+                .left_arrow{
+                    height: 15vw;
+                    width: 15vw;
+                }
+                .img_container{
+                    width: 90%;
+                }
+                .right_arrow{
+                    height: 15vw;
+                    width: 15vw;
+                }
+            }
+            .project_des_container{
+                margin: 10vw;
+                .project_description{
+                    padding-top: 5vw;
+                    margin: 0px 5vw 0px 5vw;
+                    p{
+                        margin-top: 3vw;
+                    }
+                }
+                .project_details{
+                    margin: 5vw;
+                    dl{
+                        margin-top: 3vw;
+                        li{
+                            height: 5vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    @media screen and (max-width: 720px) and (orientation: portrait){
+        .project_name_container{
+            margin: 10vh 0px 0vw 5vw;
+        }
+        .project_container{
+            margin-top: 20vh;
+            .project_img_container{
+                margin: 5vw;
+                height: 30vw;
+                transform: translateY(-30%);
+            }
+            .project_des_container{
+                margin: 5vw;
+                .project_description{
+                    padding-top: 5vw;
+                    margin: 0px 5vw 0px 5vw;
+                    p{
+                        margin-top: 7vw;
+                    }
+                }
+                .project_details{
+                    margin: 7vw 5vw 5vw 5vw;
+                    dl{
+                        margin-top: 7vw;
+                        li{
+                            height: 10vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//.........................Desktop Responsive....................
+
+//.........................For 1080p displays....................
+
+@media screen and (min-width: 1920px) and (max-width: 2559px){
+    .project_container{
+        .project_des_container{
+            margin-top: -25vh;
+        }
+    }
+}
+
+//.........................For 2560p displays....................
+
+@media screen and (min-width: 2560px) and (max-width: 3840px){
+    .project_container{
+        .project_des_container{
+            margin-top: -20vh;
+        }
+    }
+}
+
+//.........................For 3840p or 4k displays....................
+
+@media screen and (min-width: 3840px){
+    .project_container{
+        .project_des_container{
+            margin-top: -30vh;
+        }
+    }
+}

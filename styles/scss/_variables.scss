@@ -1,0 +1,44 @@
+//...................font-variables........................
+
+$text-watermark: 9.625rem; 
+$text-page-head: 2.625rem;
+$text-project-head: 2rem;
+$project-jobs: 0.875rem;
+$hero-cta: 0.75rem;
+$nav-logo: 1rem;
+$nav-item: 0.875rem;
+$nav-item-highlight: 0.75rem;
+
+
+$social-media-icons-size: 1.5rem;
+$social-media-icons-size-footer: 1.1em;
+
+$hover-color: #cecece;
+
+//..........................Media Quaries.....................
+
+//.........................mobile_Resposive....................
+@media screen and (orientation: portrait){
+/*
+    @media screen and (max-width: 800px){
+    }
+    
+    @media screen and (max-width: 720px){
+        $text-watermark: 9.625rem; 
+        $text-page-head: 1.5rem;
+        $text-project-head: 2rem;
+        $project-jobs: 0.875rem;
+        $hero-cta: 0.75rem;
+        $nav-logo: 1rem;
+        $nav-item: 0.875rem;
+        $nav-item-highlight: 0.75rem;
+
+        $social-media-icons-size: 1.5rem;
+        $social-media-icons-size-footer: 1.1em;
+    }
+    */
+    @media screen and (max-width: 480px){
+        $text-project-head: 1.6rem;
+    }
+    
+}
