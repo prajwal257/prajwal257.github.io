@@ -615,7 +615,6 @@ header nav ul li:nth-child(5) {
   top: 27vh;
   right: 0px;
   width: 70vw;
-  background-color: #e6e6e6;
 }
 
 .hero_section .hero_image .scroll_indicator {
@@ -702,7 +701,6 @@ header nav ul li:nth-child(5) {
     right: 0px;
     top: 60vh;
     width: 100vw;
-    background-color: #e6e6e6;
   }
   .hero_section .hero_image .scroll_indicator {
     display: none;
@@ -809,6 +807,7 @@ header nav ul li:nth-child(5) {
   margin: -35vh -30vh 0px 0vh;
   color: #DFDFDF;
   font-weight: 500;
+  z-index: 1000;
 }
 
 .project_section .project-list {
