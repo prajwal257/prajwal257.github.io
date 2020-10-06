@@ -17,7 +17,30 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-thumb{
     background-color: #161616;
 }
-
+#preload{
+    display: none;
+    img:nth-child(1){
+        background-image: url(../../assets/images/project-1.png);
+    }
+    img:nth-child(2){
+        background-image: url(../../assets/images/project-2.png);
+    }
+    img:nth-child(3){
+        background-image: url(../../assets/images/project-3.png);
+    }
+    img:nth-child(4){
+        background-image: url(../../assets/images/design-1.png);
+    }
+    img:nth-child(5){
+        background-image: url(../../assets/images/design-2.png);
+    }
+    img:nth-child(6){
+        background-image: url(../../assets/images/design-3.png);
+    }
+    img:nth-child(7){
+        background-image: url(../../assets/svgs/rect832.png);
+    }
+}
 
 //..........................Media Quaries.....................
 

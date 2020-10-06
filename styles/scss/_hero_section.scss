@@ -35,10 +35,10 @@
         background-color: rgb(230, 230, 230);
         .scroll_indicator{
             position: absolute;
-            height: 18vh;
-            width: 18vh;
+            height: 15vh;
+            width: 15vh;
             border-radius: 50%;
-            margin: -9vh 0px 0px -9vh;
+            margin: -7.5vh 0px 0px -7.5vh;
             z-index: 3;
             animation: rotatebysomedeg 30s linear infinite;
             transition: all 2s ease-out;
