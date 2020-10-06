@@ -6,11 +6,11 @@
     width: 10px;
     background-color: rgb(0, 0, 0);
     margin: -5px 0px 0px -5px;
-    border-radius: 100%;
+    border-radius: 500%;
     z-index: 2000;
     user-select: none;
     pointer-events: none;
-    transition: transform .25s ease-out;
+    transition: transform .15s ease-out;
     //mix-blend-mode: difference;
 }
 .cursor_follower{
@@ -24,7 +24,7 @@
     transform: rotate(-45deg);
     margin: -30px 0px 0px -30px;
     border-radius: 75%;
-    transition: all 0.15s;
+    transition: all 0.1s;
     z-index: 100;
     pointer-events: none;
 }
@@ -40,9 +40,9 @@
     background-image: url('../../assets/svgs/rect832.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 60%;
-    transform: scale(5);
-    transition: all 0.3s;
+    background-size: 100%;
+    transform: scale(1.8);
+    transition: all 0.025s;
     mix-blend-mode: normal;
 }
 .cursor_on_projects{
