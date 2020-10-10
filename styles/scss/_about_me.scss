@@ -1,29 +1,35 @@
 .about_section{
     height: 110vh;
-    margin: 20vh 10vh 0px 10vh;
+    margin: 45vh 10vh 0px 10vh;
     .text_container{
         position: absolute;
         z-index: 20;
         h1{
             position: relative;
             text-align: left;
-            font-size: $text-page-head;
+            font-size: 114px;
             font-weight: 400;
             z-index: 10;
+            color: #161616;
         }
         .cta{
-            height: 7vh;
-            width: 10vw;
+            height: 8vh;
+            width: 11vw;
             margin-top: 5vh;
-            border: 2px solid #161616;
+            //border: 2px solid #161616;
+            background-color: #F67119;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: $hero-cta;
-            font-weight: 500;
+            font-weight: 600;
             z-index: 10;
             text-decoration: none;
-            color: #161616;
+            color: #ffffff;
+            transition: all 0.1s ease;
+        }
+        .cta:hover{
+            box-shadow: 1px 1px 30px #F67119;
         }
         p{
             margin-top: 17vh;

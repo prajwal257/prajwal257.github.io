@@ -132,7 +132,7 @@ body::-webkit-scrollbar-thumb {
   left: 0px;
   height: 100vh;
   width: 100vw;
-  background-color: #161616;
+  background-color: #C5C5C5;
   z-index: 1000;
 }
 
@@ -160,7 +160,7 @@ body::-webkit-scrollbar-thumb {
   left: 0px;
   height: 0vh;
   width: 100vw;
-  background-color: #161616;
+  background-color: #C5C5C5;
   z-index: 1000;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -246,10 +246,10 @@ body::-webkit-scrollbar-thumb {
 
 .cursor_active {
   background-color: #ff8310;
-  -webkit-transform: scale(20);
-          transform: scale(20);
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  -webkit-transform: scale(10);
+          transform: scale(10);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
   mix-blend-mode: difference;
 }
 
@@ -271,6 +271,28 @@ body::-webkit-scrollbar-thumb {
   mix-blend-mode: normal;
 }
 
+.cursor_on_title {
+  position: absolute;
+  height: 30vh;
+  width: 30vh;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  z-index: -100;
+  margin: -30vh -15vh;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  background-image: url("../../assets/images/design-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.5;
+}
+
 .cursor_on_projects {
   position: absolute;
   height: 30vh;
@@ -284,8 +306,8 @@ body::-webkit-scrollbar-thumb {
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;
-  -webkit-transform: scaleY(0);
-          transform: scaleY(0);
+  -webkit-transform: scale(0);
+          transform: scale(0);
   background-size: cover;
   background-position: center;
   opacity: 0.9;
@@ -335,7 +357,6 @@ header nav {
   z-index: 1;
   height: 28vh;
   width: 20vw;
-  background-color: #cecece;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -434,6 +455,7 @@ header nav ul li:nth-child(5) {
     margin-top: 0px;
     -webkit-transform-origin: top left;
             transform-origin: top left;
+    background-color: #F67119;
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
   }
@@ -442,6 +464,7 @@ header nav ul li:nth-child(5) {
     margin-bottom: 0px;
     -webkit-transform-origin: bottom left;
             transform-origin: bottom left;
+    background-color: #F67119;
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
   }
@@ -450,6 +473,7 @@ header nav ul li:nth-child(5) {
     height: 100vh;
     width: 100vw;
     z-index: 100;
+    background-color: #cecece;
     -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
             clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
     -webkit-transition: all 0.5s ease-out;
@@ -604,7 +628,7 @@ header nav ul li:nth-child(5) {
 
 .hero_section {
   height: 100vh;
-  margin: 20vh 10vh 0px 10vh;
+  margin: 10vh 10vh 0px 10vh;
 }
 
 .hero_section .text_container {
@@ -620,11 +644,21 @@ header nav ul li:nth-child(5) {
   z-index: 10;
 }
 
+.hero_section .text_container h1 span {
+  color: #F67119;
+}
+
+.hero_section .text_container p {
+  margin-top: 3vh;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+}
+
 .hero_section .text_container .cta {
-  height: 7vh;
-  width: 10vw;
+  height: 8vh;
+  width: 11vw;
   margin-top: 5vh;
-  border: 2px solid #161616;
+  background-color: #F67119;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -635,10 +669,17 @@ header nav ul li:nth-child(5) {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 600;
   z-index: 10;
   text-decoration: none;
-  color: #161616;
+  color: #ffffff;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.hero_section .text_container .cta:hover {
+  -webkit-box-shadow: 1px 1px 30px #F67119;
+          box-shadow: 1px 1px 30px #F67119;
 }
 
 .hero_section .hero_image {
@@ -647,15 +688,15 @@ header nav ul li:nth-child(5) {
   top: 27vh;
   right: 0px;
   width: 70vw;
-  background-color: #e6e6e6;
 }
 
 .hero_section .hero_image .scroll_indicator {
+  opacity: 0;
   position: absolute;
-  height: 15vh;
-  width: 15vh;
+  height: 13vh;
+  width: 13vh;
   border-radius: 50%;
-  margin: -7.5vh 0px 0px -7.5vh;
+  margin: -6.5vh 0px 0px -6.5vh;
   z-index: 3;
   -webkit-animation: rotatebysomedeg 30s linear infinite;
           animation: rotatebysomedeg 30s linear infinite;
@@ -696,7 +737,7 @@ header nav ul li:nth-child(5) {
 @media screen and (orientation: portrait) {
   .hero_section {
     height: 110vh;
-    margin: 5vh 10vw 0px 10vw;
+    margin: 25vh 10vw 0px 10vw;
   }
   .hero_section .text_container {
     position: absolute;
@@ -709,11 +750,14 @@ header nav ul li:nth-child(5) {
     font-size: 4rem;
     z-index: 10;
   }
+  .hero_section .text_container p {
+    display: none;
+    font-size: 28px;
+  }
   .hero_section .text_container .cta {
     height: 7vw;
     width: 25vw;
-    margin-top: 5vh;
-    border: 2px solid #161616;
+    margin-top: 3vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -727,14 +771,13 @@ header nav ul li:nth-child(5) {
     font-weight: 500;
     z-index: 10;
     text-decoration: none;
-    color: #161616;
+    color: #ffffff;
   }
   .hero_section .hero_image {
     z-index: 2;
     right: 0px;
-    top: 60vh;
-    width: 100vw;
-    background-color: #e6e6e6;
+    top: 70vh;
+    width: 120vw;
   }
   .hero_section .hero_image .scroll_indicator {
     display: none;
@@ -758,6 +801,9 @@ header nav ul li:nth-child(5) {
     height: 12vw;
     width: 40vw;
     font-size: 1.2rem;
+  }
+  .hero_section .hero_image {
+    top: 65vh;
   }
   .hero_section .hero_image img {
     height: auto;
@@ -841,6 +887,7 @@ header nav ul li:nth-child(5) {
   margin: -35vh -30vh 0px 0vh;
   color: #DFDFDF;
   font-weight: 500;
+  z-index: 1000;
 }
 
 .project_section .project-list {
@@ -906,7 +953,7 @@ header nav ul li:nth-child(5) {
     margin-top: 5vh;
   }
   .project_section .rellax #headding-3 {
-    margin: 5vh -12vh 0px 0vh;
+    margin: -5vh -12vh 0px 0vh;
   }
   .project_section .project-list {
     margin: 0vh 10vw 0px 10vw;
@@ -926,7 +973,7 @@ header nav ul li:nth-child(5) {
 
 @media screen and (orientation: portrait) and (max-width: 800px) {
   .project_section .rellax #headding-3 {
-    margin: 5vh -18vh 0px 0vh;
+    margin: -5vh -18vh 0px 0vh;
   }
 }
 
@@ -1070,7 +1117,7 @@ header nav ul li:nth-child(5) {
     margin-top: 20vh;
   }
   .design_section .rellax #headding-3 {
-    margin: 5vh -12vh 0px -12vh;
+    margin: -15vh -12vh 0px -12vh;
   }
   .design_section .design-list {
     margin: 0vh 10vw 0px 10vw;
@@ -1090,7 +1137,7 @@ header nav ul li:nth-child(5) {
 
 @media screen and (orientation: portrait) and (max-width: 800px) {
   .design_section .rellax #headding-3 {
-    margin: 0vh 10vw 0px -22vw;
+    margin: -5vh 10vw 0px -22vw;
   }
 }
 
@@ -1264,7 +1311,7 @@ footer .social_media_list img {
 
 .about_section {
   height: 110vh;
-  margin: 20vh 10vh 0px 10vh;
+  margin: 45vh 10vh 0px 10vh;
 }
 
 .about_section .text_container {
@@ -1275,16 +1322,17 @@ footer .social_media_list img {
 .about_section .text_container h1 {
   position: relative;
   text-align: left;
-  font-size: 2.625rem;
+  font-size: 114px;
   font-weight: 400;
   z-index: 10;
+  color: #161616;
 }
 
 .about_section .text_container .cta {
-  height: 7vh;
-  width: 10vw;
+  height: 8vh;
+  width: 11vw;
   margin-top: 5vh;
-  border: 2px solid #161616;
+  background-color: #F67119;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1295,10 +1343,17 @@ footer .social_media_list img {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 600;
   z-index: 10;
   text-decoration: none;
-  color: #161616;
+  color: #ffffff;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.about_section .text_container .cta:hover {
+  -webkit-box-shadow: 1px 1px 30px #F67119;
+          box-shadow: 1px 1px 30px #F67119;
 }
 
 .about_section .text_container p {

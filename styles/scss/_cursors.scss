@@ -29,9 +29,10 @@
     pointer-events: none;
 }
 .cursor_active{
+    //border: 1px solid rgb(255, 131, 16);
     background-color: rgb(255, 131, 16);
-    transform: scale(20);
-    transition: all 0.2s;
+    transform: scale(10);
+    transition: all 0.1s;
     mix-blend-mode: difference;
 }.cursor_on_links{
     user-select: none;
@@ -45,6 +46,22 @@
     transition: all 0.025s;
     mix-blend-mode: normal;
 }
+.cursor_on_title{
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    transition: all 0.5s ease-out;
+    z-index: -100;
+    margin: -30vh -15vh;
+    user-select: none;
+    pointer-events: none;
+    transform: scale(1);
+    background-image: url("../../assets/images/design-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.5;
+}
 .cursor_on_projects{
     position: absolute;
     height: 30vh;
@@ -54,7 +71,7 @@
     margin: -20vh -34vh;
     user-select: none;
     pointer-events: none;
-    transform: scaleY(0);
+    transform: scale(0);
     background-size: cover;
     background-position: center;
     opacity: 0.9;

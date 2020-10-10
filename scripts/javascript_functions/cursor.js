@@ -25,6 +25,4 @@ export var custom_cursor = function(){
         cursor_follower.style.transform = "rotate(-45deg)";
         document.body.style.backgroundColor = "#f5f5f5";
     });
-    /*
-    */
 }

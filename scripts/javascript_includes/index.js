@@ -8,7 +8,7 @@ import {open_nav_on_click} from '../javascript_functions/open_nav_on_click.js';
 import {pageEnterAnimation} from '../javascript_functions/pageEnterAnimation.js';
 import {pageLeavingAnimationFunction} from '../javascript_functions/pageLeavingAnimation.js';
 import {scroll_to_top_after_loading} from '../javascript_functions/scroll_to_top_after_load_is_completed.js';
-
+import {indexAnimation} from '../javascript_functions/index_animations.js';
 //....................functions..................
 
 window.onload = function(){
@@ -36,10 +36,18 @@ window.onload = function(){
                 console.log("there was a problem with cursor_on_design function");
             }
             finally{
-                scroll_to_top_after_loading();
-                pageLeavingAnimationFunction();
-                cursor_on_links();
-                var rellax = new Rellax('.rellax');
+                try{
+                    indexAnimation();
+                }
+                catch{
+                    console.log("page does not contain headder");
+                }
+                finally{
+                    scroll_to_top_after_loading();
+                    pageLeavingAnimationFunction();
+                    cursor_on_links();
+                    var rellax = new Rellax('.rellax');
+                }
             }
         }
     }
