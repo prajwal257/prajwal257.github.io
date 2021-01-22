@@ -199,6 +199,12 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@media screen and (max-width: 720px) and (orientation: portrait) {
+  .enter_loader {
+    font-size: 10vh;
+  }
+}
+
 @media screen and (orientation: portrait) {
   /*
     @media screen and (max-width: 800px){

@@ -44,3 +44,11 @@
         height: 100vh;
     }
 }
+
+
+
+@media screen and (max-width: 720px) and (orientation: portrait){
+    .enter_loader{
+        font-size: 10vh;
+    }
+}
