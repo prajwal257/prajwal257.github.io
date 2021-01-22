@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="LOGO.svg"
+   width="316.10492mm"
+   height="316.10492mm"
+   viewBox="0 0 316.10491 316.10491"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#383838"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="556.16486"
+     inkscape:cy="259.77223"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="false"
+     showborder="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-1.9580078e-7,12.342637)"
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 1"
+     style="opacity:0.997">
+    <rect
+       sodipodi:insensitive="true"
+       y="7.2859378"
+       x="44.29464"
+       height="289.52979"
+       width="371.17264"
+       id="rect832"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;paint-order:stroke fill markers" />
+    <text
+       id="text836"
+       y="67.788315"
+       x="167.06548"
+       style="font-weight:bold;font-size:3.175px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold';stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="67.788315"
+         x="167.06548"
+         id="tspan834"
+         sodipodi:role="line">  </tspan></text>
+    <path
+       inkscape:export-ydpi="1593.0383"
+       inkscape:export-xdpi="1593.0383"
+       d="m 144.03896,52.951599 h -1.71569 v 3.963624 h 0.9173 v -1.092827 h 0.79839 c 1.05885,0 1.72134,-0.549245 1.72134,-1.432567 0,-0.888985 -0.66249,-1.43823 -1.72134,-1.43823 z m -0.051,2.12337 h -0.74743 v -1.375943 h 0.74743 c 0.56057,0 0.84368,0.254804 0.84368,0.690803 0,0.430336 -0.28311,0.68514 -0.84368,0.68514 z"
+       style="font-weight:bold;font-size:5.66232px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold';stroke-width:0.471859"
+       id="path844" />
+    <path
+       inkscape:export-ydpi="1593.0383"
+       inkscape:export-xdpi="1593.0383"
+       d="m 146.73373,53.630102 h 3.75305 v -0.675551 h -3.75305 z"
+       style="font-weight:bold;font-size:5.66232px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold';stroke-width:0.625508"
+       id="path846" />
+    <path
+       inkscape:export-ydpi="1593.0383"
+       inkscape:export-xdpi="1593.0383"
+       d="m 146.78149,57.874635 h 1.67184 c 1.20393,0 2.02934,-0.725514 2.02934,-1.840071 0,-1.114557 -0.82541,-1.840071 -2.02934,-1.840071 h -1.67184 z m 0.8517,-0.699227 V 54.89372 h 0.77808 c 0.73077,0 1.2092,0.43636 1.2092,1.140844 0,0.704484 -0.47843,1.140844 -1.2092,1.140844 z"
+       style="font-weight:bold;font-size:5.66232px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold';stroke-width:0.438111"
+       id="path850" />
+    <path
+       inkscape:export-ydpi="1593.0383"
+       inkscape:export-xdpi="1593.0383"
+       id="path859"
+       style="font-weight:bold;font-size:5.66232px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold';stroke-width:0.625508"
+       d="m 142.32448,57.881952 h 3.75305 v -0.675551 h -3.75305 z" />
+  </g>
+</svg>
