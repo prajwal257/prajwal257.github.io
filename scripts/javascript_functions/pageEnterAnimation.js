@@ -6,7 +6,7 @@ export var pageEnterAnimation = function(){
         ease: "Expo.easeInOut",
         //delay: 1,
     })
-    tl.from(".text_container h1", 2 , {
+    tl.from(".text_container h1", 1 , {
         y: 100,
         ease: Power4.out,
         delay: -1,
@@ -27,7 +27,7 @@ export var pageEnterAnimation = function(){
         ease: Power4.out,
         //delay: -1
     })
-    tl.from(".text_container p", 1 , {
+    tl.from(".text_container p", .2 , {
         y: 50,
         skewY: 5,
         opacity: 0,
