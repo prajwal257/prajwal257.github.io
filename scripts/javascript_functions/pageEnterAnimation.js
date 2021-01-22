@@ -3,6 +3,7 @@ export var pageEnterAnimation = function(){
     tl.to(".enter_loader", {
         duration: 2.5,
         height: "0%",
+        fontSize: "0px",
         ease: "Expo.easeInOut",
         //delay: 1,
     })

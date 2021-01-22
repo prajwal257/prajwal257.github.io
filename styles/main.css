@@ -127,13 +127,26 @@ body::-webkit-scrollbar-thumb {
 }
 
 .enter_loader {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: fixed;
   bottom: 0vh;
   left: 0px;
   height: 100vh;
   width: 100vw;
-  background-color: #C5C5C5;
+  background-color: #3C493F;
   z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15vh;
+  color: #cecece;
 }
 
 @-webkit-keyframes enter_animation {
@@ -142,6 +155,7 @@ body::-webkit-scrollbar-thumb {
   }
   100% {
     height: 0vh;
+    font-size: 0px;
   }
 }
 
@@ -151,6 +165,7 @@ body::-webkit-scrollbar-thumb {
   }
   100% {
     height: 0vh;
+    font-size: 0px;
   }
 }
 
@@ -160,7 +175,7 @@ body::-webkit-scrollbar-thumb {
   left: 0px;
   height: 0vh;
   width: 100vw;
-  background-color: #C5C5C5;
+  background-color: #3C493F;
   z-index: 1000;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
