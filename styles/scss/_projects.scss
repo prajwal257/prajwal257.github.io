@@ -23,6 +23,9 @@
         margin-bottom: 10vh;
         .img_container{
             height: 100%;
+            img{
+                max-width: 70vw;
+            }
         }
     }
     .project_des_container{

@@ -1971,6 +1971,10 @@ footer .social_media_list img {
   height: 100%;
 }
 
+.project_container .project_img_container .img_container img {
+  max-width: 70vw;
+}
+
 .project_container .project_des_container {
   margin: 0px 10vh 10vh 10vh;
 }
