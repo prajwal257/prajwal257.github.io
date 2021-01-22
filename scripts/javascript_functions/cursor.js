@@ -17,6 +17,8 @@ export var custom_cursor = function(){
         //cursor_follower.style.borderColor = "#000000";
         cursor_follower.style.transform = "scale(0) rotate(-45deg)";
         document.body.style.backgroundColor = "#cecece";
+        //document.body.style.filter = "blur(10px)";
+        //document.getElementsByClassName("hero_image")[0].style.filter ="none";
     });
     view_on_hover.addEventListener("mouseleave", function(){
         //view_on_hover.style.transform = "scale(1)"
@@ -24,5 +26,7 @@ export var custom_cursor = function(){
         cursor_follower.style.transform = "scale(1)";
         cursor_follower.style.transform = "rotate(-45deg)";
         document.body.style.backgroundColor = "#f5f5f5";
+        //document.body.style.filter = "none";
+        //document.getElementsByClassName("hero_image")[0].style.filter = "none";
     });
 }

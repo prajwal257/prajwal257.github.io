@@ -10,6 +10,7 @@ body{
     overflow-x: hidden;
     transition: all 0.5s;
     scroll-behavior: smooth;
+    //filter: grayscale(100%);
 }
 body::-webkit-scrollbar{
     width: 6px;
