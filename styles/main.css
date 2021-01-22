@@ -145,7 +145,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 15vh;
+  font-size: 5vh;
   color: #cecece;
 }
 
@@ -201,7 +201,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 720px) and (orientation: portrait) {
   .enter_loader {
-    font-size: 7vh;
+    font-size: 3vh;
   }
 }
 
