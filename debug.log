@@ -8,3 +8,4 @@
 [0826/135350.283:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0826/135350.283:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0826/135350.283:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0524/222810.926:ERROR:icu_util.cc(247)] Couldn't mmap icu data file

@@ -7,7 +7,7 @@
             position: absolute;
             transform: rotate(-90deg);
             font-size: $text-watermark;
-            margin: -68vh 0vh 0px -30vh;
+            margin: -68vh 0vh 0px -25vh;
             color: #DFDFDF;
             font-weight: 500;
         }
@@ -50,7 +50,7 @@
         li:hover{
             a{
                 h4{
-                    margin-right: 5vh;
+                    margin-right: 2vh;
                     font-weight: 600;
                 }
                 ul{
@@ -183,7 +183,7 @@
         margin-top: 0vh;
         .rellax{
             #headding-3{
-                margin: -20vh 0vh 0px -30vh;
+                margin: -20vh 0vh 0px -15vh;
             }
         }
     }

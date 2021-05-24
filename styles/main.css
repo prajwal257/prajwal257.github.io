@@ -2,7 +2,7 @@
   margin: 0pc;
   padding: 0px;
   border: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: sans-serif;
   cursor: none;
 }
 
@@ -139,12 +139,12 @@ body::-webkit-scrollbar-thumb {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   font-size: 5vh;
   color: #cecece;
 }
@@ -241,26 +241,26 @@ body::-webkit-scrollbar-thumb {
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;
-  -webkit-transition: -webkit-transform .15s ease-out;
-  transition: -webkit-transform .15s ease-out;
-  transition: transform .15s ease-out;
-  transition: transform .15s ease-out, -webkit-transform .15s ease-out;
+  -webkit-transition: -webkit-transform .15s ease-in-out;
+  transition: -webkit-transform .15s ease-in-out;
+  transition: transform .15s ease-in-out;
+  transition: transform .15s ease-in-out, -webkit-transform .15s ease-in-out;
 }
 
 .cursor_follower {
   position: absolute;
   top: 0vh;
   left: 50%;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   background-color: rgba(255, 255, 255, 0);
-  border: 1px solid #616161;
+  border: 2px solid #616161;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
-  margin: -30px 0px 0px -30px;
-  border-radius: 75%;
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
+  margin: -26px 0px 0px -26px;
+  border-radius: 100%;
+  -webkit-transition: all 0.05s;
+  transition: all 0.05s;
   z-index: 100;
   pointer-events: none;
 }
@@ -269,6 +269,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #ff8310;
   -webkit-transform: scale(10);
           transform: scale(10);
+  border-radius: 1000%;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
   mix-blend-mode: difference;
@@ -285,10 +286,10 @@ body::-webkit-scrollbar-thumb {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  -webkit-transform: scale(1.8);
-          transform: scale(1.8);
-  -webkit-transition: all 0.025s;
-  transition: all 0.025s;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: all 0.015s;
+  transition: all 0.015s;
   mix-blend-mode: normal;
 }
 
@@ -316,12 +317,13 @@ body::-webkit-scrollbar-thumb {
 
 .cursor_on_projects {
   position: absolute;
-  height: 30vh;
-  width: 58vh;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  height: 25vh;
+  width: 50vh;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  opacity: 0.8;
   z-index: -100;
-  margin: -20vh -34vh;
+  margin: -12.5vh -25vh;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -331,7 +333,6 @@ body::-webkit-scrollbar-thumb {
           transform: scale(0);
   background-size: cover;
   background-position: center;
-  opacity: 0.9;
 }
 
 @media screen and (orientation: portrait) {
@@ -406,7 +407,7 @@ header nav ul li a {
 
 header nav ul li:nth-child(4) a {
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
   color: #161616;
   cursor: none;
@@ -714,10 +715,10 @@ header nav ul li:nth-child(5) {
 .hero_section .hero_image .scroll_indicator {
   opacity: 0;
   position: absolute;
-  height: 13vh;
-  width: 13vh;
+  height: 10vh;
+  width: 10vh;
   border-radius: 50%;
-  margin: -6.5vh 0px 0px -6.5vh;
+  margin: -5vh 0px 0px -5vh;
   z-index: 3;
   -webkit-animation: rotatebysomedeg 30s linear infinite;
           animation: rotatebysomedeg 30s linear infinite;
@@ -905,7 +906,8 @@ header nav ul li:nth-child(5) {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   font-size: 9.625rem;
-  margin: -35vh -30vh 0px 0vh;
+  line-height: 9.625rem;
+  margin: -35vh -25vh 0px 0vh;
   color: #DFDFDF;
   font-weight: 500;
   z-index: 1000;
@@ -955,7 +957,7 @@ header nav ul li:nth-child(5) {
 }
 
 .project_section .project-list li:hover a h4 {
-  margin-left: 5vh;
+  margin-left: 2vh;
   font-weight: 600;
 }
 
@@ -1032,7 +1034,7 @@ header nav ul li:nth-child(5) {
     margin-top: 15vh;
   }
   .project_section .rellax #headding-3 {
-    margin: -20vh -30vh 0px 0vh;
+    margin: -20vh -15vh 0px 0vh;
   }
 }
 
@@ -1064,7 +1066,7 @@ header nav ul li:nth-child(5) {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   font-size: 9.625rem;
-  margin: -68vh 0vh 0px -30vh;
+  margin: -68vh 0vh 0px -25vh;
   color: #DFDFDF;
   font-weight: 500;
 }
@@ -1119,7 +1121,7 @@ header nav ul li:nth-child(5) {
 }
 
 .design_section .design-list li:hover a h4 {
-  margin-right: 5vh;
+  margin-right: 2vh;
   font-weight: 600;
 }
 
@@ -1206,7 +1208,7 @@ header nav ul li:nth-child(5) {
     margin-top: 0vh;
   }
   .design_section .rellax #headding-3 {
-    margin: -20vh 0vh 0px -30vh;
+    margin: -20vh 0vh 0px -15vh;
   }
 }
 
@@ -1379,10 +1381,10 @@ footer .social_media_list img {
 
 .about_section .text_container p {
   margin-top: 17vh;
-  font-size: 1rem;
+  font-size: 1.2rem;
   width: 40vw;
   color: #161616;
-  word-spacing: 0.6rem;
+  word-spacing: 0.2rem;
   line-height: 1.6rem;
 }
 

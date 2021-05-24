@@ -49,10 +49,10 @@
         .scroll_indicator{
             opacity: 0;
             position: absolute;
-            height: 13vh;
-            width: 13vh;
+            height: 10vh;
+            width: 10vh;
             border-radius: 50%;
-            margin: -6.5vh 0px 0px -6.5vh;
+            margin: -5vh 0px 0px -5vh;
             z-index: 3;
             animation: rotatebysomedeg 30s linear infinite;
             transition: all 2s ease-out;
