@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="work with me illusration.svg.2020_08_25_21_03_05.0.svg"
    width="316.10492mm"
    height="316.10492mm"
    viewBox="0 0 316.10491 316.10491"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7137">
+      <stop
+         style="stop-color:#515151;stop-opacity:1"
+         offset="0"
+         id="stop7133" />
+      <stop
+         style="stop-color:#808080;stop-opacity:0;"
+         offset="1"
+         id="stop7135" />
+    </linearGradient>
     <linearGradient
        id="linearGradient965"
        inkscape:collect="always">
@@ -72,7 +84,7 @@
        inkscape:collect="always" />
     <radialGradient
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.94560432,0,0,0.31052086,-53.89348,164.74342)"
+       gradientTransform="matrix(1.6030948,0,0,0.31052086,597.52721,164.74342)"
        r="34.210499"
        fy="238.93893"
        fx="-990.76819"
@@ -87,11 +99,20 @@
        fx="-990.76819"
        cy="238.93893"
        cx="-990.76819"
-       gradientTransform="matrix(0.96117331,0,0,0.21293979,96.77011,188.05934)"
+       gradientTransform="matrix(1.62198,0,0,0.21293979,751.47628,188.05934)"
        gradientUnits="userSpaceOnUse"
        id="radialGradient971"
        xlink:href="#linearGradient965"
        inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7137"
+       id="linearGradient7139"
+       x1="-977.67389"
+       y1="94.339088"
+       x2="-973.40997"
+       y2="96.323463"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      showguides="false"
@@ -101,9 +122,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748738"
-     inkscape:cx="-3741.1406"
-     inkscape:cy="434.00862"
+     inkscape:zoom="0.35000001"
+     inkscape:cx="-3957.1428"
+     inkscape:cy="355.71428"
      inkscape:document-units="mm"
      inkscape:current-layer="svg8"
      inkscape:document-rotation="0"
@@ -113,7 +134,13 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:showpageshadow="false"
-     showborder="false" />
+     showborder="false"
+     inkscape:pagecheckerboard="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -195,7 +222,8 @@
      inkscape:export-xdpi="178.11717"
      id="path997"
      d="m -983.54487,43.218758 c 0,0 1.44443,0.480987 0.38156,1.274929 -1.06288,0.793942 -3.93265,0.88358 -3.93265,0.88358 0,0 -0.50565,-1.948001 3.55109,-2.158509 z"
-     style="fill:#280b0b;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#280b0b;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <rect
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
@@ -204,129 +232,158 @@
      height="377.34457"
      width="547.5946"
      id="rect974"
-     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.84984;stroke-linecap:round;paint-order:stroke fill markers" />
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.84984;stroke-linecap:round;paint-order:stroke fill markers"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <ellipse
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      ry="6.7804594"
-     rx="34.210499"
+     rx="57.730217"
      cy="238.93893"
      cx="-855.52979"
      id="ellipse969"
-     style="fill:url(#radialGradient971);fill-opacity:1;stroke:none;stroke-width:6.87856;stroke-linecap:round;paint-order:stroke fill markers" />
+     style="fill:url(#radialGradient971);fill-opacity:1;stroke:none;stroke-width:8.93551;stroke-linecap:round;paint-order:stroke fill markers"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <ellipse
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
-     style="fill:url(#radialGradient967);fill-opacity:1;stroke:none;stroke-width:6.87856;stroke-linecap:round;paint-order:stroke fill markers"
+     style="fill:url(#radialGradient967);fill-opacity:1;stroke:none;stroke-width:8.95617;stroke-linecap:round;paint-order:stroke fill markers"
      id="ellipse959"
      cx="-990.76819"
      cy="238.93893"
-     rx="34.210499"
-     ry="6.7804594" />
+     rx="57.997486"
+     ry="6.7804594"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path1153"
      d="m -868.4116,87.003864 -6.96887,7.501846 c 0,0 -2.02829,3.76683 -8.25803,6.22975 -6.22975,2.46292 -12.89412,2.60779 -27.38189,10.28631 l 1.30389,7.24389 c 0,0 27.23703,-2.02828 31.58336,-4.4912 4.34633,-2.46292 17.96484,-13.32876 17.96484,-13.32876 0,0 0.75386,-7.32518 -8.2433,-13.441836 z"
-     style="fill:#ffccaa;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
+     style="fill:#ffccaa;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
-     style="fill:#acb4db;fill-opacity:1;stroke:none;stroke-width:0.290999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m -845.55867,222.73448 c 0,0 -2.19239,6.42512 0.90777,9.27421 0,0 2.46934,2.65084 1.78728,4.51679 0,0 -21.69949,3.99325 -33.5797,2.28877 0,0 -2.53235,-1.48071 -2.46296,-2.16944 0,0 0.81193,-3.93113 6.54709,-3.72971 5.73517,0.20142 12.26955,-4.4911 12.26955,-4.4911 0,0 1.64966,0.0476 2.78964,-8.77146 1.13996,-8.81902 11.74133,3.08194 11.74133,3.08194 z"
-     id="path1007" />
+     style="fill:#232b51;fill-opacity:1;stroke:none;stroke-width:0.290999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -848.03091,222.73448 c 0,0 -2.19239,6.42512 0.90777,9.27421 0,0 2.46934,2.65084 1.78728,4.51679 0,0 -21.69949,3.99325 -33.5797,2.28877 0,0 -2.53235,-1.48071 -2.46296,-2.16944 0,0 0.81193,-3.93113 6.54709,-3.72971 5.73517,0.20142 12.26955,-4.4911 12.26955,-4.4911 0,0 1.64966,0.0476 2.78964,-8.77146 1.13996,-8.81902 11.74133,3.08194 11.74133,3.08194 z"
+     id="path1007"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path928"
      d="m -1005.9443,241.96739 0.9001,-3.99671 c 0,0 27.39931,3.70542 34.91647,1.95585 0,0 2.24129,-1.1349 2.08763,-3.33746 0,0 2.1001,2.76599 1.28054,3.94411 0,0 -12.70306,4.04653 -39.18474,1.43421 z"
-     style="fill:#000000;stroke:#000000;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#000000;stroke:#000000;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path924"
      d="m -1002.4336,223.41046 c 0,0 2.3658,6.73682 -0.8158,9.77925 0,0 -2.5291,2.82512 -1.7948,4.78097 0,0 22.59779,3.9117 34.91647,1.95585 0,0 2.61057,-1.59365 2.529,-2.31805 0,0 -0.8974,-4.12901 -6.85277,-3.83926 -5.95539,0.28976 -12.80815,-4.56364 -12.80815,-4.56364 0,0 -1.7132,0.0724 -3.0185,-9.19974 -1.30527,-9.27217 -12.15545,3.40462 -12.15545,3.40462 z"
-     style="fill:#333333;stroke:none;stroke-width:0.304405px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#333333;stroke:none;stroke-width:0.304405px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#280b0b;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -988.73505,134.2987 c 0,0 7.78575,26.02078 4.91731,38.92873 -2.86843,12.90795 -7.37597,27.04523 -5.32709,47.32915 0,0 -3.89287,5.63443 -15.05927,3.38066 0,0 1.7416,-81.8528 -6.6588,-89.22877 -8.4004,-7.37597 22.12785,-0.40977 22.12785,-0.40977 z"
-     id="path926" />
+     id="path926"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#4d4d4d;stroke:none;stroke-width:0.304405px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -1006.635,223.41046 c 0,0 2.3658,6.73682 -0.8159,9.77925 0,0 -2.529,2.82512 -1.7947,4.78097 0,0 22.59773,3.9117 34.91641,1.95585 0,0 2.61057,-1.59365 2.529,-2.31805 0,0 -0.8974,-4.12901 -6.85277,-3.83926 -5.95538,0.28976 -12.80815,-4.56364 -12.80815,-4.56364 0,0 -1.7132,0.0724 -3.0185,-9.19974 -1.30527,-9.27217 -12.15539,3.40462 -12.15539,3.40462 z"
-     id="path930" />
+     id="path930"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path995"
      d="m -989.14483,220.55658 0.29588,4.76365 c 0,0 -2.766,2.25376 -5.83933,1.6391 -3.07332,-0.61466 -1.12689,-7.01741 -1.12689,-7.01741 z"
-     style="fill:#280b0b;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#280b0b;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#501616;stroke:none;stroke-width:0.293386px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m -1011.9208,162.57325 c 0,0 3.5079,11.21658 -0.5843,23.09656 0,0 -2.1218,13.61851 5.1531,39.26187 0,0 6.9583,1.19204 14.03154,-2.1374 0,0 2.64034,-26.11376 4.7622,-41.03616 0,0 4.24374,-12.60437 5.15312,-25.78825 0.90937,-13.18388 -3.78907,-38.68237 -3.78907,-38.68237 l -24.08359,1.84948 c 0,0 -16.8823,8.31485 -0.643,43.43627 z"
+     d="m -1011.9208,162.57325 c 0,0 2.6393,7.14072 -0.5843,23.09656 0,0 -2.1218,13.61851 5.1531,39.26187 0,0 6.9583,1.19204 14.03154,-2.1374 0,0 2.64034,-26.11376 4.7622,-41.03616 0,0 4.24374,-12.60437 5.15312,-25.78825 0.90937,-13.18388 -3.78907,-38.68237 -3.78907,-38.68237 l -24.08359,1.84948 c 0,0 -16.0319,10.96068 -0.643,43.43627 z"
      id="path934"
-     sodipodi:nodetypes="cccccsccc" />
+     sodipodi:nodetypes="cccccsccc"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path976"
      d="m -1000.6404,124.38652 c 0,0 -6.6644,19.41361 -2.318,40.85553 0,0 2.8919,16.48824 -1.8206,23.04466"
-     style="fill:none;stroke:#000000;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:none;stroke:#000000;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path978"
      d="m -990.33439,125.6934 c 0,0 -0.71711,14.95683 -14.13731,17.82526"
-     style="fill:none;stroke:#000000;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:none;stroke:#000000;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path1009"
-     d="m -859.85979,138.30241 c 0,0 -7.1669,24.80009 -4.24434,37.01925 2.92245,12.21915 7.43782,25.58515 5.72027,44.86777 0,0 3.81725,5.3011 14.53575,3.02328 0,0 -2.7025,-77.68843 5.28968,-84.79499 7.99218,-7.10656 -21.30136,-0.11531 -21.30136,-0.11531 z"
-     style="fill:#32340e;fill-opacity:1;stroke:none;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     d="m -859.85979,138.30241 c 0,0 -7.1669,24.80009 -4.24434,37.01925 2.92245,12.21915 5.09921,24.78334 3.38166,44.06596 0,0 6.15586,6.10291 16.87436,3.82509 0,0 -2.7025,-77.68843 5.28968,-84.79499 7.99218,-7.10656 -21.30136,-0.11531 -21.30136,-0.11531 z"
+     style="fill:#32340e;fill-opacity:1;stroke:none;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     sodipodi:nodetypes="csccsc"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#000000;stroke:#000000;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m -841.94717,240.30876 -0.91645,-3.78328 c 0,0 -26.32313,3.8568 -33.5797,2.28877 0,0 -2.17122,-1.04974 -2.05099,-3.14272 0,0 -1.98646,2.65197 -1.18299,3.76032 0,0 12.27641,3.68459 37.73013,0.87691 z"
-     id="path1005" />
+     d="m -844.41941,240.30876 -0.91645,-3.78328 c 0,0 -26.32313,3.8568 -33.5797,2.28877 0,0 -2.17122,-1.04974 -2.05099,-3.14272 0,0 -1.98646,2.65197 -1.18299,3.76032 0,0 12.27641,3.68459 37.73013,0.87691 z"
+     id="path1005"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path1011"
      d="m -841.51513,222.68251 c 0,0 -2.19241,6.42512 0.90777,9.2742 0,0 2.46944,2.65085 1.78728,4.51679 0,0 -21.69939,3.99326 -33.5797,2.28878 0,0 -2.53235,-1.48071 -2.46297,-2.16944 0,0 0.81194,-3.93114 6.5471,-3.72971 5.73516,0.20142 12.26955,-4.4911 12.26955,-4.4911 0,0 1.64966,0.0476 2.78963,-8.77146 1.13997,-8.81902 11.74134,3.08194 11.74134,3.08194 z"
-     style="fill:#bac1e1;fill-opacity:1;stroke:none;stroke-width:0.290999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#495aa7;fill-opacity:1;stroke:none;stroke-width:0.290999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path1053"
      d="m -837.90364,240.25679 -0.91644,-3.78329 c 0,0 -26.32313,3.85681 -33.5797,2.28878 0,0 -2.17122,-1.04974 -2.05099,-3.14272 0,0 -1.98646,2.65198 -1.18289,3.76032 0,0 12.27631,3.68459 37.73002,0.87691 z"
-     style="fill:#0b0b1c;fill-opacity:1;stroke:none;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#0b0b1c;fill-opacity:1;stroke:none;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#32340e;fill-opacity:1;stroke:none;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m -858.38386,220.18943 -0.22501,4.52621 c 0,0 2.69036,2.10548 5.64044,1.48391 2.95008,-0.62156 0.9965,-6.67618 0.9965,-6.67618 z"
-     id="path1013" />
+     d="m -860.72247,219.38762 -0.96,4.8603 c 0,0 5.76396,2.5732 8.71404,1.95163 2.95008,-0.62156 0.9965,-6.67618 0.9965,-6.67618 z"
+     id="path1013"
+     sodipodi:nodetypes="ccscc"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      sodipodi:nodetypes="cccccsccc"
      id="path1015"
      d="m -837.19088,164.85909 c 0,0 -3.23543,10.69226 0.8519,21.92034 0,0 2.21289,12.90299 -4.46709,37.33845 0,0 -6.68181,1.21777 -13.53102,-1.85565 0,0 -2.86852,-24.75941 -5.09776,-38.90028 0,0 -4.24229,-11.91394 -5.2828,-24.41928 -1.04051,-12.50536 3.16157,-36.7714 3.16157,-36.7714 l 23.20169,1.45795 c 0,0 16.35198,7.68518 1.16351,41.22987 z"
-     style="fill:#4e5016;fill-opacity:1;stroke:none;stroke-width:0.280465px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#4e5016;fill-opacity:1;stroke:none;stroke-width:0.280465px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path1155"
      d="m -850.79122,68.973713 -17.62038,18.030151 c 0,0 3.68799,10.654186 11.06396,16.186156 0,0 5.1222,-2.66354 17.00565,-14.751938 z"
-     style="fill:url(#linearGradient1165);fill-opacity:1;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:url(#linearGradient1165);fill-opacity:1;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
+  <path
+     style="fill:#300d0d;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.65151513"
+     d="m -1018.3637,129.82617 c 0,0 8.0181,-0.86863 10.6908,0.4009 0,0 0.6013,11.75986 -2.7395,17.17207 -3.3409,5.41221 -4.8777,7.41673 -4.8777,7.41673 0,0 -5.1449,-12.36121 -3.0736,-24.9897 z"
+     id="path5407"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+     inkscape:export-xdpi="178.11717"
+     inkscape:export-ydpi="178.11717" />
   <g
      transform="translate(-1.9580078e-7,12.342637)"
      inkscape:groupmode="layer"
@@ -368,63 +425,74 @@
        d="m 137.86681,54.559147 c 0,0 -10.20535,-0.188985 -18.52083,6.425595 -8.31547,6.61459 -6.70908,20.599705 -6.70908,20.599705 0,0 5.48065,25.135413 5.10268,44.223213 0,0 20.22173,-0.37797 30.80506,-6.80357 0,0 -6.4256,-21.73363 -3.40178,-36.096725 3.00092,-14.254337 -7.27605,-28.348218 -7.27605,-28.348218 z"
        style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
-       inkscape:export-ydpi="178.11717"
+       style="fill:#ffb380;fill-opacity:1;stroke:#000000;stroke-width:0.81788;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -986.75649,7.8772312 c 0,0 3.92383,9.9404948 3.30261,11.3529938 -1.46104,3.322043 2.64208,7.083061 2.64208,7.083061 0,0 -1.03797,1.205627 -1.84002,1.004688 0,0 -0.57575,1.165753 0.47178,2.160083 0,0 -0.18872,0.653049 -0.37743,0.653049 0,0 0.45999,0.45211 0.48359,0.7284 0,0 -1.03797,1.054924 -0.75489,2.047055 0,0 0.55437,1.494476 -0.93182,2.674986 -1.48617,1.18051 -8.86985,0.954455 -10.42679,-1.205628 -1.55695,-2.160082 -1.04491,-15.814086 -1.60413,-16.401557 -3.28447,-3.450435 10.20574,-7.292356 9.41245,-9.1929102 z"
+       id="path7920"
+       sodipodi:nodetypes="csccccccssssc"
+       inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
        inkscape:export-xdpi="178.11717"
-       style="fill:#ffb380;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -991.70593,35.185955 c 0,0 -0.40978,8.400411 1.22933,10.449293 1.6391,2.048881 -14.7519,-4.200207 -14.7519,-4.200207 0,0 -2.2538,-10.961511 -1.6391,-18.235041 0.6146,-7.273525 10.14191,-8.707742 10.14191,-8.707742 z"
-       id="path938" />
+       inkscape:export-ydpi="178.11717" />
     <path
        inkscape:export-ydpi="178.11717"
        inkscape:export-xdpi="178.11717"
        style="fill:#ffb380;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -988.32583,10.991648 c 0,0 7.20659,0.343109 4.52636,8.311385 0,0 -1.01414,3.766823 1.59365,5.795112 2.6078,2.028287 -1.2666,3.170174 -1.2666,3.170174 0,0 -4.85341,2.915666 -5.3967,4.889626 -0.5433,1.97396 -4.37347,2.693897 -5.80769,-1.096533 -1.43422,-3.790429 -1.74155,-16.800822 -0.922,-20.437586 0.81956,-3.6367638 7.27298,-0.632178 7.27298,-0.632178 z"
-       id="path940"
-       sodipodi:nodetypes="ccscsssc" />
+       d="m -991.70593,35.185955 c 0,0 -0.40978,8.400411 1.22933,10.449293 1.6391,2.048881 -14.7519,-4.200207 -14.7519,-4.200207 0,0 -2.2538,-10.961511 -1.6391,-18.235041 0.6146,-7.273525 10.14191,-8.707742 10.14191,-8.707742 z"
+       id="path938"
+       inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
     <path
        inkscape:export-ydpi="178.11717"
        inkscape:export-xdpi="178.11717"
        style="fill:#1a1a1a;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -978.90878,3.6753212 c 0,0 -1.95585,10.2138798 -6.30218,10.3587588 -4.34633,0.144878 -6.01242,0.362194 -6.01242,0.362194 0,0 -2.97,1.086583 -2.89756,5.86755 l -2.52792,0.144579 c 0,0 -0.38416,-4.30265 -1.28058,-4.609983 -0.8964,-0.307332 -6.91246,6.276376 -6.04316,17.287085 0,0 -1.2315,2.390484 -2.463,1.883411 0,0 -5.5777,-9.996564 -6.1572,-16.660941 0,0 1.2315,-5.143162 -0.9418,-9.3446158 0,0 9.9966,-18.3270366 26.9473,-9.12729897 0,0 3.05128,1.0055294 4.58794,0.6981974 z"
-       id="path942" />
-    <path
-       inkscape:export-ydpi="178.11717"
-       inkscape:export-xdpi="178.11717"
-       sodipodi:nodetypes="cssc"
-       style="fill:#ffb380;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -985.30317,28.066094 c 0,0 3.47279,6.203014 2.24347,7.278676 -1.22933,1.075663 -8.79989,-0.927145 -7.92912,-4.051689 0.87078,-3.124544 5.68565,-3.226987 5.68565,-3.226987 z"
-       id="path944" />
-    <path
-       inkscape:export-ydpi="178.11717"
-       inkscape:export-xdpi="178.11717"
-       style="fill:#1a1a1a;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -994.67681,24.634217 c 0,0 -0.30733,7.990638 7.58086,8.400413 0,0 3.11645,-0.09401 4.60145,1.427215 0,0 0.79682,3.730602 -0.21732,4.382551 0,0 -5.36048,1.448778 -10.35876,-1.19524 -4.99826,-2.64402 -3.14289,-13.117381 -3.14289,-13.117381 z"
-       id="path946" />
-    <path
-       inkscape:export-ydpi="178.11717"
-       inkscape:export-xdpi="178.11717"
-       style="fill:#1a1a1a;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -983.47242,28.268319 c 0,0 -4.56366,0.760607 -5.83133,4.636087 -1.26769,3.875481 2.2078,0.130224 2.2078,0.130224 0,0 1.12439,-1.832536 3.55109,-2.158509 0,0 1.08658,-0.72439 0.94169,-1.448778 -0.14487,-0.724389 -0.86925,-1.159024 -0.86925,-1.159024 z"
-       id="path948" />
+       id="path942"
+       inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
     <path
        inkscape:export-ydpi="178.11717"
        inkscape:export-xdpi="178.11717"
        style="fill:#1e1e1e;fill-opacity:1;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -981.8713,9.7798332 c 0,0 -24.8938,-7.7857492 -27.455,11.7810638 0,0 -0.7748,8.273665 2.8907,13.408019 0,0 -4.636,-4.998281 -6.1572,-16.660941 0,0 1.5212,-5.722673 -0.9418,-9.3446158 0,0 10.214,-18.3994757 26.9473,-9.12729897 0,0 2.20611,1.0311398 4.58794,0.6981974 l 3.09058,3.14106357 c 0,0 -1.11852,5.208126 -2.96252,6.104512 z"
-       id="path950" />
+       id="path950"
+       inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
     <path
        inkscape:export-ydpi="178.11717"
        inkscape:export-xdpi="178.11717"
        style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -1006.0789,41.246053 c 0,0 11.06386,-0.204885 20.07894,6.966195 9.01507,7.17109 7.27353,22.332805 7.27353,22.332805 0,0 -5.94175,27.250112 -5.53198,47.943807 0,0 -23.24589,-0.40977 -34.71959,-7.37597 0,0 6.2142,-24.686599 2.1761,-40.078559 -4.1039,-15.642575 10.723,-29.788278 10.723,-29.788278 z"
+       d="m -1007.0238,41.246053 c 0,0 11.06382,-0.204885 20.0789,6.966195 9.01507,7.17109 7.27353,22.332805 7.27353,22.332805 0,0 -5.94175,27.250112 -5.53198,47.943807 0,0 -25.13575,10.17356 -34.71955,-5.2971 0,0 7.9151,-22.229755 3.877,-37.621715 -4.1039,-15.642575 9.0221,-34.323992 9.0221,-34.323992 z"
        id="path952"
-       sodipodi:nodetypes="cscccsc" />
+       sodipodi:nodetypes="cscccsc"
+       inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
+    <path
+       id="path16370"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:1.08413px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -3717.5918 394.52539 C -3717.5918 394.52539 -3740.0101 520.70739 -3854.8262 474.46094 C -3818.6039 532.93272 -3723.6035 494.48047 -3723.6035 494.48047 C -3724.2301 462.83651 -3720.9269 427.14013 -3716.7715 395.8457 L -3717.5918 394.52539 z "
+       transform="matrix(0.26458333,0,0,0.26458333,1.9580078e-7,-12.342637)"
+       inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+       inkscape:export-xdpi="178.11717"
+       inkscape:export-ydpi="178.11717" />
+    <path
+       id="path15303"
+       style="fill:#b4b4b4;fill-opacity:1;stroke:none;stroke-width:1.08413px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -3806.0742 202.53906 C -3806.0742 202.53906 -3855.6846 273.14603 -3840.1738 332.26758 C -3824.9117 390.44192 -3854.8262 474.46094 -3854.8262 474.46094 C -3818.5269 528.16108 -3735.0712 498.81714 -3724.6797 494.89844 C -3724.6604 494.89113 -3724.6691 494.89385 -3724.6504 494.88672 C -3723.9636 494.62754 -3723.6035 494.48047 -3723.6035 494.48047 C -3723.6035 494.48047 -3775.7145 490.71514 -3805 413.57227 C -3834.286 336.42942 -3799.2891 203.25391 -3799.2891 203.25391 L -3799.8203 202.78906 C -3803.7329 202.51082 -3806.0742 202.53906 -3806.0742 202.53906 z "
+       transform="matrix(0.26458333,0,0,0.26458333,1.9580078e-7,-12.342637)"
+       inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+       inkscape:export-xdpi="178.11717"
+       inkscape:export-ydpi="178.11717" />
   </g>
+  <path
+     style="fill:#e6e6e6;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.64141417"
+     d="m -979.67137,82.88769 c 0,0 3.28839,-17.777955 -12.74445,-25.421281 0,0 12.97635,15.515818 12.74445,25.421281 z"
+     id="path14708"
+     sodipodi:nodetypes="ccc"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+     inkscape:export-xdpi="178.11717"
+     inkscape:export-ydpi="178.11717" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path1157"
      d="m -906.47224,110.40711 c 0,0 -15.99071,1.56861 -20.36628,4.98596 0,0 1.35244,7.28286 5.09156,8.73944 0,0 7.95558,0.95237 12.33115,-3.58542 4.37557,-4.53778 4.61424,-6.33048 10.34225,-7.17081 5.72801,-0.84032 -7.39868,-2.96917 -7.39868,-2.96917 z"
-     style="fill:#ffccaa;stroke:none;stroke-width:0.264355px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
+     style="fill:#ffccaa;stroke:none;stroke-width:0.264355px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      id="path882"
      d="m 107.72321,98.651784 -6.42806,6.919676 c 0,0 -1.870886,3.47451 -7.617181,5.7463 -5.746295,2.27179 -11.893494,2.40542 -25.256971,9.48806 l 1.202714,6.68174 c 0,0 25.123336,-1.87088 29.132379,-4.14267 4.009039,-2.27179 16.570709,-12.2944 16.570709,-12.2944 0,0 0.69536,-6.75672 -7.60359,-12.398706 z"
@@ -466,127 +534,156 @@
      inkscape:export-xdpi="178.11717"
      id="path932"
      d="m -966.75956,240.53318 c 0,0 -3.02209,3.79042 -23.25479,2.35621 -20.23265,-1.43422 23.25479,-2.35621 23.25479,-2.35621 z"
-     style="fill:#000000;stroke:#000000;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#000000;stroke:#000000;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path936"
      d="m -976.79907,233.66942 c 0,0 -3.89288,0.66588 -5.22465,0.40978 -1.33177,-0.25612 -8.34918,-3.73922 -8.34918,-3.73922 0,0 0.23353,-0.8346 3.11325,-1.1344 2.87972,-0.29981 2.72606,2.87595 10.46058,4.46384 z"
-     style="fill:#000000;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#000000;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#ffb380;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -972.54889,88.198877 6.96887,7.501846 c 0,0 2.02829,3.76683 8.25803,6.229747 6.22975,2.46292 12.89412,2.60779 27.38189,10.28631 l -1.30389,7.24389 c 0,0 -27.23703,-2.02828 -31.58336,-4.4912 -4.34633,-2.46292 -17.96484,-13.32876 -17.96484,-13.32876 0,0 -0.75386,-7.325177 8.2433,-13.441833 z"
-     id="path954" />
+     id="path954"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:url(#linearGradient970);fill-opacity:1;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -990.16927,70.168726 17.62038,18.030151 c 0,0 -3.68799,10.654186 -11.06396,16.186153 0,0 -5.1222,-2.66354 -17.00565,-14.751935 z"
-     id="path956" />
+     id="path956"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#ffb380;stroke:none;stroke-width:0.264355px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -934.48825,111.60212 c 0,0 15.99071,1.56861 20.36628,4.98596 0,0 -1.35244,7.28286 -5.09156,8.73944 0,0 -7.95558,0.95237 -12.33115,-3.58542 -4.37557,-4.53778 -4.61424,-6.33048 -10.34225,-7.17081 -5.72801,-0.84032 7.39868,-2.96917 7.39868,-2.96917 z"
-     id="path972" />
+     id="path972"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path1159"
      d="m -911.02039,111.02177 c 0,0 -7.38878,-2.17317 -11.59023,-1.73853 -4.20145,0.43463 4.70852,4.34633 4.70852,4.34633 0,0 7.89585,0.5795 6.88171,-2.6078 z"
-     style="fill:#ffccaa;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
+     style="fill:#ffccaa;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#ffb380;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -929.9401,112.21678 c 0,0 7.38878,-2.17317 11.59023,-1.73853 4.20145,0.43463 -4.70852,4.34633 -4.70852,4.34633 0,0 -7.89585,0.5795 -6.88171,-2.6078 z"
-     id="path958" />
+     id="path958"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path1161"
      d="m -868.4116,87.003864 3.28123,-3.255328 c 0,0 5.52896,13.397294 11.98294,16.368164 l -4.20021,3.07332 c 0,0 -7.17109,-5.17343 -11.06396,-16.186156 z"
-     style="fill:#808080;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#808080;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#808080;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -972.54889,88.198877 -3.28123,-3.255328 c 0,0 -5.52896,13.397294 -11.98294,16.368161 l 4.20021,3.07332 c 0,0 7.17109,-5.173427 11.06396,-16.186153 z"
-     id="path960" />
+     id="path960"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
-     style="fill:#999999;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m -1005.2285,53.777678 -0.6147,-2.919655 c 0,0 7.58086,0.204889 11.37128,2.509879 0,0 0.58641,2.853633 2.08951,3.396926 0,0 -7.44223,-3.063985 -12.84609,-2.98715 z"
-     id="path962" />
+     style="fill:#828282;fill-opacity:1;stroke:none;stroke-width:0.389898px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -1007.8625,54.297124 1.1506,-5.34623 c 0,0 10.94032,0.55097 16.09254,3.684084 0,0 0.57004,6.19486 2.61316,6.933345 0,0 -12.5108,-5.375639 -19.8563,-5.271199 z"
+     id="path962"
+     sodipodi:nodetypes="ccccc"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#000000;stroke:#000000;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -1010.1458,241.96739 0.9002,-3.99671 c 0,0 27.39926,3.70542 34.91641,1.95585 0,0 2.24129,-1.1349 2.08763,-3.33746 0,0 2.1001,2.76599 1.28054,3.94411 0,0 -12.70306,4.04653 -39.18478,1.43421 z"
-     id="path964" />
+     id="path964"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#000000;stroke:#000000;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -970.96102,240.53318 c 0,0 -3.02209,3.79042 -23.25478,2.35621 -20.2327,-1.43422 23.25478,-2.35621 23.25478,-2.35621 z"
-     id="path966" />
+     id="path966"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#1a1a1a;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -981.00052,233.66942 c 0,0 -3.89289,0.66588 -5.22466,0.40978 -1.33176,-0.25612 -8.34918,-3.73922 -8.34918,-3.73922 0,0 0.23353,-0.8346 3.11325,-1.1344 2.87973,-0.29981 2.72606,2.87595 10.46059,4.46384 z"
-     id="path968" />
+     id="path968"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
+  <path
+     style="fill:#ffb98b;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+     d="m -961.1012,102.29741 c 0,0 -4.67719,6.41447 -1.20269,10.15624 3.47449,3.74177 23.65336,4.6104 23.65336,4.6104 0,0 3.94221,-0.0668 4.14266,-1.9377 0.20045,-1.87089 0.0196,-3.52423 0.0196,-3.52423 0,0 -9.44089,-6.1643 -26.61296,-9.30471 z"
+     id="path5849"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+     inkscape:export-xdpi="178.11717"
+     inkscape:export-ydpi="178.11717" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path980"
      d="m -929.94011,112.21678 c 0,0 -3.23052,3.18098 -3.84516,7.07386 l -3.02211,-0.25611 c 0,0 -0.15367,-5.99298 3.32943,-8.65651 z"
-     style="fill:#1a1a1a;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#1a1a1a;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path993"
      d="m -993.32046,222.79428 c 0,0 0.0663,3.3455 0.42496,4.01139 0,0 -6.24904,4.55876 -13.3689,2.66355 l -1.0876,-4.53754 c 0,0 10.32836,-3.74135 14.03154,-2.1374 z"
-     style="fill:#501616;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#501616;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:none;stroke:#000000;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -848.52616,128.74465 c 0,0 6.65735,18.34859 2.74318,38.75902 0,0 -2.57646,15.68949 2.04113,21.85578"
-     id="path1017" />
+     id="path1017"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#000000;stroke:#000000;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m -879.6773,239.43185 c 0,0 2.95607,3.5612 22.41038,1.9493 19.4543,-1.61191 -22.41038,-1.9493 -22.41038,-1.9493 z"
-     id="path1037" />
+     d="m -882.14954,239.43185 c 0,0 2.95607,3.5612 22.41038,1.9493 19.4543,-1.61191 -22.41038,-1.9493 -22.41038,-1.9493 z"
+     id="path1037"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#000000;stroke:none;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m -870.10109,232.7913 c 0,0 3.75484,0.58403 5.03342,0.32442 1.27848,-0.25963 7.98844,-3.65324 7.98844,-3.65324 0,0 -0.23522,-0.78947 -3.01041,-1.03848 -2.77531,-0.24901 -2.58754,2.76411 -10.01145,4.3673 z"
-     id="path1039" />
+     d="m -872.57333,232.7913 c 0,0 3.75484,0.58403 5.03342,0.32442 1.27848,-0.25963 7.98844,-3.65324 7.98844,-3.65324 0,0 -0.23522,-0.78947 -3.01041,-1.03848 -2.77531,-0.24901 -2.58754,2.76411 -10.01145,4.3673 z"
+     id="path1039"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path1055"
      d="m -875.63366,239.37988 c 0,0 2.95597,3.56119 22.41028,1.9493 19.4543,-1.61191 -22.41028,-1.9493 -22.41028,-1.9493 z"
-     style="fill:#0b0b1c;fill-opacity:1;stroke:none;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#0b0b1c;fill-opacity:1;stroke:none;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path1057"
      d="m -866.05755,232.73933 c 0,0 3.75484,0.58403 5.03343,0.32442 1.27847,-0.25964 7.98843,-3.65324 7.98843,-3.65324 0,0 -0.23521,-0.78947 -3.01041,-1.03848 -2.77531,-0.24901 -2.58754,2.76411 -10.01145,4.3673 z"
-     style="fill:#1a1a1a;stroke:none;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#1a1a1a;stroke:none;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#4e5016;fill-opacity:1;stroke:none;stroke-width:0.27421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -854.33709,222.26223 c 0,0 -0.0217,3.17699 -0.3586,3.81361 0,0 6.07134,4.25073 12.8998,2.36336 l 0.98982,-4.32132 c 0,0 -9.98714,-3.42423 -13.53102,-1.85565 z"
-     id="path1061" />
+     id="path1061"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      id="path1087"
      d="m 428.88465,50.066701 c 0,0 4.463,4.994314 3.18787,9.138536 -1.27515,4.144219 3.08161,9.244794 3.08161,9.244794 l -2.55031,0.531312 c 0,0 3.40036,5.631884 1.48767,10.51994 -1.91269,4.888052 -13.07021,-0.743835 -13.07021,-0.743835 L 415.07061,55.16728 Z"
@@ -626,74 +723,154 @@
      inkscape:export-xdpi="178.11717"
      style="fill:#ffccaa;stroke:none;stroke-width:0.270006px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -861.95567,12.717303 c 0,0 -3.9661,4.578803 -2.5845,8.14658 1.3816,3.567774 -2.48006,8.234636 -2.48006,8.234636 l 2.41731,0.346344 c 0,0 -2.94031,5.087372 -0.92717,9.276501 2.01314,4.189128 12.23403,-1.259204 12.23403,-1.259204 l 4.53316,-20.923517 z"
-     id="path1137" />
+     id="path1137"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#ffccaa;fill-opacity:1;stroke:none;stroke-width:0.294165px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -834.32002,37.286593 c 0,0 -7.03614,10.13833 -2.79026,17.707453 4.24587,7.569123 -13.72105,7.405022 -13.72105,7.405022 0,0 -3.00143,-24.04855 -10.17982,-22.60413 -7.17839,1.444423 6.81035,-10.588904 6.81035,-10.588904 l 2.94137,-12.543618 c 0,0 16.60932,10.851052 16.93941,20.624177 z"
-     id="path1139" />
+     id="path1139"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.266606px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -854.52909,57.098246 c 0,0 12.52158,-6.349508 18.91409,-1.458517 6.39247,4.890997 12.10687,23.876985 6.74657,39.245702 -5.36029,15.368729 -1.56919,34.970859 -1.56919,34.970859 0,0 -13.06543,6.63687 -33.92864,2.7237 0,0 0.636,-24.66468 -1.66484,-28.03339 -2.3902,-1.67417 -2.31087,-10.709388 -3.44958,-17.542736 0,0 -1.07187,-21.038932 14.95159,-29.905618 z"
      id="path1147"
-     sodipodi:nodetypes="cssccccc" />
+     sodipodi:nodetypes="cssccccc"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#ffa23a;fill-opacity:1;stroke:none;stroke-width:0.270006px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -834.31982,37.286585 c 0,0 -7.17285,-2.017828 -8.73676,-10.511066 -1.56392,-8.493237 -10.89966,-8.557821 -10.89966,-8.557821 0,0 -9.35584,-0.459161 -11.24909,-7.090059 l 1.25425,0.333392 c 0,0 -1.69326,-0.970917 -1.96935,-1.8802355 -0.27611,-0.9093169 -0.32809,-1.5825117 -0.32809,-1.5825117 0,0 0.54559,0.9948506 0.76555,1.148767 0,0 -0.87463,-1.5554162 -0.93755,-2.096211 -0.063,-0.5407928 -0.34796,-3.7077391 -0.34796,-3.7077391 0,0 1.17346,1.7226668 2.08526,1.9571749 0,0 -0.73124,-0.7057252 -0.73451,-1.4637465 0,0 21.79994,-2.0980547 27.91593,6.0833574 6.11601,8.1814155 5.51738,24.3798695 3.18198,27.3666985 z"
-     id="path1141" />
+     id="path1141"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#ffa23a;fill-opacity:1;stroke:none;stroke-width:0.270006px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -846.4491,18.470863 c 0,0 -5.44076,4.225485 -1.83487,11.167044 3.60584,6.941564 1.07681,10.033756 1.07681,10.033756 0,0 -7.35386,12.21182 -13.8697,11.882199 -6.51585,-0.329621 -5.53701,-4.667083 -5.53701,-4.667083 0,0 2.24457,-5.006263 1.08378,-8.165415 0,0 11.05189,-4.836864 13.52222,-11.299504 2.47036,-6.46264 0.59032,-11.963695 0.59032,-11.963695 z"
-     id="path1143" />
+     id="path1143"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#ffa23a;fill-opacity:1;stroke:none;stroke-width:0.29693px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -865.55994,29.492311 c 0,0 9.71865,1.191873 10.48917,8.118447 0.77056,6.926574 -1.72653,1.975268 -1.72653,1.975268 0,0 -1.5626,-7.103266 -9.76835,-7.290339 0,0 -0.0861,-2.420906 1.00571,-2.803376 z"
-     id="path1145" />
+     id="path1145"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#1a1a1a;stroke:none;stroke-width:0.286843px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -911.02038,111.02177 c 0,0 3.23052,3.18098 3.84516,7.07386 l 3.02211,-0.25611 c 0,0 0.15367,-5.99298 -3.32943,-8.65651 z"
-     id="path1163" />
+     id="path1163"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
+  <path
+     id="path20713"
+     style="fill:#999999;fill-opacity:0.272727;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -3219.793 211.50195 C -3225.8163 213.85146 -3229.7168 215.80469 -3229.7168 215.80469 C -3290.2779 249.31657 -3286.2266 328.83398 -3286.2266 328.83398 C -3281.9228 354.66081 -3282.2213 388.80915 -3273.1875 395.13672 C -3264.4914 407.86885 -3266.8965 501.08984 -3266.8965 501.08984 C -3266.8965 501.08984 -3231.9825 495.9843 -3251.0293 379.63672 C -3270.0761 263.28913 -3207.2344 214.91016 -3207.2344 214.91016 L -3219.793 211.50195 z "
+     transform="scale(0.26458333)"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+     inkscape:export-xdpi="178.11717"
+     inkscape:export-ydpi="178.11717" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path1149"
      style="fill:#2e479d;fill-opacity:1;stroke:none;stroke-width:0.267865px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -830.47942,100.82442 c -0.84308,4.09542 -1.19049,8.26912 -1.26174,12.13034 l -32.93433,1.63282 c -0.24512,-3.03529 -0.68482,-5.69092 -1.43745,-7.20445 -0.69633,-2.45854 -0.93766,-4.22394 -1.07368,-4.56542 v 0 z"
-     sodipodi:nodetypes="ccccccc" />
+     sodipodi:nodetypes="ccccccc"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path1151"
      style="fill:#2e479d;fill-opacity:1;stroke:none;stroke-width:0.267385px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m -826.7988,77.466523 c 0.33856,3.945748 0.21517,8.070488 -0.54487,12.094787 l -41.62111,2.063492 -0.64132,-4.61476 c 0,0 -0.15457,-3.11581 0.56649,-7.449303 z" />
+     d="m -826.7988,77.466523 c 0.33856,3.945748 0.21517,8.070488 -0.54487,12.094787 l -41.62111,2.063492 -0.64132,-4.61476 c 0,0 -0.15457,-3.11581 0.56649,-7.449303 z"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      style="fill:#ffccaa;fill-opacity:1;stroke:none;stroke-width:0.251193px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m -849.34545,93.163678 c 0,0 -9.33322,-17.218315 3.6379,-27.660909 12.97116,-10.442593 17.69995,12.095797 17.69995,12.095797 0,0 1.52078,15.267916 -2.74045,24.456504 l -13.86957,2.56609 z"
-     id="path1173" />
+     id="path1173"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      id="path947"
      d="m -854.34143,139.00251 c 0,0 -4.50252,3.15582 -5.47139,6.38699 -0.96883,3.23119 -0.42156,3.41142 -0.42156,3.41142 0,0 1.53109,-0.76202 1.8881,-1.55339 0.35701,-0.79134 1.12598,-2.49578 2.01411,-2.45186 0.88814,0.0439 -1.8298,7.61656 -3.11856,9.07988 -1.28873,1.46335 0.9524,1.914 0.9524,1.914 0,0 5.13888,-5.19833 5.84924,-8.4758 0,0 -3.69897,8.66346 -4.92232,9.05298 0,0 1.51154,1.2164 2.00963,0.69292 0.49806,-0.52347 3.84837,-5.14214 4.21734,-5.95997 0,0 -2.5519,5.2186 -2.89203,5.42519 -0.34013,0.20658 1.66841,0.46157 1.66841,0.46157 0,0 3.40212,-4.14758 3.74706,-6.22577 0,0 -0.4903,2.9477 -0.76816,3.23523 -0.27787,0.28751 1.36513,0.47702 1.50105,0.17575 0.13594,-0.30132 4.35247,-8.44342 1.89432,-13.17516 -2.45816,-4.73172 -8.14761,-1.99398 -8.14761,-1.99398 z"
-     style="fill:#ffccaa;fill-opacity:1;stroke:none;stroke-width:0.258192px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#ffccaa;fill-opacity:1;stroke:none;stroke-width:0.258192px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
   <path
      inkscape:export-ydpi="178.11717"
      inkscape:export-xdpi="178.11717"
      sodipodi:nodetypes="cssscssc"
      id="path975"
      d="m -845.32312,100.74338 c 0,0 -0.96633,7.64246 -2.38161,9.97185 -1.41529,2.32937 -2.75319,7.67641 -3.0038,10.71343 -0.25058,3.03702 -2.02852,14.96167 -0.32739,19.42986 1.70114,4.46818 4.462,2.6497 4.462,2.6497 0,0 11.05583,-15.97563 12.35996,-20.94849 1.3041,-4.97288 4.35602,-16.30095 3.40409,-21.72662 -0.95192,-5.425683 -14.51325,-0.0897 -14.51325,-0.0897 z"
-     style="fill:#ffccaa;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+     style="fill:#ffccaa;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
+  <path
+     style="fill:#cc4747;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.14141415"
+     d="m -988.73505,134.2987 c 0,0 -4.96432,9.89921 -13.27985,12.73403 0,0 -0.9833,24.42789 6.23665,29.57664 0,0 17.48818,-9.21509 7.0432,-42.31067 z"
+     id="path965"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+     inkscape:export-xdpi="178.11717"
+     inkscape:export-ydpi="178.11717" />
+  <path
+     id="path1605"
+     style="fill:#622020;fill-opacity:0.5151515;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -3776.707 698.77344 C -3776.707 698.77344 -3814.6318 766.50347 -3788.7246 844.38672 C -3788.7246 844.38672 -3783.624 846.973 -3777.4336 849.31641 C -3770.2105 848.03208 -3762.273 845.81844 -3754.2812 842.05664 C -3754.2812 842.05664 -3747.3824 774.006 -3740.4473 718.58789 C -3741.2239 717.45034 -3742.1104 716.79325 -3743.1211 716.70312 C -3743.1211 716.70312 -3760.0395 699.53104 -3776.707 698.77344 z "
+     transform="scale(0.26458333)"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+     inkscape:export-xdpi="178.11717"
+     inkscape:export-ydpi="178.11717" />
+  <path
+     inkscape:export-ydpi="178.11717"
+     inkscape:export-xdpi="178.11717"
+     style="fill:url(#linearGradient7139);stroke:none;stroke-width:0.215597px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+     d="m -969.96093,91.0612 -2.58796,-2.862323 c 0,0 -3.80348,9.206714 -8.2433,13.441833 l 2.88941,2.52387 c 0,0 5.26386,-4.05953 7.94185,-13.10338 z"
+     id="path6857"
+     sodipodi:nodetypes="ccccc"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png" />
+  <path
+     style="fill:#333333;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.65151513"
+     d="m -994.12093,32.606461 c 0,0 0.75229,8.309459 2.35868,10.53007 1.60642,2.220611 4.6663,2.240735 4.6663,2.240735 0,0 1.71206,1.822508 1.80655,2.861942 0,0 -4.63022,0.897696 -8.17375,-0.236233 0,0 -2.83482,-1.181176 -3.40178,-1.889881 0,0 1.84955,-2.344644 0.21607,-13.362054 z"
+     id="path13372"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+     inkscape:export-xdpi="178.11717"
+     inkscape:export-ydpi="178.11717" />
+  <path
+     style="fill:#333333;fill-opacity:0.21717171;stroke:none;stroke-width:0.266631px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -982.7193,39.66061 c 0,0 -2.49906,0.203774 -3.7211,0.66383 -1.22207,0.460058 -1.54665,3.339127 -1.54665,3.339127 l 0.18775,1.075864 c 0.009,-0.01599 0.48396,-3.872824 5.61928,-3.159747 z"
+     id="path13374"
+     sodipodi:nodetypes="cscccc"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+     inkscape:export-xdpi="178.11717"
+     inkscape:export-ydpi="178.11717" />
+  <path
+     id="path18126"
+     style="fill:#6d6d6d;fill-opacity:0.18181819;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M -3168.584 467.25977 C -3168.584 467.25977 -3160.0006 596.42882 -3190.7148 647.85742 C -3221.4291 699.28598 -3202.2776 840.02455 -3195.8125 841.83203 C -3194.323 842.24845 -3192.6508 844.51853 -3190.3848 847.95703 C -3182.7264 847.94555 -3177.8496 847.06055 -3177.8496 847.06055 C -3152.6024 754.70605 -3160.9668 705.9375 -3160.9668 705.9375 C -3176.415 663.50066 -3164.1855 623.08984 -3164.1855 623.08984 C -3106.7803 496.30676 -3168.584 467.25977 -3168.584 467.25977 z "
+     transform="scale(0.26458333)"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+     inkscape:export-xdpi="178.11717"
+     inkscape:export-ydpi="178.11717" />
+  <path
+     style="fill:#666666;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -865.86773,19.137531 c 0,0 5.85383,-0.04973 8.78314,1.438547 0,0 -5.64604,-0.448847 -6.89808,-0.165364 z"
+     id="path21014"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+     inkscape:export-xdpi="178.11717"
+     inkscape:export-ydpi="178.11717" />
+  <path
+     style="fill:#000000;stroke:#000000;stroke-width:0.240219px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m -989.53458,31.103491 c 0,0 4.24102,-1.169305 5.0672,-0.300678 0,0 -2.01034,0.250565 -5.0672,0.300678 z"
+     id="path21195"
+     inkscape:export-filename="D:\GitHub\prajwal257.github.io\assets\svgs\path997.png"
+     inkscape:export-xdpi="178.11717"
+     inkscape:export-ydpi="178.11717" />
 </svg>
