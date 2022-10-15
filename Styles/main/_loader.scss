@@ -1,0 +1,128 @@
+// @keyframes open_close_loader {
+//     0%{
+//         height: ;
+//     }
+// }
+// .loader_open{
+//     height: 100vh;
+//     width: 100%;
+//     svg, h1{
+//         transform: scale(0);
+//     }
+// }
+
+.loader{
+
+    display: none;
+    z-index: 100;
+    position: fixed;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: $primary_background_color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s;
+    // animation: open_close_loader 0.5s linear forwards;
+    svg{
+        cursor: pointer;
+        transition: all;
+    }
+    .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+    }
+    svg{
+        width: 100px;
+        height: 100px;
+        margin-left: 15px;
+    }
+    h1{
+        margin-top: 15px;
+        font-size: 24px;
+        color: $secondary_text_color;
+    }
+
+    #input_layer, #hidden_layer, #output_layer{
+        fill: #161616;
+    }
+    .neuron{
+        opacity: 0;
+        stroke: #161616;
+        animation: neuron_animation 2500ms ease-in-out infinite;
+        animation-fill-mode: forwards;
+        animation-delay: 500ms;
+    }
+    #neuron_1_2{
+        animation-delay: 600ms;
+    }
+    #neuron_1_3{
+        animation-delay: 1000ms;
+    }
+    #neuron_1_4{
+        animation-delay: 700ms;
+    }
+    #neuron_1_5{
+        animation-delay: 800ms;
+    }
+    /* Output Neuron Animation */
+    #neuron_2_1{
+        animation-delay: 1500ms;
+    }
+    #neuron_2_2{
+        animation-delay: 1700ms;
+    }
+    #neuron_2_3{
+        animation-delay: 2000ms;
+    }
+    @keyframes neuron_animation {
+        0%{
+            opacity: 0;
+            stroke: blue;
+        }
+        50%{
+            stroke: greenyellow;
+        }
+        100%{
+            opacity: 1;
+            stroke: black;
+        }
+    }
+
+    #neuron_1, #neuron_2, #hidden_neuron_1, #hidden_neuron_2, #hidden_neuron_3, #output_layer{
+        animation: layer_animation 2500ms ease-in-out infinite;
+        transform-origin: center;
+    }
+    #neuron_2{
+        animation-delay: 100ms;
+    }
+    #hidden_neuron_1{
+        animation-delay: 600ms;
+    }
+    #hidden_neuron_2{
+        animation-delay: 700ms;
+    }
+    #hidden_neuron_3{
+        animation-delay: 800ms;
+    }
+    #output_layer{
+        animation-delay: 1500ms;
+    }
+    @keyframes layer_animation {
+        0%{
+            fill: greenyellow;
+            transform: scale(1);
+        }
+        50%{
+            fill: blue;
+            transform: scale(1.01);
+        }
+        100%{
+            fill: black;
+            transform: scale(1);
+        }
+    }
+}

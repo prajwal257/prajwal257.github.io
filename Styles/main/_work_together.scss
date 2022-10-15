@@ -1,0 +1,41 @@
+.work_together{
+    position: relative;
+    padding: 10vw 15vw;
+
+    .text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .my_pic{
+            position: absolute;
+            z-index: 1;
+            height: 10vw;
+            width: 10vw;
+            border-radius: 100%;
+            background-color: $primary_color;
+            margin-right: 10px;
+        }
+        h1{
+            position: relative;
+            z-index: 2;
+            color: $primary_text_color;
+            font-size: 48px;
+            line-height: 48px;
+            font-weight: 300;
+        }
+    }
+    .social_links{
+        margin: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        li{
+            margin: 10px;
+            padding: 1px 15px;
+            border: 1px solid primary_text_color;
+            border-radius: 50px;
+            color: primary_text_color;
+        }
+    }
+}

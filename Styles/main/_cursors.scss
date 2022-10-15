@@ -1,0 +1,101 @@
+.cursor{
+    position: absolute;
+    top: 0vh;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+    margin: -5px 0px 0px -5px;
+    border-radius: 500%;
+    z-index: 2000;
+    user-select: none;
+    pointer-events: none;
+    transition: transform .15s ease-in-out;
+    //mix-blend-mode: difference;
+}
+.cursor_follower{
+    position: absolute;
+    top: 0vh;
+    left: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(97, 97, 97);
+    transform: rotate(-45deg);
+    margin: -26px 0px 0px -26px;
+    border-radius: 100%;
+    transition: all 0.15s;
+    z-index: 100;
+    pointer-events: none;
+}
+.cursor_active{
+    //border: 1px solid rgb(255, 131, 16);
+    background-color: rgb(255, 131, 16);
+    transform: scale(10);
+    border-radius: 1000%;
+    transition: all 0.1s;
+    mix-blend-mode: difference;
+}.cursor_on_links{
+    user-select: none;
+    pointer-events: none;
+    background-color: rgba(122, 122, 122, 0);
+    // background-image: url('../../assets/svgs/rect832.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: scale(1.5);
+    transition: all 0.015s;
+    mix-blend-mode: normal;
+}
+.cursor_on_title{
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    transition: all 0.5s ease-out;
+    z-index: -100;
+    margin: -30vh -15vh;
+    user-select: none;
+    pointer-events: none;
+    transform: scale(1);
+    // background-image: url("../../assets/images/design-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.5;
+}
+.cursor_on_projects{
+    position: fixed;
+    height: 50vh;
+    width: 40vw;
+    top: 50%;
+    left: 50%;
+    margin: -25vh -20vw;
+    transition: all 0.25s ease-out;
+    background: #000;
+    opacity: 0.9;
+    z-index: -1;
+    border-radius: 5px;
+    // background-image: url("../DS_IMG_1.jpg");
+    user-select: none;
+    pointer-events: none;
+    transform: scale(0);
+    background-size: cover;
+    background-position: center;
+    // box-shadow: -5px -5px 1000px 1000px rgba(16, 16, 16, 0.5);
+}
+
+
+@media screen and (orientation:portrait){
+    .cursor{
+        display: none;
+    }
+    .cursor_follower{
+        display: none;
+    }
+    .cursor_on_links{
+        display: none;
+    }
+    .cursor_active{
+        display: none;
+    }
+}

@@ -1,0 +1,54 @@
+.projects{
+    padding: 15vw 5vw 3vw 5vw; 
+    // background: linear-gradient(to bottom, #00000000, #000000);
+    h1{
+        margin-bottom: 1vw;
+        font-family: Montserrat;
+        color: $secondary_text_color;
+        font-size: 28px;
+        font-weight: 300;
+    }
+    .project_list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        .project{
+            height: 23vh;
+            width: 60%;
+            overflow: hidden;
+            border-bottom: 1px solid $secondary_text_color;
+            padding: 0px 8vw 0px 8vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.25s;
+            mix-blend-mode: normal;
+            backdrop-filter: blur(0px);
+            h1{
+                margin: 0px;
+                font-size: 36px;
+                line-height: 48px;
+                font-weight: 300;
+                font-family: Bahnschrift;
+                color: $primary_text_color;
+            }
+            p{
+                color: $secondary_text_color;
+            }
+        }
+        .project:hover{
+            // background-color: $primary_background_color;
+            // opacity: 0.8;
+            // backdrop-filter: blur(20px);
+            // border: 1px 0px 1px 0px solid $secondary_text_color;
+            // font-weight: 600;
+            h1{
+                mix-blend-mode: difference;
+            }
+        }
+        .project:nth-last-child(1){
+            border-bottom: 0px solid $secondary_background_color;
+        }
+    }
+}
