@@ -59,6 +59,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .not_for_mobile{
+    display: none;
     height: 0px;
     width: 0px;
     position: fixed;
