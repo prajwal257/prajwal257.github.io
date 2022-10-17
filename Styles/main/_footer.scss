@@ -1,0 +1,14 @@
+footer{
+    margin-top: 10vh;
+    position: relative;
+    height: 50vh;
+    background-color: $secondary_background_color;
+    display: flex;
+    a{
+        position: relative;
+        z-index: 10;
+        height: 20px;
+        width: 20px;
+        // background-color: yellowgreen;
+    }
+}

@@ -1,36 +1,6 @@
-const projects = document.getElementsByClassName("project")
-let initial_background_color = "#161616";
-// console.log(document.getElementsByClassName("CSS_FILE")[0].getAttribute("theme"))
+import {essential_scripts} from "./main.js";
+import {home_page_scripts} from "./index_page_scripts.js";
 
-for(let i = 0; i<projects.length; i++){
-  projects[i].addEventListener("mouseover", function() {
-    document.getElementsByClassName("cursor_on_projects")[0].style.transform = "Scale(1)";
-    if(i==0){
-      document.getElementsByClassName("cursor_on_projects")[0].style.backgroundImage = "url('../assets/thumbnails/DS_IMG_1.jpg')";
-      document.body.style.backgroundColor = "blue";
-    }
-    if(i==1){
-      document.getElementsByClassName("cursor_on_projects")[0].style.backgroundImage = "url('../assets/thumbnails/DS_IMG_2.jpg')";
-      document.body.style.backgroundColor = "red";
-    }
-    if(i==2){
-      document.getElementsByClassName("cursor_on_projects")[0].style.backgroundImage = "url('../assets/thumbnails/DS_IMG_3.jpg')";
-      document.body.style.backgroundColor = "green";
-    }
-    if(i==3){
-      document.getElementsByClassName("cursor_on_projects")[0].style.backgroundImage = "url('../assets/thumbnails/DS_IMG_4.jpg')";
-      document.body.style.backgroundColor = "yellow";
-    }
-  })
-  projects[i].addEventListener("mouseout", function() {
-    document.getElementsByClassName("cursor_on_projects")[0].style.transform = "Scale(0)";
-    if(document.getElementsByClassName("CSS_FILE")[0].getAttribute("theme")!="dark")
-      initial_background_color = "#f5f5f5";
-    else
-      initial_background_color = "#161616";
-    document.body.style.backgroundColor = initial_background_color;
-  })
-}
 
 function delay(n) {
   n = n || 2000
@@ -41,58 +11,87 @@ function delay(n) {
   })
 }
 
+
 function leave_transition(data){
-  return gsap.to(data.current.container, {
-    y: 500,
-    opacity: 0,
-    duration: .25
+  tl.to(".loader", {
+    scale: "3",
+    duration: 1,
+    ease: "power4.in"
+  }).to(".loader .icon", {
+    scale: "1",
+    duration: .25,
+  })
+}
+
+function after_enter_transition(data){
+  // return gsap.from(data.next.container, {
+  //   opacity: 0,
+  //   delay: 1
+  // })
+}
+
+//async enter data
+function enter_transition(data){
+  // document.getElementsByClassName("loader")[0].style.transform = "Scale(0)";
+  tl.to(".loader .icon", {
+    scale: "0.001",
+    duration: .25,
+  }).to(".loader_container .loader", {
+    scale: "0.001",
+    duration: 1,
+    delay: .1,
+    ease: "power4.out"
+  }).to(".background_blob", {
+    scale: 1.001,
+    duration: 0.25,
+    stagger: 0.2,
+    delay: 1.5
   });
 }
 
-function enter_transition(data){
-  return gsap.from(data.current.container, {
-    opacity: 0,
-    duration: .5,
-    delay: .3
-  });
-}
+const tl = gsap.timeline()
 
 barba.init({
   sync: true,
     transitions: [{
+      once(data){
+        console.log("Executing Once")
+        // document.getElementsByClassName("loader")[0].style.transform = "Scale(0)";
+        enter_transition();
+        try{
+          essential_scripts();
+          try{
+            home_page_scripts();
+          }catch{
+            console.log("either this is not home page or something is very wrong with the projects script")
+          }
+        }catch{
+          console.log("something is not right here")
+        }
+      },
       async leave(data) {
+        console.log("Executing Leave")
+        console.log("Bye!!")
         const done = this.async();
         leave_transition(data)
-        await delay(1500);
+        await delay(0);
         done()
       },
       async enter(data) {
+        console.log("Executing Enter")
         const done = this.async();
-        enter_transition(data)
-        await delay(1500);
+        // document.getElementsByClassName("loader")[0].style.transform = "Scale(0)";
+        enter_transition();
+        await delay(100);
         done()
       },
-      afterEnter() {
-        const projects = document.getElementsByClassName("project")
-        for(let i = 0; i<projects.length; i++){
-          projects[i].addEventListener("mouseover", function() {
-            document.getElementsByClassName("cursor_on_projects")[0].style.transform = "Scale(1)";
-            if(i==0){
-              document.getElementsByClassName("cursor_on_projects")[0].style.backgroundImage = "url('../assets/thumbnails/DS_IMG_1.jpg')";
-            }
-            if(i==1){
-              document.getElementsByClassName("cursor_on_projects")[0].style.backgroundImage = "url('../assets/thumbnails/DS_IMG_2.jpg')";
-            }
-            if(i==2){
-              document.getElementsByClassName("cursor_on_projects")[0].style.backgroundImage = "url('../assets/thumbnails/DS_IMG_3.jpg')";
-            }
-            if(i==3){
-              document.getElementsByClassName("cursor_on_projects")[0].style.backgroundImage = "url('../assets/thumbnails/DS_IMG_4.jpg')";
-            }
-          })
-          projects[i].addEventListener("mouseout", function() {
-            document.getElementsByClassName("cursor_on_projects")[0].style.transform = "Scale(0)";
-          })
+      async afterEnter(data) {
+        console.log("Executing After Enter")
+        after_enter_transition(data)
+        try{
+          home_page_scripts();
+        }catch{
+          console.log("either this is not home page or something is very wrong with the projects script")
         }
       }
     }]

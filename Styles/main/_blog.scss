@@ -14,7 +14,7 @@
         display: flex;
         justify-content: space-between;
         .article{
-            width: 27vw;
+            flex-basis: 27%;
             padding-bottom: 30px;
             border-bottom: 1px solid $secondary_text_color;
             margin: 0px 1vw 0px 1vw;  // this is the distance between each article...change this to something good asap
@@ -51,6 +51,28 @@
                     font-weight: 200;
                     font-size: 12px;
                     color: $secondary_text_color;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (orientation: portrait){
+    @media screen and (max-width: 1024px) {
+        .blogs{
+            .articles{
+                margin: 0px 0px 10px 0px;
+                flex-flow: column;
+                .article{
+                    margin: 10px 0px 10px 0px;
+                    height: 15vh;
+                    margin: 10px;
+                    .image{
+                        backdrop-filter: none;
+                        img{
+                            width: 100%;
+                        }
+                    }
                 }
             }
         }
