@@ -17,9 +17,6 @@ function leave_transition(data){
     scale: "3",
     duration: 1,
     ease: "power4.in"
-  }).to(".loader .icon", {
-    scale: "1",
-    duration: .25,
   })
 }
 
@@ -33,10 +30,7 @@ function after_enter_transition(data){
 //async enter data
 function enter_transition(data){
   // document.getElementsByClassName("loader")[0].style.transform = "Scale(0)";
-  tl.to(".loader .icon", {
-    scale: "0.001",
-    duration: .25,
-  }).to(".loader_container .loader", {
+  tl.to(".loader_container .loader", {
     scale: "0.001",
     duration: 1,
     delay: .1,
@@ -57,7 +51,7 @@ barba.init({
       once(data){
         console.log("Executing Once")
         // document.getElementsByClassName("loader")[0].style.transform = "Scale(0)";
-        enter_transition();
+        enter_transition(data);
         try{
           essential_scripts();
           try{
@@ -81,8 +75,8 @@ barba.init({
         console.log("Executing Enter")
         const done = this.async();
         // document.getElementsByClassName("loader")[0].style.transform = "Scale(0)";
-        enter_transition();
-        await delay(100);
+        enter_transition(data);
+        await delay(1000);
         done()
       },
       async afterEnter(data) {

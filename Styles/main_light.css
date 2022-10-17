@@ -125,13 +125,16 @@
   .cursor_active {
     display: none;
   }
+  .cursor_on_projects {
+    display: none;
+  }
 }
 
 * {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  font-family: Bahnschrift;
+  font-family: "Segoe UI";
   -webkit-transition: all 2s;
   transition: all 2s;
 }
@@ -733,9 +736,7 @@ svg {
   height: 40px;
   width: 40px;
   border-radius: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1011,6 +1012,8 @@ svg {
   font-size: 64px;
   line-height: 72px;
   font-weight: 600;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
   color: var(--primary_text_color);
 }
 
@@ -1036,7 +1039,7 @@ svg {
   height: 50px;
   font-size: 16px;
   border-radius: 50px;
-  font-weight: 800;
+  font-weight: 600;
   background-color: var(--primary_text_color);
 }
 
@@ -1047,7 +1050,7 @@ svg {
   height: 50px;
   font-size: 16px;
   border-radius: 50px;
-  font-weight: 800;
+  font-weight: 600;
   background-color: var(--primary_text_color);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1223,7 +1226,7 @@ svg {
 
 .project_section .skills_section .articles .article .text p, .about_page .skills_section .articles .article .text p {
   margin-top: 20px;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 16px;
   color: var(--secondary_text_color);
 }
@@ -1231,6 +1234,23 @@ svg {
 .project_section .skills_png, .about_page .skills_png {
   height: 40vh;
   background-color: var(--secondary_background_color);
+  padding: 5vh 5vw 5vh 5vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5vw;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.project_section .skills_png img, .about_page .skills_png img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 50px;
 }
 
 .project_section .project_details, .about_page .project_details {
@@ -1300,6 +1320,23 @@ svg {
   }
   .project_section .skills_png, .about_page .skills_png {
     margin-top: 10vh;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0vw;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .project_section .skills_png img, .about_page .skills_png img {
+    height: 35px;
+  }
+  .project_section .project_details, .about_page .project_details {
+    padding: 0px;
+  }
+  .project_section .project_details dl li dt, .about_page .project_details dl li dt {
+    font-size: 1rem;
+  }
+  .project_section .project_details dl li dd, .about_page .project_details dl li dd {
+    font-size: 1rem;
   }
 }
 
@@ -1309,7 +1346,6 @@ svg {
 
 .projects h1 {
   margin-bottom: 1vw;
-  font-family: Montserrat;
   color: var(--secondary_text_color);
   font-size: 28px;
   font-weight: 300;
@@ -1400,7 +1436,6 @@ svg {
 
 .blogs h1 {
   margin-bottom: 3vw;
-  font-family: Montserrat;
   font-size: 28px;
   font-weight: 300;
   color: var(--secondary_text_color);

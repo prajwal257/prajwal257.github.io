@@ -24,7 +24,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.74029882"
-     inkscape:cx="316.76398"
+     inkscape:cx="285.69544"
      inkscape:cy="561.25984"
      inkscape:window-width="1920"
      inkscape:window-height="1020"
@@ -38,10 +38,35 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <path
-       id="rect846"
-       style="stroke-width:1.29834"
-       d="m 325.90234,226.77148 v 62.13672 h -66.50976 v 71.41407 c 0,0 -7.95489,80.33984 49.05859,80.33984 h 196.23242 c 0,0 -34.47265,-8.92677 -34.47265,-80.33984 V 288.9082 h -57.78125 v -62.13672 z"
-       transform="scale(0.26458333)" />
+    <circle
+       style="fill:#ff0000;fill-opacity:0.7;stroke-width:0.28473"
+       id="path846"
+       cx="-112.29608"
+       cy="-96.077019"
+       r="20"
+       transform="scale(-1)"
+       inkscape:export-filename="D:\Downloads\color_change_icon.png"
+       inkscape:export-xdpi="101.90254"
+       inkscape:export-ydpi="101.90254" />
+    <circle
+       style="fill:#00ff00;fill-opacity:0.7;stroke-width:0.28473"
+       id="circle1032"
+       cx="-88.486099"
+       cy="-96.625946"
+       r="20"
+       transform="scale(-1)"
+       inkscape:export-filename="D:\Downloads\color_change_icon.png"
+       inkscape:export-xdpi="101.90254"
+       inkscape:export-ydpi="101.90254" />
+    <circle
+       style="fill:#0000ff;fill-opacity:0.7;stroke-width:0.28473"
+       id="circle1052"
+       cx="-101.43763"
+       cy="-77.44574"
+       r="20"
+       transform="scale(-1)"
+       inkscape:export-filename="D:\Downloads\color_change_icon.png"
+       inkscape:export-xdpi="101.90254"
+       inkscape:export-ydpi="101.90254" />
   </g>
 </svg>

@@ -79,7 +79,7 @@
                     }
                     p{
                         margin-top: 20px;
-                        font-weight: 200;
+                        font-weight: 400;
                         font-size: 16px;
                         color: $secondary_text_color;
                     }
@@ -90,6 +90,18 @@
     .skills_png{
         height: 40vh;
         background-color: $secondary_background_color;
+        padding: 5vh 5vw 5vh 5vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 5vw;
+        grid-template-rows: 1fr 1fr;
+        img{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 50px;
+        }
     }
     .project_details{
         margin: 20vh 0px 30vh 0px;
@@ -142,13 +154,29 @@
             .skills_section{
                 .articles{
                     flex-flow: column;
-                    .article{
-
-                    }
                 }
             }
             .skills_png{
                 margin-top: 10vh;
+                grid-template-columns: 1fr 1fr;
+                grid-column-gap: 0vw;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                img{
+                    height: 35px;
+                }
+            }
+            .project_details{
+                padding: 0px;
+                dl{
+                    li{
+                        dt{
+                            font-size: 1rem;
+                        }
+                        dd{
+                            font-size: 1rem;
+                        }
+                    }
+                }
             }
         }
     }
