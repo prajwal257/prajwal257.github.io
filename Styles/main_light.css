@@ -1113,7 +1113,7 @@ svg {
 
 @media screen and (orientation: portrait) and (max-width: 1024px) {
   .hero_section {
-    margin-top: 3vw;
+    margin-top: 25vh;
   }
   .hero_section h1 {
     font-size: 2rem;
