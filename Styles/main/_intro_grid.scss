@@ -33,7 +33,8 @@
 @media screen and (orientation: portrait){
     @media screen and (max-width: 1024px) {
         .intro_grid_container{
-            height: 90vh;
+            height: 80vh;
+            pointer-events: none;
             .wrapper_rotate{
                 .intro_grid{
                     .row{
