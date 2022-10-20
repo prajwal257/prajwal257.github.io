@@ -1,9 +1,8 @@
 import {projects} from "./scripts/projects.js";
-import {india_hover_effect} from "./scripts/india_hover_effect.js";
+import { recolor_background_blobs } from "./scripts/recolor.js";
 
 export function home_page_scripts(){
     try{
-        india_hover_effect()
         projects();
         recolor_background_blobs()
     }catch{

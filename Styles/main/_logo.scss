@@ -10,7 +10,8 @@ svg{
     width: 40px;
     height: 40px;
 }
-.icon h1{
+.icon a h1{
+    color: $primary_text_color;
     margin-left: 15px;
     font-size: 16px;
     line-height: 16px;

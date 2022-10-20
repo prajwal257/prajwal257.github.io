@@ -1,14 +1,140 @@
 footer{
-    margin-top: 10vh;
-    position: relative;
-    height: 50vh;
+    //content-visibility: auto;
+    height: 20vh;
     background-color: $secondary_background_color;
+    margin-top: 15vh;
+    overflow: hidden;
     display: flex;
-    a{
-        position: relative;
-        z-index: 10;
-        height: 20px;
-        width: 20px;
-        // background-color: yellowgreen;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10vh 0px 10vh;
+    h6{
+        font-size: 1.2rem;
+        color: $primary_text_color;
+        cursor: none;
     }
+    .email{
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: $primary_text_color;
+    }
+    .social_media_list{
+        display: flex;
+        img{
+            filter: invert(1);
+            height: 1.2rem;
+            margin: 0px 0vh 0px 3vh;
+        }
+    }
+}
+
+
+
+
+
+
+
+//..........................Media Quaries.....................
+
+//.........................mobile_Resposive....................
+
+@media screen and (max-width: 1024px){
+    footer{
+        flex-direction: column;
+        padding: 3rem 10vw 3rem 10vw;
+        h6{
+            font-size: 2.3rem;
+        }
+        .email{
+            font-size: 2rem;
+        }
+        .social_media_list{
+            margin: 0px 0px 0px -2rem;
+            a{
+                img{
+                    height: 2rem;
+                    margin: 0px 0px 0px 2rem;
+                }
+            }
+            a:nth-child(1){
+                img{
+                    margin: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    footer{
+        h6{
+            font-size: 1.8rem;
+        }
+        .email{
+            font-size: 1.5rem;
+        }
+        .social_media_list{
+            a{
+                img{
+                    height: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 719px){
+    footer{
+        h6{
+            font-size: 1.5rem;
+        }
+        .email{
+            font-size: 1.2rem;
+        }
+        .social_media_list{
+            a{
+                img{
+                    height: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    footer{
+        h6{
+            font-size: 1.1rem;
+        }
+        .email{
+            font-size: .9rem;
+        }
+        .social_media_list{
+            a{
+                img{
+                    height: 1.3rem;
+                }
+            }
+        }
+    }
+}
+
+//.........................Desktop Responsive....................
+
+//.........................For 1080p displays....................
+
+@media screen and (min-width: 1920px) and (max-width: 2559px){
+    
+}
+
+//.........................For 2560p displays....................
+
+@media screen and (min-width: 2560px) and (max-width: 3840px){
+    
+}
+
+//.........................For 3840p or 4k displays....................
+
+@media screen and (min-width: 3840px){
+    
 }

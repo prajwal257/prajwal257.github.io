@@ -18,6 +18,9 @@
             text-decoration: none;
             color: $secondary_text_color;
             margin: 0px 10px 0px 10px;
+            transition: all 0.25s;
+        }:hover{
+            color: $primary_color;
         }
     }
     .menu{

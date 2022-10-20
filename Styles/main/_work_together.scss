@@ -1,41 +1,180 @@
-.work_together{
+.contact_container{
+    display: flex;
+    height: 40vh;
+    background-color: $secondary_background_color;
+    border-radius: 5px;
+    margin: 10vh;
     position: relative;
-    padding: 10vw 15vw;
-
+    overflow: hidden;
     .text{
         display: flex;
-        align-items: center;
-        justify-content: center;
-        .my_pic{
-            position: absolute;
-            z-index: 1;
-            height: 10vw;
-            width: 10vw;
-            border-radius: 100%;
-            background-color: $primary_color;
-            margin-right: 10px;
-        }
-        h1{
-            position: relative;
-            z-index: 2;
+        flex-direction: column;
+        justify-content: space-between;
+        .top_text{
             color: $primary_text_color;
-            font-size: 48px;
-            line-height: 48px;
-            font-weight: 300;
+            padding: 7vh 0px 0px 7vh;
+            h3{
+                font-size: 1.6rem;
+                font-weight: 500;
+            }
+            h6{
+                margin-top: 2vh;
+                font-size: 1rem;
+                font-weight: 400;
+            }
+        }
+        .social_media_list{
+            display: flex;
+            align-items: center;
+            margin: 0px 0px 7vh 7vh;
+            img{
+                height: 1.2rem;
+                margin: 10px 3vh 0px 0px;
+                filter: invert(1);
+            }
         }
     }
-    .social_links{
-        margin: 10vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        list-style-type: none;
-        li{
-            margin: 10px;
-            padding: 1px 15px;
-            border: 1px solid primary_text_color;
-            border-radius: 50px;
-            color: primary_text_color;
+    .illustration{
+        height: 65vh;
+        width: 65vh;
+        filter: invert(1);
+        margin: -12vh 0px 0vh 0vh;
+        transform: rotate(-20deg);
+        position: absolute;
+        right: 0px;
+        animation: rotate360 10s linear infinite;
+        animation-play-state: paused;
+    }
+    @keyframes rotate360{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
         }
     }
+}
+.contact_container:hover .illustration{
+    animation-play-state: running;
+}
+
+
+
+
+
+
+//..........................Media Quaries.....................
+
+//.........................mobile_Resposive....................
+
+@media screen and (max-width: 1024px){
+    .contact_container{
+        height: 45vh;
+        margin: 10vw;
+        .text{
+            .top_text{
+                padding: 5vw 0px 0px 5vw;
+                h3{
+                    font-size: 5rem;
+                }
+                h6{
+                    font-size: 2rem;
+                }
+            }
+            .social_media_list{
+                display: flex;
+                align-items: center;
+                margin: 0px 0px 5vw 5vw;
+                img{
+                    height: 3rem;
+                    margin: 10px 3vh 0px 0px;
+                }
+            }
+        }
+        .illustration{
+            height: 65vh;
+            width: 65vh;
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .contact_container{
+        .text{
+            .top_text{
+                h3{
+                    font-size: 4rem;
+                }
+                h6{
+                    font-size: 1.8rem;
+                }
+            }
+            .social_media_list{
+                img{
+                    height: 3rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px) and (orientation: portrait){
+    .contact_container{
+        margin: 5vw;
+        .text{
+            .top_text{
+                h3{
+                    font-size: 2.5rem;
+                }
+                h6{
+                    font-size: 1.2rem;
+                }
+            }
+            .social_media_list{
+                img{
+                    height: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait){
+    .contact_container{
+        .text{
+            .top_text{
+                h3{
+                    font-size: 1.75rem;
+                }
+                h6{
+                    font-size: 1rem;
+                }
+            }
+            .social_media_list{
+                img{
+                    height: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+//.........................Desktop Responsive....................
+
+//.........................For 1080p displays....................
+
+@media screen and (min-width: 1920px) and (max-width: 2559px){
+    
+}
+
+//.........................For 2560p displays....................
+
+@media screen and (min-width: 2560px) and (max-width: 3840px){
+    
+}
+
+//.........................For 3840p or 4k displays....................
+
+@media screen and (min-width: 3840px){
+    
 }

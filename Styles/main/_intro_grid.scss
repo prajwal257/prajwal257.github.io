@@ -1,0 +1,49 @@
+.intro_grid_container{
+    margin: 10vh 0px 0vh 0px;
+    position: relative;
+    height: 120vh;
+    background-color: $secondary_background_color;
+    overflow: hidden;
+    .wrapper_rotate{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transform: rotateZ(10deg);
+        .intro_grid{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: space-around;
+            top: -20%;
+            // left: -50%;
+            .row{
+                .grid_element{
+                    margin: 30px 15px 30px 15px;
+                    height: 40vh;
+                    width: 30vw;
+                    border-radius: 5px;
+                    background-color: $primary_background_color;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (orientation: portrait){
+    @media screen and (max-width: 1024px) {
+        .intro_grid_container{
+            height: 90vh;
+            .wrapper_rotate{
+                .intro_grid{
+                    .row{
+                        .grid_element{
+                            height: 40vw;
+                            width: 30vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
-    font-family: "Segoe UI";
+    font-family: 'Barlow', Bahnschrift, 'PT Sans', sans-serif;
     transition: all 2s;
 }
 body{
@@ -81,11 +81,10 @@ body{
 
 
 body::-webkit-scrollbar{
-    width: 5px;
+    width: 2px;
 }
 body::-webkit-scrollbar-thumb{
     background-color: $primary_text_color;
-    border-radius: 5px;
 }
 
 .not_for_mobile{
