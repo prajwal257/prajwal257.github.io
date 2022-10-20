@@ -1169,9 +1169,13 @@ svg {
     height: 80vh;
     pointer-events: none;
   }
+  .intro_grid_container .wrapper_rotate {
+    -webkit-transform: rotateZ(25deg);
+            transform: rotateZ(25deg);
+  }
   .intro_grid_container .wrapper_rotate .intro_grid .row .grid_element {
-    height: 40vw;
-    width: 30vh;
+    height: 30vw;
+    width: 20vh;
   }
 }
 

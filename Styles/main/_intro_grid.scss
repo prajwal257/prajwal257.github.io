@@ -36,11 +36,12 @@
             height: 80vh;
             pointer-events: none;
             .wrapper_rotate{
+                transform: rotateZ(25deg);
                 .intro_grid{
                     .row{
                         .grid_element{
-                            height: 40vw;
-                            width: 30vh;
+                            height: 30vw;
+                            width: 20vh;
                         }
                     }
                 }
