@@ -1205,10 +1205,6 @@ svg {
     height: 20vw;
     width: 10vh;
   }
-  .intro_grid_container .wrapper_rotate .intro_grid .row .grid_element img {
-    height: 90%;
-    width: 90%;
-  }
 }
 
 .project_section .hero_section, .about_page .hero_section {
