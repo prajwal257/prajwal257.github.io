@@ -58,8 +58,12 @@
                 .intro_grid{
                     .row{
                         .grid_element{
-                            height: 30vw;
-                            width: 20vh;
+                            height: 20vw;
+                            width: 10vh;
+                            img{
+                                height: 90%;
+                                width: 90%;
+                            }
                         }
                     }
                 }

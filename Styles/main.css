@@ -1202,8 +1202,12 @@ svg {
             transform: rotateZ(25deg);
   }
   .intro_grid_container .wrapper_rotate .intro_grid .row .grid_element {
-    height: 30vw;
-    width: 20vh;
+    height: 20vw;
+    width: 10vh;
+  }
+  .intro_grid_container .wrapper_rotate .intro_grid .row .grid_element img {
+    height: 90%;
+    width: 90%;
   }
 }
 
