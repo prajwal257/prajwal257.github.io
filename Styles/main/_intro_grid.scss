@@ -20,10 +20,28 @@
             .row{
                 .grid_element{
                     margin: 30px 15px 30px 15px;
-                    height: 40vh;
-                    width: 30vw;
+                    height: 30vh;
+                    width: 20vw;
                     border-radius: 5px;
                     background-color: $primary_background_color;
+                    padding: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .photo{
+                        height: 80%;
+                        width: auto;
+                    }
+                    img{
+                        border-radius: 5px;
+                        width: 80%;
+                        transition: 0.5s ease-in-out;
+                        background-color: #c6c6c6;
+                    }
+                }:hover{
+                    img{
+                        transform: scale(1.05);
+                    }
                 }
             }
         }

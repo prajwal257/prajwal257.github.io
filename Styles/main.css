@@ -1158,10 +1158,38 @@ svg {
 
 .intro_grid_container .wrapper_rotate .intro_grid .row .grid_element {
   margin: 30px 15px 30px 15px;
-  height: 40vh;
-  width: 30vw;
+  height: 30vh;
+  width: 20vw;
   border-radius: 5px;
   background-color: var(--primary_background_color);
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro_grid_container .wrapper_rotate .intro_grid .row .grid_element .photo {
+  height: 80%;
+  width: auto;
+}
+
+.intro_grid_container .wrapper_rotate .intro_grid .row .grid_element img {
+  border-radius: 5px;
+  width: 80%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #c6c6c6;
+}
+
+.intro_grid_container .wrapper_rotate .intro_grid .row :hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 @media screen and (orientation: portrait) and (max-width: 1024px) {
