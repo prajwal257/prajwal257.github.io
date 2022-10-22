@@ -90,11 +90,11 @@
 
 .cursor_on_projects {
   position: fixed;
-  height: 50vh;
-  width: 40vw;
+  height: 34vh;
+  width: 28vw;
   top: 50%;
   left: 50%;
-  margin: -25vh -20vw;
+  margin: -17vh -14vw;
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
   background: #000;
@@ -1479,19 +1479,53 @@ svg {
 }
 
 .projects .project_list .project h1 {
-  margin: 0px;
-  font-size: 36px;
+  margin: 0px 0px 0px -50px;
+  font-size: 32px;
   line-height: 48px;
   font-weight: 300;
   color: var(--primary_text_color);
 }
 
-.projects .project_list .project p {
+.projects .project_list .project .tags {
+  margin: 0px -50px 0px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects .project_list .project .tags p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  font-size: 12px;
   color: var(--secondary_text_color);
+  border-radius: 20px;
+  border: 1px solid var(--primary_text_color);
+  width: 110px;
+  height: 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .projects .project_list .project:hover h1 {
   mix-blend-mode: difference;
+}
+
+.projects .project_list .project:hover .tags p {
+  background-color: var(--primary_background_color);
 }
 
 .projects .project_list .project:nth-last-child(1) {
@@ -1502,15 +1536,25 @@ svg {
   .projects .project_list .project {
     margin-top: 2vh;
     width: 100%;
-    height: 5vh;
+    height: 8vh;
     padding: 0%;
   }
   .projects .project_list .project h1 {
+    margin: 0px;
     font-size: 1rem;
     line-height: 1.5rem;
   }
-  .projects .project_list .project p {
+  .projects .project_list .project .tags {
+    margin: 0px;
+  }
+  .projects .project_list .project .tags p {
     font-size: .8rem;
+    display: none;
+  }
+  .projects .project_list .project .tags p:nth-last-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .projects .project_list .project:nth-child(1) {
     margin-top: 5vh;
@@ -1570,7 +1614,7 @@ svg {
 
 .blogs .articles .article .image img {
   border-radius: 3px;
-  height: 75%;
+  width: 80%;
 }
 
 .blogs .articles .article .text {
