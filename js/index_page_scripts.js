@@ -6,7 +6,7 @@ export function home_page_scripts(){
     try{
         projects();
         recolor_background_blobs()
-        panzoom();
+        // panzoom();
     }catch{
         console.log("This is not the projects page or background_blobs or panzoom.")
     }

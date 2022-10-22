@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="./Styles/light_theme.css">
     <link rel="stylesheet" href="./Styles/dark_theme.css">
     <link class="CSS_FILE" theme="dark" rel="stylesheet" href="./Styles/main.css">
-    <script src="./js/modules/locomotive_scroll/core.js"></script>
     <script src="./js/modules/barba/core.js"></script>
     <script src="./js/modules/GSAP/core.js"></script>
+    <script src="./js/modules/panzoom/core.js"></script>
     <script src="./js/index.js" type="module" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DATA PORTFOLIO</title>
@@ -227,6 +227,18 @@
                     </div>
                 </div>
             </div>
+            <script>
+                var element = document.getElementsByClassName('intro_grid')[0]
+                panzoom(element,{
+                    minZoom: 1,
+                    maxZoom: 1,
+                    beforeWheel: function(e) {
+                        // allow wheel-zoom only if altKey is down. Otherwise - ignore
+                        var shouldIgnore = !e.altKey;
+                        return shouldIgnore
+                    }
+                })
+            </script>
             <div class="project_section">
                 <div class="description">
                     <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita sed eaque vel placeat eius doloribus, deleniti sit vero optio doloremque. Iste, sapiente nam amet esse velit deserunt delectus ea? Eveniet, sapiente provident quaerat earum assumenda similique! Aliquam enim totam possimus!</h1>

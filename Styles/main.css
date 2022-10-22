@@ -1594,8 +1594,6 @@ svg {
   border-radius: 3px;
   height: 32vh;
   width: 100%;
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1645,8 +1643,6 @@ svg {
 }
 
 .blogs .articles :hover .image {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
   background-color: var(--secondary_background_color);
 }
 
