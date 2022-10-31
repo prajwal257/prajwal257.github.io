@@ -4,11 +4,11 @@ export function navbar(){
         var new_icon = document.createElement('img');
         new_icon.alt = "switch themes"
         if(current_theme=="dark"){
-            new_icon.src = "./assets/icons/light_to_dark_theme_switch.svg"
+            new_icon.src = "../assets/icons/light_to_dark_theme_switch.svg"
             new_icon.className = "light_to_dark_theme_switch"
             document.getElementsByClassName("dark_to_light_theme_switch")[0].remove();
         }else{
-            new_icon.src = "./assets/icons/dark_to_light_theme_switch.svg"
+            new_icon.src = "../assets/icons/dark_to_light_theme_switch.svg"
             new_icon.className = "dark_to_light_theme_switch"
             document.getElementsByClassName("light_to_dark_theme_switch")[0].remove();
         }

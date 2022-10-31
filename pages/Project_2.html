@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="http://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Styles/light_theme.css">
-    <link rel="stylesheet" href="./Styles/dark_theme.css">
-    <link class="CSS_FILE" theme="dark" rel="stylesheet" href="./Styles/main_dark.css">
-    <script src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./js/index.js" type="module" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <script src='https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js'></script>
+    <link rel="stylesheet" href="../Styles/light_theme.css">
+    <link rel="stylesheet" href="../Styles/dark_theme.css">
+    <link class="CSS_FILE" theme="dark" rel="stylesheet" href="../Styles/main.css">
+    <script src="../js/modules/barba/core.js"></script>
+    <script src="../js/modules/GSAP/core.js"></script>
+    <script src="../js/modules/panzoom/core.js"></script>
+    <script src="../js/index.js" type="module" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DATA PORTFOLIO</title>
 </head>
@@ -21,14 +23,11 @@
         <div class="projects_page"></div>
         <div class="about_page"></div>
     </div>
-    <div class="not_for_mobile">
-        <h1>WEBSITE NOT OPTIMIZED FOR MOBILE<br>
-        PLEASE WAIT FOR FURTHER UPDATES.</h1> 
+    <div class="cursor_container">
+        <div class="cursor"></div>
+        <div class="cursor_follower"></div>
+        <div class="cursor_on_projects"></div>
     </div>
-    <div class="cursor"></div>
-    <div class="cursor_follower"></div>
-    <div class="cursor_on_title"></div>
-    <div class="cursor_on_projects"></div>
     <div class="background">
         <div class="top_left_1 background_blob"></div>
         <div class="top_left_2 background_blob"></div>
@@ -67,18 +66,18 @@
                         </g>
                     </g>
                 </svg>  
-                <a href="./index.html"><h1 class="logo_head">DATA<br>SCIENCE.</h1></a>
+                <a href="./index.html"><h1 class="logo_head">NEURON<br>DEV.</h1></a>
             </div>
         </div>
         <div class="mid_menu">
-            <a href="./project.html">PROJECTS</a>
+            <a href="./index.html">HOME</a>
+            <a href="./projects.html">PROJECTS</a>
             <a href="./blogs.html">BLOGS</a>
             <a href="./about.html">ABOUT</a>
             <a href="./contact.html">CONTACT</a>
         </div>
         <div class="closed menu_page">
             <div class="menu_content">
-
                 <div class="nav">
                     <div class="logo">
                         <div class="icon">  
@@ -108,60 +107,41 @@
                                     </g>
                                 </g>
                             </svg>  
-                            <a href="./index.html"><h1 class="logo_head">DATA<br>SCIENCE.</h1></a>
+                            <a href="./index.html"><h1 class="logo_head">NEURON<br>DEV.</h1></a>
                         </div>
                     </div>
                     <div class="menu">
-                        <a class="animate_color" id="menu_expanded_close" href="#" style="color: red; font-size: 24px">CLOSE</a> 
+                        <a class="animate_color" id="menu_expanded_close" href="#" style="background-color: red; font-size: 18px; width: 80px; height: 40px; border-radius: 20px; display: flex; align-items: center; justify-content: center;">CLOSE</a> 
                     </div>
                 </div>
 
                 <div class="menu_expanded">
-                    <a href="./index.html">
-                        <h3 class="menu_expanded_link">HOME</h3> 
-                        <div class="link_blobs">
-                            <div class="blob blob_1"></div>
-                            <div class="blob blob_2"></div>
-                        </div>
-                    </a>
-                    <a href="./projects.html">
-                        <h3 class="menu_expanded_link">PROJECTS</h3> 
-                        <div class="link_blobs">
-                            <div class="blob blob_1"></div>
-                            <div class="blob blob_2"></div>
-                        </div>
-                    </a>
-                    <a href="./blogs.html">
-                        <h3 class="menu_expanded_link">BLOG</h3> 
-                        <div class="link_blobs">
-                            <div class="blob blob_1"></div>
-                            <div class="blob blob_2"></div>
-                        </div>
-                    </a>
-                    <a href="./about.html">
-                        <h3 class="menu_expanded_link">ABOUT</h3> 
-                        <div class="link_blobs">
-                            <div class="blob blob_1"></div>
-                            <div class="blob blob_2"></div>
-                        </div>
-                    </a>
-                    <a href="./contact.html">
-                        <h3 class="menu_expanded_link">CONTACT</h3> 
-                        <div class="link_blobs">
-                            <div class="blob blob_1"></div>
-                            <div class="blob blob_2"></div>
-                        </div>
-                    </a>
+                    <div class="links" onclick="close_nav()">
+                        <a href="./index.html"><h3 class="menu_expanded_link">HOME</h3></a>
+                        <a href="./projects.html"><h3 class="menu_expanded_link">PROJECTS</h3></a>
+                        <a href="./blogs.html"><h3 class="menu_expanded_link">BLOG</h3></a>
+                        <a href="./about.html"><h3 class="menu_expanded_link">ABOUT</h3></a>
+                        <a href="./contact.html"><h3 class="menu_expanded_link">CONTACT</h3> </a>
+                    </div>
+                    <script>
+                        function close_nav(){
+                            document.getElementsByClassName("menu_page")[0].classList.toggle("closed")
+                            document.getElementsByClassName("menu_page")[0].classList.toggle("open")
+                        }
+                    </script>
                 </div>
             </div>
             <div class="gradient"></div>
         </div>
         <div class="menu">
             <div class="theme_switcher">
-                <img src="./assets/icons/dark_to_light_theme_switch.svg" alt="switch themes" class="dark_to_light_theme_switch">
+                <img src="../assets/icons/dark_to_light_theme_switch.svg" alt="switch themes" class="dark_to_light_theme_switch">
+            </div>
+            <div id="recolor_background"  class="theme_switcher">
+                <img src="../assets/icons/color_change_icon.png" alt="switch themes" class="dark_to_light_theme_switch">
             </div>
             <a class="animate_color menu_toggle_switch" href="#">
-                MENU
+                <img src="../assets/icons/menu_icon.png" alt="menu_open">
             </a> 
         </div>
     </div>
@@ -170,32 +150,35 @@
 
             <div class="hero_section">
                 <h1>
-                    PROJECT TITLE HERE
+                    Mall Customers Segmentation
                 </h1>
                 <p>
-                    And Computer Science Enthaustic. And with the power of Machine Learning, <br>
-                    I can help your business stand ahead of its competition. <br>
+                    A popular machine learning usecase is the clustering and with the help of K-Means Algorithm, <br>
+                    I was able to segment the customers of shoping mall into 5 catagories. The basis was on <br>
+                    annual income, spending habbits, amount spend, frequency of shoping. <br>
                 </p>
+                <div class="buttons">
+                    <button id="call_to_action">Try API yourself.</button>
+                </div>
             </div>
             <div class="intro">
-                <img src="./assets/thumbnails/DS_IMG_2.jpg" alt="">
+                <img src="../assets/thumbnails/project_thumbnail_2.jpg" alt="hero image">
             </div>
     
             <div class="description">
-                <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita sed eaque vel placeat eius doloribus, deleniti sit vero optio doloremque. Iste, sapiente nam amet esse velit deserunt delectus ea? Eveniet, sapiente provident quaerat earum assumenda similique! Aliquam enim totam possimus!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe autem porro esse modi dolorem, rem nobis quod iure consectetur rerum! Illum voluptatem accusantium rerum sapiente veritatis deserunt eligendi ipsum eaque!</p>
+                <h2>
+                    The below image shows the end result of the clustering process the color of the points determine the customers. The small size of the dataset meant that some advanced clustering methods like DBSCAN. End results or observations were delievered to the client.
+                </h1>
                 <div class="social_links"></div>
             </div>
     
-            <div class="skills_png">
-                <img src="./assets/icons/pandas_icon.png" alt="javascript_icon">
-                <img src="./assets/icons/python_icon.png" alt="javascript_icon">
-                <img src="./assets/icons/tensorflow_icon.png" alt="javascript_icon">
-                <img src="./assets/icons/numpy_icon.png" alt="javascript_icon">
-                <img src="./assets/icons/javascript_icon.png" alt="javascript_icon">
-                <img src="./assets/icons/sass_icon.png" alt="javascript_icon">
-                <img src="./assets/icons/nodejs_icon.png" alt="javascript_icon">
-                <img src="./assets/icons/php_icon.png" alt="javascript_icon">
+            <div class="skills_png" style="margin-top: 20vh;">
+                <img src="../assets/compressed_icons/pandas_icon.png" alt="javascript_icon">
+                <img src="../assets/compressed_icons/python_icon.png" alt="javascript_icon">
+                <img src="./Project_1_data/FastAPI_icon.png" alt="javascript_icon">
+                <img src="../assets/compressed_icons/numpy_icon.png" alt="javascript_icon">
+                <img src="../assets/compressed_icons/javascript_icon.png" alt="javascript_icon">
+                <img src="../assets/compressed_icons/sass_icon.png" alt="javascript_icon">
             </div>
     
             <div class="project_details">
@@ -210,7 +193,7 @@
                     </li>
                     <li>
                         <dt>Type</dt>
-                        <dd>Web Application</dd>
+                        <dd>Web Application (frontend and backend)</dd>
                     </li>
                     <li>
                         <dt>Demo</dt>
@@ -219,24 +202,22 @@
                 </dl>
             </div>
             
-            <!-- <div class="intro">
-                <img src="./assets/thumbnails/DS_IMG_2.jpg" alt="">
-            </div> -->
-    
+            <div class="intro">
+                <img src="../assets/images/project_thumbnails/4.png" alt="project image">
+            </div>
+
+            <div class="description">
+                <h2>
+                    The below image shows the end result of the clustering process the color of the points determine the customers. The small size of the dataset meant that some advanced clustering methods like DBSCAN. End results or observations were delievered to the client.
+                </h1>
+                <div class="social_links"></div>
+            </div>
+
+            <div class="intro">
+                <img src="../assets/images/project_thumbnails/1.png" alt="project image">
+            </div>
 
         </div>
-<!--         
-        <div class="work_together">
-            <div class="text">
-                <div class="my_pic"></div>
-                <h1>Let's Work Together.</h1>
-            </div>
-            <div class="social_links">
-                <li>   prajwal.dwivedi.official@gmail.com   </li>
-                <li>   prajwal.dwivedi.official@gmail.com   </li>
-            </div>
-        </div> -->
-
     
         <div class="work_together">
             <div class="contact_container">
@@ -282,5 +263,5 @@
             </a>
         </div>
     </footer>
-    </body>
-    </html>
+</body>
+</html>

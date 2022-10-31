@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <script src='https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js'></script>
+    <link rel="stylesheet" href="../Styles/light_theme.css">
+    <link rel="stylesheet" href="../Styles/dark_theme.css">
+    <link class="CSS_FILE" theme="dark" rel="stylesheet" href="../Styles/main.css">
+    <script src="../js/modules/barba/core.js"></script>
+    <script src="../js/modules/GSAP/core.js"></script>
+    <script src="../js/modules/panzoom/core.js"></script>
+    <script src="../js/index.js" type="module" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA PORTFOLIO</title>
+</head>
+<body data-barba="wrapper" class="dark_theme" current_theme="dark">
+    <div class="preloader" style="display: none;">
+        <div class="projects_page"></div>
+        <div class="about_page"></div>
+    </div>
+    <div class="cursor_container">
+        <div class="cursor"></div>
+        <div class="cursor_follower"></div>
+        <div class="cursor_on_projects"></div>
+    </div>
+    <div class="background">
+        <div class="top_left_1 background_blob"></div>
+        <div class="top_left_2 background_blob"></div>
+        <div class="bottom_right_2 background_blob"></div>
+        <div class="bottom_right_1 background_blob"></div>
+    </div>
+    <div class="loader_container">
+        <div class="loader" id="loader"></div>
+    </div>
+    <div class="nav">
+        <div class="logo">
+            <div class="icon">  
+                <svg width="250" height="202" viewBox="0 0 202 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Neural_Network_Icon">
+                        <g id="hidden_neurons">
+                            <line class="neuron" id="neuron_1_5" x1="99.3292" y1="181.342" x2="19.3292" y2="141.342" stroke-width="3"/>
+                            <line class="neuron" id="neuron_1_4" x1="19.3292" y1="138.658" x2="99.3292" y2="98.6584" stroke-width="3"/>
+                            <line class="neuron" id="neuron_1_3" x1="101.5" y1="20" x2="101.5" y2="100" stroke-width="3"/>
+                            <line class="neuron" id="neuron_1_2" x1="99.3292" y1="101.342" x2="19.3292" y2="61.3416" stroke-width="3"/>
+                            <line class="neuron" id="neuron_1_1" x1="19.3292" y1="58.6584" x2="99.3292" y2="18.6584" stroke-width="3"/>
+                        </g>
+                        <g id="output_neurons">
+                            <line class="neuron" id="neuron_2_3" x1="98.9525" y1="179.926" x2="180.953" y2="99.9263" stroke-width="3"/>
+                            <line class="neuron" id="neuron_2_2" x1="100" y1="98.5" x2="182" y2="98.5" stroke-width="3"/>
+                            <line class="neuron" id="neuron_2_1" x1="101.047" y1="18.9263" x2="183.047" y2="98.9263" stroke-width="3"/>
+                        </g>
+                        <g id="input_layer">
+                            <circle id="neuron_2" cx="20" cy="140" r="20"/>
+                            <circle id="neuron_1" cx="20" cy="60" r="20"/>
+                        </g>
+                        <circle id="output_layer" cx="182" cy="100" r="20"/>
+                        <g id="hidden_layer">
+                            <circle id="hidden_neuron_3" cx="100" cy="180" r="20"/>
+                            <circle id="hidden_neuron_2" cx="100" cy="100" r="20"/>
+                            <circle id="hidden_neuron_1" cx="100" cy="20" r="20"/>
+                        </g>
+                    </g>
+                </svg>  
+                <a href="./index.html"><h1 class="logo_head">DATA<br>SCIENCE.</h1></a>
+            </div>
+        </div>
+        <div class="mid_menu">
+            <a href="./project.html">PROJECTS</a>
+            <a href="./blogs.html">BLOGS</a>
+            <a href="./about.html">ABOUT</a>
+            <a href="./contact.html">CONTACT</a>
+        </div>
+        <div class="closed menu_page">
+            <div class="menu_content">
+
+                <div class="nav">
+                    <div class="logo">
+                        <div class="icon">  
+                            <svg width="250" height="202" viewBox="0 0 202 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="Neural_Network_Icon">
+                                    <g id="hidden_neurons">
+                                        <line class="neuron" id="neuron_1_5" x1="99.3292" y1="181.342" x2="19.3292" y2="141.342" stroke-width="3"/>
+                                        <line class="neuron" id="neuron_1_4" x1="19.3292" y1="138.658" x2="99.3292" y2="98.6584" stroke-width="3"/>
+                                        <line class="neuron" id="neuron_1_3" x1="101.5" y1="20" x2="101.5" y2="100" stroke-width="3"/>
+                                        <line class="neuron" id="neuron_1_2" x1="99.3292" y1="101.342" x2="19.3292" y2="61.3416" stroke-width="3"/>
+                                        <line class="neuron" id="neuron_1_1" x1="19.3292" y1="58.6584" x2="99.3292" y2="18.6584" stroke-width="3"/>
+                                    </g>
+                                    <g id="output_neurons">
+                                        <line class="neuron" id="neuron_2_3" x1="98.9525" y1="179.926" x2="180.953" y2="99.9263" stroke-width="3"/>
+                                        <line class="neuron" id="neuron_2_2" x1="100" y1="98.5" x2="182" y2="98.5" stroke-width="3"/>
+                                        <line class="neuron" id="neuron_2_1" x1="101.047" y1="18.9263" x2="183.047" y2="98.9263" stroke-width="3"/>
+                                    </g>
+                                    <g id="input_layer">
+                                        <circle id="neuron_2" cx="20" cy="140" r="20"/>
+                                        <circle id="neuron_1" cx="20" cy="60" r="20"/>
+                                    </g>
+                                    <circle id="output_layer" cx="182" cy="100" r="20"/>
+                                    <g id="hidden_layer">
+                                        <circle id="hidden_neuron_3" cx="100" cy="180" r="20"/>
+                                        <circle id="hidden_neuron_2" cx="100" cy="100" r="20"/>
+                                        <circle id="hidden_neuron_1" cx="100" cy="20" r="20"/>
+                                    </g>
+                                </g>
+                            </svg>  
+                            <a href="./index.html"><h1 class="logo_head">DATA<br>SCIENCE.</h1></a>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a class="animate_color" id="menu_expanded_close" href="#" style="color: red; font-size: 24px">CLOSE</a> 
+                    </div>
+                </div>
+
+                <div class="menu_expanded">
+                    <a href="./index.html">
+                        <h3 class="menu_expanded_link">HOME</h3> 
+                        <div class="link_blobs">
+                            <div class="blob blob_1"></div>
+                            <div class="blob blob_2"></div>
+                        </div>
+                    </a>
+                    <a href="./projects.html">
+                        <h3 class="menu_expanded_link">PROJECTS</h3> 
+                        <div class="link_blobs">
+                            <div class="blob blob_1"></div>
+                            <div class="blob blob_2"></div>
+                        </div>
+                    </a>
+                    <a href="./blogs.html">
+                        <h3 class="menu_expanded_link">BLOG</h3> 
+                        <div class="link_blobs">
+                            <div class="blob blob_1"></div>
+                            <div class="blob blob_2"></div>
+                        </div>
+                    </a>
+                    <a href="./about.html">
+                        <h3 class="menu_expanded_link">ABOUT</h3> 
+                        <div class="link_blobs">
+                            <div class="blob blob_1"></div>
+                            <div class="blob blob_2"></div>
+                        </div>
+                    </a>
+                    <a href="./contact.html">
+                        <h3 class="menu_expanded_link">CONTACT</h3> 
+                        <div class="link_blobs">
+                            <div class="blob blob_1"></div>
+                            <div class="blob blob_2"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="gradient"></div>
+        </div>
+        <div class="menu">
+            <div class="theme_switcher">
+                <img src="./assets/icons/dark_to_light_theme_switch.svg" alt="switch themes" class="dark_to_light_theme_switch">
+            </div>
+            <a class="animate_color menu_toggle_switch" href="#">
+                MENU
+            </a> 
+        </div>
+    </div>
+    <main data-barba="container" data-barba-namespace="project">
+        <div class="project_section">
+
+            <div class="hero_section">
+                <h1>
+                    PROJECT TITLE HERE
+                </h1>
+                <p>
+                    And Computer Science Enthaustic. And with the power of Machine Learning, <br>
+                    I can help your business stand ahead of its competition. <br>
+                </p>
+            </div>
+            <div class="intro">
+                <img src="./assets/thumbnails/DS_IMG_2.jpg" alt="">
+            </div>
+    
+            <div class="description">
+                <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita sed eaque vel placeat eius doloribus, deleniti sit vero optio doloremque. Iste, sapiente nam amet esse velit deserunt delectus ea? Eveniet, sapiente provident quaerat earum assumenda similique! Aliquam enim totam possimus!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe autem porro esse modi dolorem, rem nobis quod iure consectetur rerum! Illum voluptatem accusantium rerum sapiente veritatis deserunt eligendi ipsum eaque!</p>
+                <div class="social_links"></div>
+            </div>
+    
+            <div class="skills_png">
+                
+            </div>
+    
+            <div class="project_details">
+                <dl>
+                    <li>
+                        <dt>Name</dt>
+                        <dd>YouStream</dd>
+                    </li>
+                    <li>
+                        <dt>Date</dt>
+                        <dd>November 2019</dd>
+                    </li>
+                    <li>
+                        <dt>Type</dt>
+                        <dd>Web Application (frontend and backend)</dd>
+                    </li>
+                    <li>
+                        <dt>Demo</dt>
+                        <dd>Not Avaliable</dd>
+                    </li>
+                </dl>
+            </div>
+            
+            <div class="intro">
+                <!-- <img src="./assets/thumbnails/DS_IMG_2.jpg" alt=""> -->
+            </div>
+    
+
+        </div>
+    
+        <div class="work_together">
+            <div class="contact_container">
+                <div class="text">
+                    <div class="top_text">
+                        <h3>Say, Hi! on Social Media.</h3>
+                        <i><h6>prajwaldwivedi257@gmail.com</h6></i>
+                    </div>
+                    <div class="social_media_list">
+                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img src="../assets/svgs/facebook.svg" alt="facebook">
+                        </a>
+                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img src="../assets/svgs/twitter.svg" alt="facebook">
+                        </a>
+                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img src="../assets/svgs/linkedin.svg" alt="facebook">
+                        </a>
+                        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img src="../assets/svgs/github-image.svg" alt="facebook">
+                        </a>
+                    </div>
+                </div>
+                <img src="../assets/svgs/@-illustration.svg" alt="illustration" class="illustration">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h6>Prajwal Dwivedi</h6>
+        <a href="mailto:prajwaldwivedi257@gmail.com" class="email">prajwaldwivedi257@gmail.com</a>
+        <div class="social_media_list">
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/svgs/facebook.svg" alt="facebook">
+            </a>
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/svgs/twitter.svg" alt="facebook">
+            </a>
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/svgs/linkedin.svg" alt="facebook">
+            </a>
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/svgs/github-image.svg" alt="facebook">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

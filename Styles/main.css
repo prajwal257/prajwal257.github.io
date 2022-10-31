@@ -1,12 +1,11 @@
 .cursor {
-  display: none;
   position: absolute;
   top: 0vh;
   left: 50%;
-  height: 10px;
-  width: 10px;
-  background-color: black;
-  margin: -5px 0px 0px -5px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  margin: -15px 0px 0px -15px;
   border-radius: 500%;
   z-index: 2000;
   -webkit-user-select: none;
@@ -14,22 +13,22 @@
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;
-  -webkit-transition: -webkit-transform .15s ease-in-out;
-  transition: -webkit-transform .15s ease-in-out;
-  transition: transform .15s ease-in-out;
-  transition: transform .15s ease-in-out, -webkit-transform .15s ease-in-out;
+  -webkit-transition: -webkit-transform .0015s;
+  transition: -webkit-transform .0015s;
+  transition: transform .0015s;
+  transition: transform .0015s, -webkit-transform .0015s;
+  mix-blend-mode: difference;
 }
 
 .cursor_follower {
+  -webkit-transform: scale(0);
+          transform: scale(0);
   position: absolute;
   top: 0vh;
   left: 50%;
   height: 50px;
   width: 50px;
-  background-color: rgba(255, 255, 255, 0);
-  border: 2px solid #616161;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  background-size: contain;
   margin: -26px 0px 0px -26px;
   border-radius: 100%;
   -webkit-transition: -webkit-transform 0.05s;
@@ -90,11 +89,11 @@
 
 .cursor_on_projects {
   position: fixed;
-  height: 34vh;
-  width: 28vw;
+  height: 40vh;
+  width: 32vw;
   top: 50%;
   left: 50%;
-  margin: -17vh -14vw;
+  margin: -20vh -16vw;
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
   background: #000;
@@ -137,9 +136,11 @@
   font-family: 'Barlow', Bahnschrift, 'PT Sans', sans-serif;
   -webkit-transition: all 2s;
   transition: all 2s;
+  cursor: none;
 }
 
 body {
+  overflow-x: hidden;
   background-color: var(--primary_background_color);
 }
 
@@ -1156,6 +1157,11 @@ svg {
   top: -20%;
 }
 
+.intro_grid_container .wrapper_rotate .intro_grid .row {
+  -webkit-transition: all 10s;
+  transition: all 10s;
+}
+
 .intro_grid_container .wrapper_rotate .intro_grid .row .grid_element {
   margin: 30px 15px 30px 15px;
   height: 30vh;
@@ -1187,9 +1193,12 @@ svg {
   background-color: #c6c6c6;
 }
 
-.intro_grid_container .wrapper_rotate .intro_grid .row :hover img {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+.intro_grid_container .wrapper_rotate :hover .row:nth-child(odd) {
+  margin-top: -300px;
+}
+
+.intro_grid_container .wrapper_rotate :hover .row:nth-child(even) {
+  margin-top: 300px;
 }
 
 @media screen and (orientation: portrait) and (max-width: 1024px) {
@@ -1218,6 +1227,7 @@ svg {
   font-family: Montserrat;
   color: var(--primary_text_color);
   font-size: 98px;
+  line-height: 108px;
 }
 
 .project_section .hero_section p, .about_page .hero_section p {
@@ -1239,10 +1249,14 @@ svg {
 .project_section .description h2, .about_page .description h2 {
   -ms-grid-column: 1;
   grid-column: 1;
+  font-size: 1.6rem;
+  font-weight: 400;
   color: var(--primary_text_color);
 }
 
 .project_section .description p, .about_page .description p {
+  font-size: 1.05rem;
+  font-weight: 400;
   -ms-grid-column: 2;
   grid-column: 2;
   color: var(--primary_text_color);
@@ -1268,7 +1282,8 @@ svg {
 .project_section .intro img, .about_page .intro img {
   position: absolute;
   z-index: 4;
-  width: 70%;
+  width: 60%;
+  border-radius: 5px;
 }
 
 .project_section .skills_section, .about_page .skills_section {

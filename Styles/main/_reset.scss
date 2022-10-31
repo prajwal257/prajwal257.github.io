@@ -4,9 +4,10 @@
     border: 0px;
     font-family: 'Barlow', Bahnschrift, 'PT Sans', sans-serif;
     transition: all 2s;
+    cursor: none;
 }
 body{
-    // overflow-x: hidden;
+    overflow-x: hidden;
     background-color: $primary_background_color;
     .background{
         position: fixed;

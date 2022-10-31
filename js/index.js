@@ -4,8 +4,6 @@ import {home_page_scripts} from "./index_page_scripts.js";
 
 function delay(n) {
   n = n || 2000
-  // Keep official documentation wording, done -> resolve
-  // and make it more concise
   return new Promise(resolve => {
     setTimeout(resolve, n)
   })
@@ -29,7 +27,6 @@ function after_enter_transition(data){
 
 //async enter data
 function enter_transition(data){
-  // document.getElementsByClassName("loader")[0].style.transform = "Scale(0)";
   tl.to(".loader_container .loader", {
     scale: "0.001",
     duration: 1,
@@ -50,7 +47,6 @@ barba.init({
     transitions: [{
       once(data){
         console.log("Executing Once")
-        // document.getElementsByClassName("loader")[0].style.transform = "Scale(0)";
         enter_transition(data);
         try{
           essential_scripts();
@@ -64,15 +60,12 @@ barba.init({
         }
       },
       async leave(data) {
-        console.log("Executing Leave")
-        console.log("Bye!!")
         const done = this.async();
         leave_transition(data)
         await delay(0);
         done()
       },
       async enter(data) {
-        console.log("Executing Enter")
         const done = this.async();
         // document.getElementsByClassName("loader")[0].style.transform = "Scale(0)";
         enter_transition(data);
@@ -80,7 +73,8 @@ barba.init({
         done()
       },
       async afterEnter(data) {
-        console.log("Executing After Enter")
+        //scrolling to top
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
         after_enter_transition(data)
         try{
           home_page_scripts();
@@ -88,5 +82,21 @@ barba.init({
           console.log("either this is not home page or something is very wrong with the projects script")
         }
       }
+    }],
+    views: [{
+      namespace: 'project',
+      beforeEnter() {
+        document.getElementsByClassName("cursor_on_projects")[0].style.transform = "Scale(0)";
+        document.getElementsByClassName("cursor_follower")[0].style.transform = "scale(0)";
+        document.getElementsByClassName("cursor")[0].style.transform = "scale(1)";
+      },
+      afterEnter(){
+        //scrolling to top
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+      },
+      beforeLeave() {
+        //reset the background color.
+        document.getElementsByClassName("background")[0].style.backgroundColor = "transparent";
+      },
     }]
   });

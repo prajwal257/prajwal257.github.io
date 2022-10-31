@@ -18,6 +18,7 @@
             top: -20%;
             // left: -50%;
             .row{
+                transition: all 10s;
                 .grid_element{
                     margin: 30px 15px 30px 15px;
                     height: 30vh;
@@ -40,9 +41,16 @@
                     }
                 }:hover{
                     img{
-                        transform: scale(1.05);
+                        // transform: scale(1.05);
                     }
                 }
+            }
+        }:hover{
+            .row:nth-child(odd){
+                margin-top: -300px;
+            }
+            .row:nth-child(even){
+                margin-top: 300px;
             }
         }
     }

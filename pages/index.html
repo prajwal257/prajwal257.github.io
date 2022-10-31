@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <script src='https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js'></script>
+    <link rel="stylesheet" href="../Styles/light_theme.css">
+    <link rel="stylesheet" href="../Styles/dark_theme.css">
+    <link class="CSS_FILE" theme="dark" rel="stylesheet" href="../Styles/main.css">
+    <script src="../js/modules/barba/core.js"></script>
+    <script src="../js/modules/GSAP/core.js"></script>
+    <script src="../js/modules/panzoom/core.js"></script>
+    <script src="../js/index.js" type="module" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA PORTFOLIO</title>
+</head>
+<body data-barba="wrapper" class="dark_theme" current_theme="dark">      <!--Smooth Wrapper Starts here-->
+    <div id="smooth_container">   <!--Smooth Content Starts here-->
+        <div class="preloader" style="display: none;">
+            <div class="projects_page"></div>
+            <div class="about_page"></div>
+        </div>
+        <div class="cursor_container">
+            <div class="cursor"></div>
+            <div class="cursor_follower"></div>
+            <div class="cursor_on_projects"></div>
+        </div>
+        <div class="background">
+            <div class="top_left_1 background_blob"></div>
+            <div class="top_left_2 background_blob"></div>
+            <div class="bottom_right_2 background_blob"></div>
+            <div class="bottom_right_1 background_blob"></div>
+        </div>
+        <div class="loader_container">
+            <div class="loader" id="loader"></div>
+        </div>
+        <div class="nav">
+            <div class="logo">
+                <div class="icon">  
+                    <svg width="250" height="202" viewBox="0 0 202 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Neural_Network_Icon">
+                            <g id="hidden_neurons">
+                                <line class="neuron" id="neuron_1_5" x1="99.3292" y1="181.342" x2="19.3292" y2="141.342" stroke-width="3"/>
+                                <line class="neuron" id="neuron_1_4" x1="19.3292" y1="138.658" x2="99.3292" y2="98.6584" stroke-width="3"/>
+                                <line class="neuron" id="neuron_1_3" x1="101.5" y1="20" x2="101.5" y2="100" stroke-width="3"/>
+                                <line class="neuron" id="neuron_1_2" x1="99.3292" y1="101.342" x2="19.3292" y2="61.3416" stroke-width="3"/>
+                                <line class="neuron" id="neuron_1_1" x1="19.3292" y1="58.6584" x2="99.3292" y2="18.6584" stroke-width="3"/>
+                            </g>
+                            <g id="output_neurons">
+                                <line class="neuron" id="neuron_2_3" x1="98.9525" y1="179.926" x2="180.953" y2="99.9263" stroke-width="3"/>
+                                <line class="neuron" id="neuron_2_2" x1="100" y1="98.5" x2="182" y2="98.5" stroke-width="3"/>
+                                <line class="neuron" id="neuron_2_1" x1="101.047" y1="18.9263" x2="183.047" y2="98.9263" stroke-width="3"/>
+                            </g>
+                            <g id="input_layer">
+                                <circle id="neuron_2" cx="20" cy="140" r="20"/>
+                                <circle id="neuron_1" cx="20" cy="60" r="20"/>
+                            </g>
+                            <circle id="output_layer" cx="182" cy="100" r="20"/>
+                            <g id="hidden_layer">
+                                <circle id="hidden_neuron_3" cx="100" cy="180" r="20"/>
+                                <circle id="hidden_neuron_2" cx="100" cy="100" r="20"/>
+                                <circle id="hidden_neuron_1" cx="100" cy="20" r="20"/>
+                            </g>
+                        </g>
+                    </svg>  
+                    <a href="./index.html"><h1 class="logo_head">NEURON<br>DEV.</h1></a>
+                </div>
+            </div>
+            <div class="mid_menu">
+                <a href="./index.html">HOME</a>
+                <a href="./projects.html">PROJECTS</a>
+                <a href="./blogs.html">BLOGS</a>
+                <a href="./about.html">ABOUT</a>
+                <a href="./contact.html">CONTACT</a>
+            </div>
+            <div class="closed menu_page">
+                <div class="menu_content">
+                    <div class="nav">
+                        <div class="logo">
+                            <div class="icon">  
+                                <svg width="250" height="202" viewBox="0 0 202 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Neural_Network_Icon">
+                                        <g id="hidden_neurons">
+                                            <line class="neuron" id="neuron_1_5" x1="99.3292" y1="181.342" x2="19.3292" y2="141.342" stroke-width="3"/>
+                                            <line class="neuron" id="neuron_1_4" x1="19.3292" y1="138.658" x2="99.3292" y2="98.6584" stroke-width="3"/>
+                                            <line class="neuron" id="neuron_1_3" x1="101.5" y1="20" x2="101.5" y2="100" stroke-width="3"/>
+                                            <line class="neuron" id="neuron_1_2" x1="99.3292" y1="101.342" x2="19.3292" y2="61.3416" stroke-width="3"/>
+                                            <line class="neuron" id="neuron_1_1" x1="19.3292" y1="58.6584" x2="99.3292" y2="18.6584" stroke-width="3"/>
+                                        </g>
+                                        <g id="output_neurons">
+                                            <line class="neuron" id="neuron_2_3" x1="98.9525" y1="179.926" x2="180.953" y2="99.9263" stroke-width="3"/>
+                                            <line class="neuron" id="neuron_2_2" x1="100" y1="98.5" x2="182" y2="98.5" stroke-width="3"/>
+                                            <line class="neuron" id="neuron_2_1" x1="101.047" y1="18.9263" x2="183.047" y2="98.9263" stroke-width="3"/>
+                                        </g>
+                                        <g id="input_layer">
+                                            <circle id="neuron_2" cx="20" cy="140" r="20"/>
+                                            <circle id="neuron_1" cx="20" cy="60" r="20"/>
+                                        </g>
+                                        <circle id="output_layer" cx="182" cy="100" r="20"/>
+                                        <g id="hidden_layer">
+                                            <circle id="hidden_neuron_3" cx="100" cy="180" r="20"/>
+                                            <circle id="hidden_neuron_2" cx="100" cy="100" r="20"/>
+                                            <circle id="hidden_neuron_1" cx="100" cy="20" r="20"/>
+                                        </g>
+                                    </g>
+                                </svg>  
+                                <a href="./index.html"><h1 class="logo_head">NEURON<br>DEV.</h1></a>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <a class="animate_color" id="menu_expanded_close" href="#" style="background-color: red; font-size: 18px; width: 80px; height: 40px; border-radius: 20px; display: flex; align-items: center; justify-content: center;">CLOSE</a> 
+                        </div>
+                    </div>
+    
+                    <div class="menu_expanded">
+                        <div class="links" onclick="close_nav()">
+                            <a href="./index.html"><h3 class="menu_expanded_link">HOME</h3></a>
+                            <a href="./projects.html"><h3 class="menu_expanded_link">PROJECTS</h3></a>
+                            <a href="./blogs.html"><h3 class="menu_expanded_link">BLOG</h3></a>
+                            <a href="./about.html"><h3 class="menu_expanded_link">ABOUT</h3></a>
+                            <a href="./contact.html"><h3 class="menu_expanded_link">CONTACT</h3> </a>
+                        </div>
+                        <script>
+                            function close_nav(){
+                                document.getElementsByClassName("menu_page")[0].classList.toggle("closed")
+                                document.getElementsByClassName("menu_page")[0].classList.toggle("open")
+                            }
+                        </script>
+                    </div>
+                </div>
+                <div class="gradient"></div>
+            </div>
+            <div class="menu">
+                <div class="theme_switcher">
+                    <img src="../assets/icons/dark_to_light_theme_switch.svg" alt="switch themes" class="dark_to_light_theme_switch">
+                </div>
+                <div id="recolor_background"  class="theme_switcher">
+                    <img src="../assets/icons/color_change_icon.png" alt="switch themes" class="dark_to_light_theme_switch">
+                </div>
+                <a class="animate_color menu_toggle_switch" href="#">
+                    <img src="../assets/icons/menu_icon.png" alt="menu_open">
+                </a> 
+            </div>
+        </div>
+        <main data-barba="container" data-barba-namespace="home">
+    
+            <div class="hero_section">
+                <p>
+                    Hii, I’m Prajwal, I’m,<br>
+                </p>
+                <h1>
+                    <span> Machine & Deep Learning<br></span>
+                    <span> Student and Webdesign<br></span>
+                    <span> enthusiast based in <span style="color: orange;">In</span>di<span style="color: green;">a. </span></span>
+                </h1>
+                <p>
+                    And with the power of Machine and Deep Learning, <br>
+                    I can help your business stand ahead of its competition. <br>
+                </p>
+                <div class="buttons">
+                    <button id="call_to_action">VIEW MY WORK</button>
+                </div>
+            </div>
+            <div class="intro_grid_container">
+                <div class="wrapper_rotate">
+                    <div class="intro_grid">
+                        <div class="row">
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                        </div>
+                        <div class="row">
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_photos/1.jpg" class="photo"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_web_design/3.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_web_design/2.png"></div>
+                            <div class="grid_element"><img src="../assets/images/project_thumbnauls/3.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_photos/4.jpg" class="photo"></div>
+                        </div>
+                        <div class="row">
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/2.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_photos/2.jpg" class="photo"></div>
+                            <div class="grid_element"><img src="../assets/images/project_thumbnauls/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_web_design/4.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_web_design/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_photos/1.jpg" class="photo"></div>
+                        </div>
+                        <div class="row">
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/3.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_photos/3.jpg" class="photo"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_web_design/4.png"></div>
+                            <div class="grid_element"><img src="../assets/images/project_thumbnauls/2.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_web_design/3.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_photos/2.jpg" class="photo"></div>
+                        </div>
+                        <div class="row">
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/2.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_photos/2.jpg" class="photo"></div>
+                            <div class="grid_element"><img src="../assets/images/project_thumbnauls/4.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_web_design/4.png"></div>
+                            <div class="grid_element"><img src="../assets/images/project_thumbnauls/3.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_photos/1.jpg" class="photo"></div>
+                        </div>
+                        <div class="row">
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/2.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/3.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/4.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/2.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                        </div>
+                        <div class="row">
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                            <div class="grid_element"><img src="../assets/images/compressed_graphics/1.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project_section">
+                <div class="description">
+                    <h2>I do machine learning stuff like chatbots, audience identification/segmentation, trend predictions, etc with my specialization in regression problems and MLOPS integration. And with two research papers under my hat and several computer vision projects, I can ensure you get the best AI product that your business deserves.</h1>
+                    <p>Talking about my qualifications, currently I'm persuing my Masters with specialization in Artificial Intelligence and Machine Learning. I had my bachlores in Computer Applications in the feild of Web Design and Development. And with that combination I know how to develop and deploy the A.I. tools, Download my Resume here.</p>
+                    <div class="social_links"></div>
+                </div>
+            </div>
+            <div class="projects">
+                <h1>PROJECTS: </h1>
+                <div class="project_list">
+                    <a href="./project_1.html" class="project">
+                        <h1>
+                            Covid19 Mortiality Risk Prediction</h1>
+                        <div class="tags">
+                            <p>Random_Forest</p>
+                            <p>API Endpoint</p>
+                            <p>83% Accurate</p>
+                        </div>
+                    </a>
+                    <a href="./project_2.html" class="project">
+                        <h1>Mall Customers Segmentation</h1>
+                        <div class="tags">
+                            <p>K-Means Clustering</p>
+                            <p>Un-Supervised</p>
+                            <p>Visualization</p>
+                        </div>
+                    </a>
+                    <a href="./project_3.html" class="project">
+                        <h1>Movie Recommendation System</h1>
+                        <div class="tags">
+                            <p>K-Nearest Neighbors</p>
+                            <p>Cosine Simmilarity</p>
+                            <p>API Onway</p>
+                        </div>
+                    </a>
+                    <a href="./project_4.html" class="project">
+                        <h1>Video Game Sales Prediction</h1>
+                        <div class="tags">
+                            <p>ANN</p>
+                            <p>Supervised</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="project_section" style="margin-top: 20vh;">
+                <div class="skills_png">
+                    <img src="../assets/compressed_icons/pandas_icon.png" alt="javascript_icon">
+                    <img src="../assets/compressed_icons/python_icon.png" alt="javascript_icon">
+                    <img src="../assets/compressed_icons/tensorflow_icon.png" alt="javascript_icon">
+                    <img src="../assets/compressed_icons/numpy_icon.png" alt="javascript_icon">
+                    <img src="../assets/compressed_icons/javascript_icon.png" alt="javascript_icon">
+                    <img src="../assets/compressed_icons/sass_icon.png" alt="javascript_icon">
+                    <img src="../assets/compressed_icons/nodejs_icon.png" alt="javascript_icon">
+                    <img src="../assets/compressed_icons/php_icon.png" alt="javascript_icon">
+                </div>
+            </div>
+            <div class="blogs">
+                <h1>BLOGS: </h1>
+                <div class="articles">
+                    <div class="article">
+                        <div class="image">
+                            <img src="../assets/blog/win_10_blog.jpg" alt="blog thumbnail">
+                        </div>
+                        <div class="text">
+                            <h1>Creating most usable Windows 10 Lite with NTLite</h1>
+                            <p>DATE: 28/10/22</p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="image">
+                            <img src="../assets/blog/neural_net_blog.jpg" alt="blog thumbnail">
+                        </div>
+                        <div class="text">
+                            <h1>Getting started with ANN(Artificial Neural Network)</h1>
+                            <p>DATE: 28/10/22</p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="image">
+                            <img src="../assets/blog/hosting_website_github.jpg" alt="blog thumbnail">
+                        </div>
+                        <div class="text">
+                            <h1>Hosting a Static Website with Github-Pages</h1>
+                            <p>DATE: 28/10/22</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work_together">
+                <div class="contact_container">
+                    <div class="text">
+                        <div class="top_text">
+                            <h3>Say, Hi! on Social Media.</h3>
+                            <i><h6>prajwaldwivedi257@gmail.com</h6></i>
+                        </div>
+                        <div class="social_media_list">
+                            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                                <img src="../assets/svgs/facebook.svg" alt="facebook">
+                            </a>
+                            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                                <img src="../assets/svgs/twitter.svg" alt="facebook">
+                            </a>
+                            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                                <img src="../assets/svgs/linkedin.svg" alt="facebook">
+                            </a>
+                            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                                <img src="../assets/svgs/github-image.svg" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <img src="../assets/svgs/@-illustration.svg" alt="illustration" class="illustration">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="logo">
+                <div class="icon">  
+                    <svg width="250" height="202" viewBox="0 0 202 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Neural_Network_Icon">
+                            <g id="hidden_neurons">
+                                <line class="neuron" id="neuron_1_5" x1="99.3292" y1="181.342" x2="19.3292" y2="141.342" stroke-width="3"/>
+                                <line class="neuron" id="neuron_1_4" x1="19.3292" y1="138.658" x2="99.3292" y2="98.6584" stroke-width="3"/>
+                                <line class="neuron" id="neuron_1_3" x1="101.5" y1="20" x2="101.5" y2="100" stroke-width="3"/>
+                                <line class="neuron" id="neuron_1_2" x1="99.3292" y1="101.342" x2="19.3292" y2="61.3416" stroke-width="3"/>
+                                <line class="neuron" id="neuron_1_1" x1="19.3292" y1="58.6584" x2="99.3292" y2="18.6584" stroke-width="3"/>
+                            </g>
+                            <g id="output_neurons">
+                                <line class="neuron" id="neuron_2_3" x1="98.9525" y1="179.926" x2="180.953" y2="99.9263" stroke-width="3"/>
+                                <line class="neuron" id="neuron_2_2" x1="100" y1="98.5" x2="182" y2="98.5" stroke-width="3"/>
+                                <line class="neuron" id="neuron_2_1" x1="101.047" y1="18.9263" x2="183.047" y2="98.9263" stroke-width="3"/>
+                            </g>
+                            <g id="input_layer">
+                                <circle id="neuron_2" cx="20" cy="140" r="20"/>
+                                <circle id="neuron_1" cx="20" cy="60" r="20"/>
+                            </g>
+                            <circle id="output_layer" cx="182" cy="100" r="20"/>
+                            <g id="hidden_layer">
+                                <circle id="hidden_neuron_3" cx="100" cy="180" r="20"/>
+                                <circle id="hidden_neuron_2" cx="100" cy="100" r="20"/>
+                                <circle id="hidden_neuron_1" cx="100" cy="20" r="20"/>
+                            </g>
+                        </g>
+                    </svg>  
+                    <a href="./index.html" style="text-decoration: none;"><h1 class="logo_head">NEURON<br>DEV.</h1></a>
+                </div>
+            </div>
+            <a href="mailto:prajwaldwivedi257@gmail.com" class="email">prajwaldwivedi257@gmail.com</a>
+            <div class="social_media_list">
+                <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/svgs/facebook.svg" alt="facebook">
+                </a>
+                <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/svgs/twitter.svg" alt="facebook">
+                </a>
+                <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/svgs/linkedin.svg" alt="facebook">
+                </a>
+                <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/svgs/github-image.svg" alt="facebook">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

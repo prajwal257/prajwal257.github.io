@@ -8,25 +8,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
     <script src='https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js'></script>
-    <link rel="stylesheet" href="./Styles/light_theme.css">
-    <link rel="stylesheet" href="./Styles/dark_theme.css">
-    <link class="CSS_FILE" theme="dark" rel="stylesheet" href="./Styles/main.css">
-    <script src="./js/modules/locomotive_scroll/core.js"></script>
-    <script src="./js/modules/barba/core.js"></script>
-    <script src="./js/modules/GSAP/core.js"></script>
-    <script src="./js/index.js" type="module" defer></script>
+    <link rel="stylesheet" href="../Styles/light_theme.css">
+    <link rel="stylesheet" href="../Styles/dark_theme.css">
+    <link class="CSS_FILE" theme="dark" rel="stylesheet" href="../Styles/main.css">
+    <script src="../js/modules/barba/core.js"></script>
+    <script src="../js/modules/GSAP/core.js"></script>
+    <script src="../js/modules/panzoom/core.js"></script>
+    <script src="../js/index.js" type="module" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DATA PORTFOLIO</title>
 </head>
-<body data-barba="wrapper" class="dark_theme" current_theme="dark">
+<body data-barba="wrapper" class="dark_theme" current_theme="dark">      <!--Smooth Wrapper Starts here-->
+    <div id="smooth_container">   <!--Smooth Content Starts here-->
     <div class="preloader" style="display: none;">
         <div class="projects_page"></div>
         <div class="about_page"></div>
     </div>
-    <div class="cursor"></div>
-    <div class="cursor_follower"></div>
-    <div class="cursor_on_title"></div>
-    <div class="cursor_on_projects"></div>
+    <div class="cursor_container">
+        <div class="cursor"></div>
+        <div class="cursor_follower"></div>
+        <div class="cursor_on_projects"></div>
+    </div>
     <div class="background">
         <div class="top_left_1 background_blob"></div>
         <div class="top_left_2 background_blob"></div>
@@ -65,12 +67,12 @@
                         </g>
                     </g>
                 </svg>  
-                <a href="./index.html"><h1 class="logo_head">DATA<br>SCIENCE.</h1></a>
+                <a href="./index.html"><h1 class="logo_head">NEURON<br>DEV.</h1></a>
             </div>
         </div>
         <div class="mid_menu">
             <a href="./index.html">HOME</a>
-            <a href="./project.html">PROJECTS</a>
+            <a href="./html">PROJECTS</a>
             <a href="./blogs.html">BLOGS</a>
             <a href="./about.html">ABOUT</a>
             <a href="./contact.html">CONTACT</a>
@@ -107,7 +109,7 @@
                                     </g>
                                 </g>
                             </svg>  
-                            <a href="./index.html"><h1 class="logo_head">DATA<br>SCIENCE.</h1></a>
+                            <a href="./index.html"><h1 class="logo_head">NEURON<br>DEV.</h1></a>
                         </div>
                     </div>
                     <div class="menu">
@@ -116,43 +118,126 @@
                 </div>
 
                 <div class="menu_expanded">
-                    <div class="links">
+                    <div class="links" onclick="close_nav()">
                         <a href="./index.html"><h3 class="menu_expanded_link">HOME</h3></a>
-                        <a href="./projects.html"><h3 class="menu_expanded_link">PROJECTS</h3></a>
+                        <a href="./html"><h3 class="menu_expanded_link">PROJECTS</h3></a>
                         <a href="./blogs.html"><h3 class="menu_expanded_link">BLOG</h3></a>
                         <a href="./about.html"><h3 class="menu_expanded_link">ABOUT</h3></a>
                         <a href="./contact.html"><h3 class="menu_expanded_link">CONTACT</h3> </a>
                     </div>
+                    <script>
+                        function close_nav(){
+                            document.getElementsByClassName("menu_page")[0].classList.toggle("closed")
+                            document.getElementsByClassName("menu_page")[0].classList.toggle("open")
+                        }
+                    </script>
                 </div>
             </div>
             <div class="gradient"></div>
         </div>
         <div class="menu">
             <div class="theme_switcher">
-                <img src="./assets/icons/dark_to_light_theme_switch.svg" alt="switch themes" class="dark_to_light_theme_switch">
+                <img src="../assets/icons/dark_to_light_theme_switch.svg" alt="switch themes" class="dark_to_light_theme_switch">
             </div>
             <div id="recolor_background"  class="theme_switcher">
-                <img src="./assets/icons/color_change_icon.png" alt="switch themes" class="dark_to_light_theme_switch">
+                <img src="../assets/icons/color_change_icon.png" alt="switch themes" class="dark_to_light_theme_switch">
             </div>
             <a class="animate_color menu_toggle_switch" href="#">
-                <img src="./assets/icons/menu_icon.png" alt="menu_open">
+                <img src="../assets/icons/menu_icon.png" alt="menu_open">
             </a> 
         </div>
     </div>
-    <main data-barba="container" data-barba-namespace="home">
-        <div class="hero_section">
-            <h1>
-                <span> CONTACT ME. </span>
-            </h1>
-            <p>
-                And Computer Science Enthaustic. And with the power of Machine Learning, <br>
-                I can help your business stand ahead of its competition. <br>
-            </p>
-            <div class="buttons">
-                <button id="call_to_action">VIEW MY WORK</button>
+    <main data-barba="container" data-barba-namespace="about">
+        <div class="about_page">
+            <div class="hero_section">
+                <h1>
+                    ABOUT ME.
+                </h1>
+                <p>
+                    And Computer Science Enthaustic. And with the power of Machine Learning, <br>
+                    I can help your business stand ahead of its competition. <br>
+                </p>
+            </div>
+
+            <div class="intro">
+                <img src="../assets/thumbnails/DS_IMG_2.jpg" alt="">
+            </div>
+            
+            <div class="description">
+                <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita sed eaque vel placeat eius doloribus, deleniti sit vero optio doloremque. Iste, sapiente nam amet esse velit deserunt delectus ea? Eveniet, sapiente provident quaerat earum assumenda similique! Aliquam enim totam possimus!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe autem porro esse modi dolorem, rem nobis quod iure consectetur rerum! Illum voluptatem accusantium rerum sapiente veritatis deserunt eligendi ipsum eaque!</p>
+                <div class="social_links"></div>
+            </div>
+
+            <div class="skills_section">
+                <h1>I can help you with...</h1>
+                <div class="articles">
+                    <div class="article">
+                        <div class="text">
+                            <h1>Machine Learning.</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illum impedit perspiciatis delectus, alias minima ullam laboriosam praesentium, vel maxime mollitia beatae ratione optio eveniet laborum veniam adipisci? Cum facilis dicta aliquam commodi sed, perferendis temporibus. Nostrum totam minima mollitia.</p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="text">
+                            <h1>Deep Learning.</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illum impedit perspiciatis delectus, alias minima ullam laboriosam praesentium, vel maxime mollitia beatae ratione optio eveniet laborum veniam adipisci? Cum facilis dicta aliquam commodi sed, perferendis temporibus. Nostrum totam minima mollitia.</p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="text">
+                            <h1>Data Analysis.</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illum impedit perspiciatis delectus, alias minima ullam laboriosam praesentium, vel maxime mollitia beatae ratione optio eveniet laborum veniam adipisci? Cum facilis dicta aliquam commodi sed, perferendis temporibus. Nostrum totam minima mollitia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills_png">
+                <img src="../assets/compressed_icons/pandas_icon.png" alt="javascript_icon">
+                <img src="../assets/compressed_icons/python_icon.png" alt="javascript_icon">
+                <img src="../assets/compressed_icons/tensorflow_icon.png" alt="javascript_icon">
+                <img src="../assets/compressed_icons/numpy_icon.png" alt="javascript_icon">
+                <img src="../assets/compressed_icons/javascript_icon.png" alt="javascript_icon">
+                <img src="../assets/compressed_icons/sass_icon.png" alt="javascript_icon">
+                <img src="../assets/compressed_icons/nodejs_icon.png" alt="javascript_icon">
+                <img src="../assets/compressed_icons/php_icon.png" alt="javascript_icon">
+            </div>
+
+            <div class="blogs">
+                <h1>BLOGS: </h1>
+                <div class="articles">
+                    <div class="article">
+                        <div class="image">
+                            <img src="../assets/thumbnails/DS_IMG_1.jpg" alt="thumbnail">
+                        </div>
+                        <div class="text">
+                            <h1>Hello, World!</h1>
+                            <p>DATE: 20/12/22</p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="image">
+                            <img src="../assets/thumbnails/DS_IMG_2.jpg" alt="thumbnail">
+                        </div>
+                        <div class="text">
+                            <h1>Hello, World!</h1>
+                            <p>DATE: 20/12/22</p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="image">
+                            <img src="../assets/thumbnails/DS_IMG_3.jpg" alt="thumbnail">
+                        </div>
+                        <div class="text">
+                            <h1>Hello, World!</h1>
+                            <p>DATE: 20/12/22</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </main>
+    
     <div class="work_together">
         <div class="contact_container">
             <div class="text">
@@ -175,7 +260,7 @@
                     </a>
                 </div>
             </div>
-            <img src="./assets/svgs/@-illustration.svg" alt="illustration" class="illustration">
+            <img src="../assets/svgs/@-illustration.svg" alt="illustration" class="illustration">
         </div>
     </div>
 </main>
