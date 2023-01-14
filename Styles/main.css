@@ -164,6 +164,7 @@ body .background .background_blob {
           transform: scale(0);
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
+  animation: 10s ease-in 1s infinite reverse both running background_blob_animation;
 }
 
 body .background .top_left_1 {
@@ -187,8 +188,8 @@ body .background .bottom_right_1, body .background .bottom_right_2 {
   bottom: 0px;
   right: 70px;
   background: blue;
-  -webkit-filter: blur(500);
-          filter: blur(500);
+  -webkit-filter: blur(750);
+          filter: blur(750);
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
 }
@@ -212,18 +213,18 @@ body .background .bottom_right_2 {
             transform: scale(1);
   }
   25% {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
     margin: -10px 0px;
   }
   50% {
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
     margin: 0px -10px;
   }
   75% {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    -webkit-transform: scale(2);
+            transform: scale(2);
     margin: 10px 0px;
   }
   100% {
@@ -238,18 +239,18 @@ body .background .bottom_right_2 {
             transform: scale(1);
   }
   25% {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
     margin: -10px 0px;
   }
   50% {
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
     margin: 0px -10px;
   }
   75% {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    -webkit-transform: scale(2);
+            transform: scale(2);
     margin: 10px 0px;
   }
   100% {
