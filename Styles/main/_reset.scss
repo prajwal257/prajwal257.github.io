@@ -24,7 +24,7 @@ body{
             filter: blur(150px);
             transform: scale(0);
             transition: background-color 0.3s;
-            animation: 10s ease-in 1s infinite reverse both running background_blob_animation;
+            animation: 30s ease-in-out 1s infinite reverse both running background_blob_animation;
         }
         .top_left_1{
             top: -10px;
@@ -63,7 +63,7 @@ body{
                 transform: scale(1);
             }
             25%{
-                transform: scale(1.5);
+                transform: scale(1.1);
                 margin: -10px 0px;
             }
             50%{
@@ -71,7 +71,7 @@ body{
                 margin: 0px -10px;
             }
             75%{
-                transform: scale(2);
+                transform: scale(1.5);
                 margin: 10px 0px;
             }
             100%{
