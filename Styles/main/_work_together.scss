@@ -30,6 +30,7 @@
             img{
                 height: 1.2rem;
                 margin: 10px 3vh 0px 0px;
+                mix-blend-mode: difference;
                 filter: invert(1);
             }
         }

@@ -1,0 +1,28 @@
+.projects_page{
+    padding: 5vw 5vw 3vw 5vw;
+    .project_list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        grid-auto-rows: repeat(2, 1fr);
+        .project_tile{
+            background-color: black;
+            border-radius: 5px;
+            height: 100vh;
+            transition: all 0.5s;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+        }
+        .project_tile:hover{
+            transform: scale(0.95);
+        }
+    }
+    .project_tile:nth-child(1){
+        margin-top: 20vh;
+    }
+    .project_tile:nth-child(4){
+        margin-top: -20vh;
+    }
+}

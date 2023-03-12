@@ -21,6 +21,7 @@ footer{
     .social_media_list{
         display: flex;
         img{
+            mix-blend-mode: difference;
             filter: invert(1);
             height: 1.2rem;
             margin: 0px 0vh 0px 3vh;
