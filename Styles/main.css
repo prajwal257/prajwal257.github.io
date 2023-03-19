@@ -1312,6 +1312,19 @@ svg {
     width: 100%;
   }
 }
+.hero h1 {
+  font-family: Monument !important;
+}
+
+.hero p {
+  font-family: sans-serif;
+}
+
+.console {
+  background-color: black;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75);
+}
+
 .contact_container {
   display: flex;
   height: 40vh;
